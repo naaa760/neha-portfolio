@@ -9,20 +9,20 @@ export default function Home() {
     <main className="container">
       <header className="header">
         <nav className="nav-links">
-          <Link href="/about" className="nav-link">
+          <Link href="#about" className="nav-link">
             About
           </Link>
-          <Link href="/tech-stack" className="nav-link">
-            Tech Stack
+          <Link href="#tech-stack" className="nav-link">
+            Stack
           </Link>
-          <Link href="/projects" className="nav-link">
+          <Link href="#projects" className="nav-link">
             Projects
           </Link>
-          <Link href="/experience" className="nav-link">
+          <Link href="#experience" className="nav-link">
             Experience
           </Link>
-          <Link href="/contact" className="nav-link">
-            Contact
+          <Link href="#videos" className="nav-link">
+            Videos
           </Link>
         </nav>
       </header>
@@ -110,7 +110,7 @@ export default function Home() {
         <div className="about-content">
           <p className="education">
             B.Sc in Computer Science | University of the people, California -
-            Distance(online)
+            Distance(online) 2021-2025(April)
           </p>
           <p className="about-text">
             I am a developer with over two years of experience building websites
@@ -136,9 +136,7 @@ export default function Home() {
             <h3 className="category-title">Languages</h3>
             <div className="tech-items">
               <span className="tech-item">Python</span>
-              <span className="tech-item">C/C++</span>
-              <span className="tech-item">Go</span>
-              <span className="tech-item">Java</span>
+
               <span className="tech-item">JavaScript</span>
               <span className="tech-item">TypeScript</span>
               <span className="tech-item">HTML/CSS</span>
@@ -149,39 +147,30 @@ export default function Home() {
             <h3 className="category-title">Frameworks & Libraries</h3>
             <div className="tech-items">
               <span className="tech-item">Next.js</span>
-              <span className="tech-item">React Native</span>
               <span className="tech-item">React.js</span>
-              <span className="tech-item">Nest.js</span>
-              <span className="tech-item">Flask</span>
               <span className="tech-item">Express.js</span>
-              <span className="tech-item">Django</span>
-              <span className="tech-item">Flutter</span>
               <span className="tech-item">Node.js</span>
               <span className="tech-item">FastAPI</span>
-              <span className="tech-item">OpenCV</span>
-              <span className="tech-item">PyTorch</span>
+              <span className="tech-item">Streamlit</span>
             </div>
           </div>
 
           <div className="tech-category">
             <h3 className="category-title">Tools, Cloud & Databases</h3>
             <div className="tech-items">
-              <span className="tech-item">Azure</span>
               <span className="tech-item">AWS</span>
-              <span className="tech-item">GCP</span>
+
               <span className="tech-item">Git</span>
-              <span className="tech-item">SQLite</span>
+              <span className="tech-item">PostgreSQL</span>
               <span className="tech-item">Docker</span>
               <span className="tech-item">MongoDB</span>
               <span className="tech-item">Firebase</span>
-              <span className="tech-item">TensorFlow</span>
-              <span className="tech-item">PyTorch</span>
-              <span className="tech-item">scikit-learn</span>
-              <span className="tech-item">keras</span>
-              <span className="tech-item">Hugging Face</span>
-              <span className="tech-item">MLflow</span>
-              <span className="tech-item">Redis</span>
-              <span className="tech-item">ElasticSearch</span>
+              <span className="tech-item">Restful APIs</span>
+              <span className="tech-item">Prisma</span>
+              <span className="tech-item">CI/CD</span>
+              <span className="tech-item">LLM</span>
+              <span className="tech-item">Convex</span>
+              <span className="tech-item">Websocket.io</span>
             </div>
           </div>
         </div>
@@ -207,7 +196,6 @@ export default function Home() {
                 />
               </div>
               <div className="project-content">
-                <div className="featured-label">Featured Project</div>
                 <h3 className="project-title">Auravoice</h3>
                 <p className="project-description">
                   this project is a voice assistant web app that lets users talk
@@ -259,7 +247,6 @@ export default function Home() {
                 />
               </div>
               <div className="project-content">
-                <div className="featured-label">Featured Project</div>
                 <h3 className="project-title">BeamUp</h3>
                 <p className="project-description">
                   BeamUp bridges the gap between traditional language learning
@@ -557,7 +544,6 @@ export default function Home() {
                 />
               </div>
               <div className="project-content">
-                <div className="featured-label">Featured Project</div>
                 <h3 className="project-title">SnapCart</h3>
                 <p className="project-description">
                   SnapCart is a modern e-commerce platform with a
@@ -586,6 +572,202 @@ export default function Home() {
               </svg>
               View GitHub Repository
             </RepositoryLink>
+          </div>
+        </div>
+      </section>
+
+      <section className="experience-section" id="experience">
+        <h2 className="section-title">EXPERIENCE</h2>
+
+        <div className="experience-list">
+          <div className="experience-item">
+            <h3 className="experience-title-styled">Full Stack developer</h3>
+            <h4 className="experience-company">Travana</h4>
+            <div className="experience-gap"></div>
+            <p className="experience-description">
+              Travana AI is revolutionizing the way you book flights and hotels
+              with just your voice you can search for the best deals compare
+              prices across multiple platforms and make reservations—all
+              hands-free Our AI-powered assistant not only simplifies travel
+              planning but also provides real-time insights and warnings about
+              potential issues (such as no parking or low reviews) and displays
+              relevant details for a seamless booking experience
+            </p>
+            <div className="experience-timeline">
+              02/2025 - 05/2025(contract)
+            </div>
+          </div>
+
+          <div className="experience-item">
+            <h3 className="experience-title-styled">Hackathon Contributor</h3>
+            <h4 className="experience-company">Lablab.ai</h4>
+            <div className="experience-gap"></div>
+            <p className="experience-description">
+              Developed innovative AI-driven solutions to address real-world
+              challenges by leveraging advanced models, APIs, and automation
+              techniques. Demonstrated strong expertise in full-stack
+              development and AI integration through active participation in
+              multiple hackathons. Collaborated on impactful projects such as
+              MindsDB, HealthPulse AI Health Diagnostic App, and many others
+              focusing on prompt engineering optimization and scalable
+              application architecture.
+            </p>
+            <div className="experience-timeline">09/2024 - present</div>
+          </div>
+
+          <div className="experience-item">
+            <h3 className="experience-title-styled">Frontend Developer</h3>
+            <h4 className="experience-company">GSSOC</h4>
+            <div className="experience-gap"></div>
+            <p className="experience-description">
+              Led frontend development for client projects using React, Next.js,
+              and modern JavaScript frameworks. Implemented responsive designs,
+              integrated RESTful APIs, and collaborated closely with UX/UI
+              designers to deliver intuitive interfaces. Improved application
+              performance by 40% through code optimization and lazy loading
+              strategies. Mentored junior developers and participated in code
+              reviews to maintain high quality standards.
+            </p>
+            <div className="experience-timeline">05/2023 - 08/2023</div>
+          </div>
+
+          <div className="experience-item">
+            <h3 className="experience-title-styled">SWE</h3>
+            <h4 className="experience-company">Headstarter</h4>
+            <div className="experience-gap"></div>
+            <p className="experience-description">
+              Built and deployed 5 AI projects using React, Next.js, Firebase,
+              Clerk, and Vercel, incorporating best software engineering
+              practices such as CI/CD for regression detection and iterative
+              deployment. Collaborated with and led a team of 3 to build and
+              deploy a SaaS product that generates flashcards based on a given
+              topic using the OpenAI API. Developed a RAG-based project with a
+              team of 3 using the OpenAI API and Pinecone that generates
+              responses
+            </p>
+            <div className="experience-timeline">06/2024 - 09/2024</div>
+          </div>
+        </div>
+      </section>
+
+      <section className="video-section" id="videos">
+        <h2 className="section-title">VIDEOS</h2>
+
+        <div className="video-grid">
+          <div className="video-card">
+            <div className="video-thumbnail">
+              <div className="video-iframe-container">
+                <iframe
+                  src="https://www.loom.com/embed/e5f358e7d66e4a929eadf675ab90e04f"
+                  frameBorder="0"
+                  allowFullScreen
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                  }}
+                ></iframe>
+              </div>
+            </div>
+            <div className="video-content">
+              <h3 className="video-title">Project Demo</h3>
+              <a
+                href="https://github.com/yourusername/project1"
+                className="repo-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  height="16"
+                >
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+
+          <div className="video-card">
+            <div className="video-thumbnail">
+              <div className="video-iframe-container">
+                <iframe
+                  src="https://www.loom.com/embed/c7453e34ae9d47c3840aa187f926a6ed"
+                  frameBorder="0"
+                  allowFullScreen
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                  }}
+                ></iframe>
+              </div>
+            </div>
+            <div className="video-content">
+              <h3 className="video-title">Project Demo</h3>
+              <a
+                href="https://github.com/yourusername/project2"
+                className="repo-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  height="16"
+                >
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+                GitHub Repository
+              </a>
+            </div>
+          </div>
+
+          <div className="video-card">
+            <div className="video-thumbnail">
+              <div className="video-iframe-container">
+                <iframe
+                  src="https://www.loom.com/embed/37a229eb75d7480eb46c06f60cbe12f0"
+                  frameBorder="0"
+                  allowFullScreen
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                  }}
+                ></iframe>
+              </div>
+            </div>
+            <div className="video-content">
+              <h3 className="video-title">
+                Personal AI Learning Platform Overview
+              </h3>
+              <a
+                href="https://github.com/yourusername/project3"
+                className="repo-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  height="16"
+                >
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+                GitHub Repository
+              </a>
+            </div>
           </div>
         </div>
       </section>
