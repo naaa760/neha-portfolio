@@ -442,3 +442,107 @@ body {
 .about-section .section-title::after {
   display: none;
 }
+
+/* Tech Stack Section - alignment and spacing fixes */
+.tech-stack-section {
+  margin: calc(var(--spacing-unit) * 6) 0; /* Reduced top margin */
+  max-width: 800px; /* Match the about section width */
+}
+
+/* Reduce spacing between categories */
+.tech-categories {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing-unit) * 3); /* Reduced from 4 */
+}
+
+/* Reduce spacing between tech items */
+.tech-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--spacing-unit) * 0.5) calc(var(--spacing-unit) * 0.75); /* Significantly reduced spacing */
+  margin-bottom: calc(var(--spacing-unit) * 0.75); /* Less bottom margin */
+}
+
+/* Reduce spacing after category title */
+.category-title {
+  margin-bottom: calc(var(--spacing-unit) * 1.25); /* Reduced from 2 */
+  font-size: 1.1rem; /* Slightly smaller font size */
+}
+
+/* Tech item styling with commas and proper color */
+.tech-item {
+  background: transparent;
+  padding: calc(var(--spacing-unit) * 0.125) calc(var(--spacing-unit) * 0.25); /* Minimal padding */
+  color: var(--text-secondary);
+  font-size: 0.8rem; /* Smaller font size */
+  transition: all var(--transition-speed);
+  position: relative;
+}
+
+/* Add commas between tech items */
+.tech-item:not(:last-child)::after {
+  content: ",";
+  position: absolute;
+  right: calc(var(--spacing-unit) * -0.25); /* Reduced space before comma */
+  color: var(--text-secondary);
+}
+
+/* Hover effect */
+.tech-item:hover {
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+
+/* Mobile responsiveness for tech stack */
+@media (max-width: 768px) {
+  .tech-stack-section {
+    margin: calc(var(--spacing-unit) * 6) 0;
+  }
+
+  .tech-categories {
+    gap: calc(var(--spacing-unit) * 4);
+  }
+
+  .tech-items {
+    justify-content: center;
+  }
+
+  .category-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-item {
+    font-size: 0.85rem;
+    padding: calc(var(--spacing-unit) * 0.75) calc(var(--spacing-unit) * 1.5);
+  }
+}
+
+/* Force removal of Tech Stack underline */
+.tech-stack-section .section-title::after {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  content: none !important;
+  background: transparent !important;
+}
+
+/* Alternative approach - target all section titles globally */
+.section-title::after {
+  display: none;
+}
+
+/* Direct override for tech stack section */
+#tech-stack .section-title::after,
+.tech-stack-section .section-title::after {
+  display: none !important;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* Reduce space between TECH STACK title and first category */
+.tech-stack-section .section-title {
+  margin-bottom: calc(var(--spacing-unit) * 2); /* Reduced from the default 6 */
+}

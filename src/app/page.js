@@ -6,17 +6,23 @@ export default function Home() {
     <main className="container">
       <header className="header">
         <Link href="/">
-          <div className="site-name">CONOR DEWEY</div>
+          <div className="site-name">NEHA PRASAD</div>
         </Link>
         <nav className="nav-links">
           <Link href="/about" className="nav-link">
             About
           </Link>
-          <Link href="/blog" className="nav-link">
-            Blog
+          <Link href="/tech-stack" className="nav-link">
+            Tech Stack
           </Link>
-          <Link href="/newsletter" className="nav-link">
-            Newsletter
+          <Link href="/projects" className="nav-link">
+            Projects
+          </Link>
+          <Link href="/experience" className="nav-link">
+            Experience
+          </Link>
+          <Link href="/contact" className="nav-link">
+            Contact
           </Link>
         </nav>
       </header>
@@ -34,14 +40,13 @@ export default function Home() {
           />
         </div>
         <div className="hero-content">
-          <h1 className="hero-title">Hey, I&apos;m Conor.</h1>
+          <h1 className="hero-title">Hey, I&apos;m Neha.</h1>
           <p className="hero-subtitle">
-            I&apos;m a <strong>product manager</strong> and{" "}
-            <strong>data scientist</strong> passionate about building{" "}
-            <strong>impactful solutions</strong>.
+            I&apos;m a <strong>Software Developer</strong> and passionate about
+            building <strong>impactful solutions</strong>.
           </p>
           <div className="social-links">
-            <a href="https://twitter.com/your-handle" className="social-link">
+            <a href="https://x.com/nehaaaa_6" className="social-link">
               <svg
                 width="20"
                 height="20"
@@ -53,7 +58,10 @@ export default function Home() {
               </svg>
               Twitter
             </a>
-            <a href="https://yourportfolio.com" className="social-link">
+            <a
+              href="https://drive.google.com/file/d/1LWAhiSbekOjgB_aeJ6F0FgrEDa9I1YGj/view"
+              className="social-link"
+            >
               <svg
                 width="20"
                 height="20"
@@ -64,10 +72,10 @@ export default function Home() {
                 <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1z" />
                 <path d="M8 11.5h8v1H8zm0-3h8v1H8zm0 6h4v1H8z" />
               </svg>
-              Portfolio
+              Resume
             </a>
             <a
-              href="https://linkedin.com/in/your-profile"
+              href="https://www.linkedin.com/in/neha-prasad-92499821b/"
               className="social-link"
             >
               <svg
@@ -81,7 +89,7 @@ export default function Home() {
               </svg>
               LinkedIn
             </a>
-            <a href="https://github.com/your-username" className="social-link">
+            <a href="https://github.com/naaa760" className="social-link">
               <svg
                 width="20"
                 height="20"
@@ -117,6 +125,65 @@ export default function Home() {
             new technologies and improve my skills to deliver the best results
             for every project.
           </p>
+        </div>
+      </section>
+
+      <section className="tech-stack-section" id="tech-stack">
+        <h2 className="section-title">TECH STACK</h2>
+
+        <div className="tech-categories">
+          <div className="tech-category">
+            <h3 className="category-title">Languages</h3>
+            <div className="tech-items">
+              <span className="tech-item">Python</span>
+              <span className="tech-item">C/C++</span>
+              <span className="tech-item">Go</span>
+              <span className="tech-item">Java</span>
+              <span className="tech-item">JavaScript</span>
+              <span className="tech-item">TypeScript</span>
+              <span className="tech-item">HTML/CSS</span>
+            </div>
+          </div>
+
+          <div className="tech-category">
+            <h3 className="category-title">Frameworks & Libraries</h3>
+            <div className="tech-items">
+              <span className="tech-item">Next.js</span>
+              <span className="tech-item">React Native</span>
+              <span className="tech-item">React.js</span>
+              <span className="tech-item">Nest.js</span>
+              <span className="tech-item">Flask</span>
+              <span className="tech-item">Express.js</span>
+              <span className="tech-item">Django</span>
+              <span className="tech-item">Flutter</span>
+              <span className="tech-item">Node.js</span>
+              <span className="tech-item">FastAPI</span>
+              <span className="tech-item">OpenCV</span>
+              <span className="tech-item">PyTorch</span>
+            </div>
+          </div>
+
+          <div className="tech-category">
+            <h3 className="category-title">Tools, Cloud & Databases</h3>
+            <div className="tech-items">
+              <span className="tech-item">Azure</span>
+              <span className="tech-item">AWS</span>
+              <span className="tech-item">GCP</span>
+              <span className="tech-item">Git</span>
+              <span className="tech-item">SQLite</span>
+              <span className="tech-item">Docker</span>
+              <span className="tech-item">MongoDB</span>
+              <span className="tech-item">Firebase</span>
+              <span className="tech-item">TensorFlow</span>
+              <span className="tech-item">PyTorch</span>
+              <span className="tech-item">scikit-learn</span>
+              <span className="tech-item">keras</span>
+              <span className="tech-item">Hugging Face</span>
+              <span className="tech-item">MLflow</span>
+              <span className="tech-item">Redis</span>
+              <span className="tech-item">ElasticSearch</span>
+            </div>
+          </div>
         </div>
       </section>
     </main>
