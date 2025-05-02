@@ -186,6 +186,262 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="projects-section" id="projects">
+        <h2 className="section-title">PROJECTS</h2>
+        <div className="projects-grid">
+          <div className="project-card">
+            <div className="project-image-container">
+              <Image
+                src="/i1.png"
+                alt="Auravoice"
+                className="project-image"
+                width={400}
+                height={260}
+              />
+            </div>
+            <div className="project-content">
+              <div className="featured-label">Featured Project</div>
+              <h3 className="project-title">Auravoice</h3>
+              <p className="project-description">
+                A voice assistant web app that lets users talk with AI
+                naturally. It features a sleek landing page and dashboard where
+                users can speak and hear AI responses. It uses Deepgram to
+                convert speech to text, Groq's LLaMAS for AI responses, and
+                ElevenLabs for natural-sounding voice replies.
+              </p>
+              <div className="tech-stack-tags">
+                <span className="tech-stack-tag">React</span>
+                <span className="tech-stack-tag">Node.js</span>
+                <span className="tech-stack-tag">DEEPGRAM</span>
+                <span className="tech-stack-tag">GROQ</span>
+                <span className="tech-stack-tag">ELEVENLABS</span>
+                <span className="tech-stack-tag">Tailwind CSS</span>
+              </div>
+              <a
+                href="https://github.com/yourusername/auravoice"
+                className="repository-link"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+                View GitHub Repository
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-image-container">
+              <Image
+                src="/i2.png"
+                alt="E-Commerce Platform"
+                className="project-image"
+                width={400}
+                height={260}
+              />
+            </div>
+            <div className="project-content">
+              <div className="featured-label">Featured Project</div>
+              <h3 className="project-title">E-Commerce Platform</h3>
+              <p className="project-description">
+                A modern e-commerce platform with full product management, cart
+                functionality, checkout process, and order tracking. Built with
+                scalability and performance in mind.
+              </p>
+              <div className="tech-stack-tags">
+                <span className="tech-stack-tag">Next.js</span>
+                <span className="tech-stack-tag">TypeScript</span>
+                <span className="tech-stack-tag">Stripe</span>
+                <span className="tech-stack-tag">MongoDB</span>
+                <span className="tech-stack-tag">AWS</span>
+              </div>
+              <a
+                href="https://github.com/yourusername/ecommerce"
+                className="repository-link"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+                View GitHub Repository
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-image-container">
+              <Image
+                src="/i3.png"
+                alt="AI Image Generator"
+                className="project-image"
+                width={400}
+                height={260}
+              />
+            </div>
+            <div className="project-content">
+              <h3 className="project-title">AI Image Generator</h3>
+              <p className="project-description">
+                An AI-powered image generation tool that creates custom images
+                based on text prompts using state-of-the-art models.
+              </p>
+              <div className="tech-stack-tags">
+                <span className="tech-stack-tag">Python</span>
+                <span className="tech-stack-tag">FastAPI</span>
+                <span className="tech-stack-tag">React</span>
+                <span className="tech-stack-tag">Hugging Face</span>
+              </div>
+              <a
+                href="https://github.com/yourusername/ai-image-generator"
+                className="repository-link"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+                View GitHub Repository
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-image-container">
+              <Image
+                src="/i4.png"
+                alt="Task Management App"
+                className="project-image"
+                width={400}
+                height={260}
+              />
+            </div>
+            <div className="project-content">
+              <h3 className="project-title">Task Management App</h3>
+              <p className="project-description">
+                A collaborative task management application with real-time
+                updates, team assignment features, and progress tracking.
+              </p>
+              <div className="tech-stack-tags">
+                <span className="tech-stack-tag">JavaScript</span>
+                <span className="tech-stack-tag">Firebase</span>
+                <span className="tech-stack-tag">React</span>
+                <span className="tech-stack-tag">Redux</span>
+              </div>
+              <a
+                href="https://github.com/yourusername/task-management"
+                className="repository-link"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+                View GitHub Repository
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-image-container">
+              <Image
+                src="/i5.png"
+                alt="Fitness Tracking App"
+                className="project-image"
+                width={400}
+                height={260}
+              />
+            </div>
+            <div className="project-content">
+              <h3 className="project-title">Fitness Tracking App</h3>
+              <p className="project-description">
+                A mobile fitness tracking app that monitors workouts, nutrition,
+                and progress with detailed analytics and personalized
+                recommendations.
+              </p>
+              <div className="tech-stack-tags">
+                <span className="tech-stack-tag">React Native</span>
+                <span className="tech-stack-tag">MongoDB</span>
+                <span className="tech-stack-tag">Node.js</span>
+                <span className="tech-stack-tag">Express</span>
+              </div>
+              <a
+                href="https://github.com/yourusername/fitness-app"
+                className="repository-link"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+                View GitHub Repository
+              </a>
+            </div>
+          </div>
+
+          <div className="project-card">
+            <div className="project-image-container">
+              <Image
+                src="/i6.png"
+                alt="NFT Marketplace"
+                className="project-image"
+                width={400}
+                height={260}
+              />
+            </div>
+            <div className="project-content">
+              <h3 className="project-title">NFT Marketplace</h3>
+              <p className="project-description">
+                A decentralized NFT marketplace allowing users to create, buy,
+                sell, and trade digital assets with secure blockchain
+                integration.
+              </p>
+              <div className="tech-stack-tags">
+                <span className="tech-stack-tag">Web3.js</span>
+                <span className="tech-stack-tag">Solidity</span>
+                <span className="tech-stack-tag">React</span>
+                <span className="tech-stack-tag">Hardhat</span>
+              </div>
+              <a
+                href="https://github.com/yourusername/nft-marketplace"
+                className="repository-link"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+                View GitHub Repository
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
