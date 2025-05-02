@@ -8,9 +8,6 @@ export default function Home() {
   return (
     <main className="container">
       <header className="header">
-        <Link href="/">
-          <div className="site-name">NEHA PRASAD</div>
-        </Link>
         <nav className="nav-links">
           <Link href="/about" className="nav-link">
             About
