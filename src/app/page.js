@@ -121,9 +121,9 @@ export default function Home() {
           <p className="about-text">
             I focus on creating fast, bug-free, and optimized solutions, and I
             use AI tools to speed up development. Additionally, I have
-            experience building LLM apps or Web3. I&apos;m always eager to learn
-            new technologies and improve my skills to deliver the best results
-            for every project.
+            experience building LLM apps. I&apos;m always eager to learn new
+            technologies and improve my skills to deliver the best results for
+            every project.
           </p>
         </div>
       </section>
