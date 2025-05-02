@@ -32,7 +32,7 @@ export default function Home() {
           <div className="profile-glow"></div>
           <Image
             src="/user.png" // Make sure you have this image in your public folder
-            alt="Conor Dewey"
+            alt="Neha"
             className="profile-image"
             width={200}
             height={200}
