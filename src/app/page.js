@@ -96,6 +96,29 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="about-section" id="about">
+        <h2 className="section-title">ABOUT</h2>
+        <div className="about-content">
+          <p className="education">
+            B.Sc in Computer Science | University of the people, California -
+            Distance(online)
+          </p>
+          <p className="about-text">
+            I am a developer with over two years of experience building websites
+            and APIs using React, Next.js, and TypeScript. I take Figma designs
+            and turn them into working, responsive components. I also manage AWS
+            front-end deployments to keep websites running efficiently.
+          </p>
+          <p className="about-text">
+            I focus on creating fast, bug-free, and optimized solutions, and I
+            use AI tools to speed up development. Additionally, I have
+            experience building LLM apps or Web3. I&apos;m always eager to learn
+            new technologies and improve my skills to deliver the best results
+            for every project.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }

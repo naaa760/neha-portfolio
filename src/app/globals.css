@@ -363,3 +363,82 @@ body {
     font-size: 0.95rem;
   }
 }
+
+/* About section styling */
+.about-section {
+  margin: calc(var(--spacing-unit) * 8) 0;
+}
+
+.about-content {
+  padding: 0;
+  max-width: 800px;
+}
+
+.about-text {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: calc(var(--spacing-unit) * 3);
+  text-align: justify;
+  hyphens: auto;
+}
+
+.about-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Update for mobile */
+@media (max-width: 768px) {
+  .about-content {
+    padding: calc(var(--spacing-unit) * 3);
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-content {
+    padding: calc(var(--spacing-unit) * 2);
+  }
+
+  .about-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+
+/* Education styling */
+.education {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: calc(var(--spacing-unit) * 1);
+  letter-spacing: 0.3px;
+  text-align: justify;
+}
+
+/* For mobile */
+@media (max-width: 768px) {
+  .education {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .education {
+    font-size: 0.95rem;
+  }
+}
+
+/* Update section title spacing for About section */
+.about-section .section-title {
+  margin-bottom: calc(var(--spacing-unit) * 3);
+}
+
+/* Remove underline from About section title specifically */
+.about-section .section-title::after {
+  display: none;
+}
