@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import RepositoryLink from "@/components/RepositoryLink";
 
 export default function Home() {
   return (
@@ -191,254 +194,401 @@ export default function Home() {
         <h2 className="section-title">PROJECTS</h2>
         <div className="projects-grid">
           <div className="project-card">
-            <div className="project-image-container">
-              <Image
-                src="/i1.png"
-                alt="Auravoice"
-                className="project-image"
-                width={400}
-                height={260}
-              />
-            </div>
-            <div className="project-content">
-              <div className="featured-label">Featured Project</div>
-              <h3 className="project-title">Auravoice</h3>
-              <p className="project-description">
-                A voice assistant web app that lets users talk with AI
-                naturally. It features a sleek landing page and dashboard where
-                users can speak and hear AI responses. It uses Deepgram to
-                convert speech to text, Groq's LLaMAS for AI responses, and
-                ElevenLabs for natural-sounding voice replies.
-              </p>
-              <div className="tech-stack-tags">
-                <span className="tech-stack-tag">React</span>
-                <span className="tech-stack-tag">Node.js</span>
-                <span className="tech-stack-tag">DEEPGRAM</span>
-                <span className="tech-stack-tag">GROQ</span>
-                <span className="tech-stack-tag">ELEVENLABS</span>
-                <span className="tech-stack-tag">Tailwind CSS</span>
+            <a
+              href="https://voice-assistant-i3q2.vercel.app/"
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src="/i1.png"
+                  alt="Auravoice"
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
               </div>
-              <a
-                href="https://github.com/yourusername/auravoice"
-                className="repository-link"
+              <div className="project-content">
+                <div className="featured-label">Featured Project</div>
+                <h3 className="project-title">Auravoice</h3>
+                <p className="project-description">
+                  this project is a voice assistant web app that lets users talk
+                  with AI naturally. It features a sleek landing page and a
+                  dashboard where users can speak and hear AI responses. It uses
+                  Deepgram to convert speech to text, Groq&apos;s LLaMA3 for AI
+                  responses, and ElevenLabs for natural-sounding voice replies.
+                  I&apos;ve added support for multiple AI models and made
+                  everything responsive across all devices
+                </p>
+                <div className="tech-stack-tags">
+                  <span className="tech-stack-tag">React</span>
+                  <span className="tech-stack-tag">Node.js</span>
+                  <span className="tech-stack-tag">DEEPGRAM</span>
+                  <span className="tech-stack-tag">GROQ</span>
+                  <span className="tech-stack-tag">ELEVENLABS</span>
+                  <span className="tech-stack-tag">Tailwind CSS</span>
+                </div>
+              </div>
+            </a>
+            <RepositoryLink href="https://github.com/naaa760/voice-assistant">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </a>
-            </div>
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              View GitHub Repository
+            </RepositoryLink>
           </div>
 
           <div className="project-card">
-            <div className="project-image-container">
-              <Image
-                src="/i2.png"
-                alt="E-Commerce Platform"
-                className="project-image"
-                width={400}
-                height={260}
-              />
-            </div>
-            <div className="project-content">
-              <div className="featured-label">Featured Project</div>
-              <h3 className="project-title">E-Commerce Platform</h3>
-              <p className="project-description">
-                A modern e-commerce platform with full product management, cart
-                functionality, checkout process, and order tracking. Built with
-                scalability and performance in mind.
-              </p>
-              <div className="tech-stack-tags">
-                <span className="tech-stack-tag">Next.js</span>
-                <span className="tech-stack-tag">TypeScript</span>
-                <span className="tech-stack-tag">Stripe</span>
-                <span className="tech-stack-tag">MongoDB</span>
-                <span className="tech-stack-tag">AWS</span>
+            <a
+              href="https://mern-video-calling-realtime-chat-app-50ki.onrender.com/"
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src="/i2.png"
+                  alt="E-Commerce Platform"
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
               </div>
-              <a
-                href="https://github.com/yourusername/ecommerce"
-                className="repository-link"
+              <div className="project-content">
+                <div className="featured-label">Featured Project</div>
+                <h3 className="project-title">BeamUp</h3>
+                <p className="project-description">
+                  BeamUp bridges the gap between traditional language learning
+                  methods and real-world applications, providing a supportive
+                  community where users can gain confidence and fluency through
+                  authentic conversations. Whether you&apos;re looking to
+                  practice a new language, make international friends, or
+                  improve your communication skills, BeamUp creates the perfect
+                  environment.
+                </p>
+                <div className="tech-stack-tags">
+                  <span className="tech-stack-tag">React</span>
+                  <span className="tech-stack-tag">Node.js</span>
+                  <span className="tech-stack-tag">Express</span>
+                  <span className="tech-stack-tag">MongoDB</span>
+                  <span className="tech-stack-tag">Context API</span>
+                  <span className="tech-stack-tag">JWT</span>
+                </div>
+              </div>
+            </a>
+            <RepositoryLink href="https://github.com/naaa760/mern-video-calling-realtime-chat-app-social-app">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </a>
-            </div>
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              View GitHub Repository
+            </RepositoryLink>
           </div>
 
           <div className="project-card">
-            <div className="project-image-container">
-              <Image
-                src="/i3.png"
-                alt="AI Image Generator"
-                className="project-image"
-                width={400}
-                height={260}
-              />
-            </div>
-            <div className="project-content">
-              <h3 className="project-title">AI Image Generator</h3>
-              <p className="project-description">
-                An AI-powered image generation tool that creates custom images
-                based on text prompts using state-of-the-art models.
-              </p>
-              <div className="tech-stack-tags">
-                <span className="tech-stack-tag">Python</span>
-                <span className="tech-stack-tag">FastAPI</span>
-                <span className="tech-stack-tag">React</span>
-                <span className="tech-stack-tag">Hugging Face</span>
+            <a
+              href="https://interview-platform-with-a-real-time-ai-voice-agent.vercel.app/landing"
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src="/i3.png"
+                  alt="EchoHire"
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
               </div>
-              <a
-                href="https://github.com/yourusername/ai-image-generator"
-                className="repository-link"
+              <div className="project-content">
+                <h3 className="project-title">EchoHire</h3>
+                <p className="project-description">
+                  This AI mock interview system is designed to boost your
+                  interview skills by providing real-time, lifelike sessions
+                  with personalized questions and detailed feedback. It features
+                  secure, hacker-proof authentication, a variety of interview
+                  types, and a customizable interview creation tool. Built with
+                  modern technologies like Next.js, Firebase, and innovative AI
+                  tools, it offers a comprehensive platform to both enhance your
+                  coding skills and excel in interviews.
+                </p>
+                <div className="tech-stack-tags">
+                  <span className="tech-stack-tag">Next.js</span>
+                  <span className="tech-stack-tag">Firebase</span>
+                  <span className="tech-stack-tag">React</span>
+                  <span className="tech-stack-tag">VAPI</span>
+                  <span className="tech-stack-tag">Zod</span>
+                </div>
+              </div>
+            </a>
+            <RepositoryLink href="https://github.com/naaa760/interview-platform-with-a-real-time-ai-voice-agent">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </a>
-            </div>
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              View GitHub Repository
+            </RepositoryLink>
           </div>
 
           <div className="project-card">
-            <div className="project-image-container">
-              <Image
-                src="/i4.png"
-                alt="Task Management App"
-                className="project-image"
-                width={400}
-                height={260}
-              />
-            </div>
-            <div className="project-content">
-              <h3 className="project-title">Task Management App</h3>
-              <p className="project-description">
-                A collaborative task management application with real-time
-                updates, team assignment features, and progress tracking.
-              </p>
-              <div className="tech-stack-tags">
-                <span className="tech-stack-tag">JavaScript</span>
-                <span className="tech-stack-tag">Firebase</span>
-                <span className="tech-stack-tag">React</span>
-                <span className="tech-stack-tag">Redux</span>
+            <a
+              href="https://dine-dash-8v75.vercel.app/"
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src="/i4.png"
+                  alt="Task Management App"
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
               </div>
-              <a
-                href="https://github.com/yourusername/task-management"
-                className="repository-link"
+              <div className="project-content">
+                <h3 className="project-title">DineDash</h3>
+                <p className="project-description">
+                  The site uses Next.js to create a luxury restaurant experience
+                  with video backgrounds, animated sections, and smooth scroll
+                  effects. Key logic includes showcasing menus, testimonials,
+                  and gallery visuals, with a responsive, interactive
+                  reservation form to drive bookings.
+                </p>
+                <div className="tech-stack-tags">
+                  <span className="tech-stack-tag">Next.js</span>
+                  <span className="tech-stack-tag">React</span>
+                  <span className="tech-stack-tag">Framer-motion</span>
+                  <span className="tech-stack-tag">Tailwind CSS</span>
+                </div>
+              </div>
+            </a>
+            <RepositoryLink href="https://github.com/naaa760/dine-dash">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </a>
-            </div>
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              View GitHub Repository
+            </RepositoryLink>
           </div>
 
           <div className="project-card">
-            <div className="project-image-container">
-              <Image
-                src="/i5.png"
-                alt="Fitness Tracking App"
-                className="project-image"
-                width={400}
-                height={260}
-              />
-            </div>
-            <div className="project-content">
-              <h3 className="project-title">Fitness Tracking App</h3>
-              <p className="project-description">
-                A mobile fitness tracking app that monitors workouts, nutrition,
-                and progress with detailed analytics and personalized
-                recommendations.
-              </p>
-              <div className="tech-stack-tags">
-                <span className="tech-stack-tag">React Native</span>
-                <span className="tech-stack-tag">MongoDB</span>
-                <span className="tech-stack-tag">Node.js</span>
-                <span className="tech-stack-tag">Express</span>
+            <a
+              href="https://jirnov.vercel.app/"
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src="/i5.png"
+                  alt="Fitness Tracking App"
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
               </div>
-              <a
-                href="https://github.com/yourusername/fitness-app"
-                className="repository-link"
+              <div className="project-content">
+                <h3 className="project-title">Jirnov</h3>
+                <p className="project-description">
+                  JINova is a streamlined project management platform that
+                  combines task management, team collaboration, and client
+                  communication in one intuitive interface. It simplifies
+                  complex workflows while providing powerful features for
+                  tracking progress, managing resources, and analyzing project
+                  performance. The platform's flexible design adapts to various
+                  team sizes and methodologies, making project management more
+                  efficient and less overwhelming.
+                </p>
+                <div className="tech-stack-tags">
+                  <span className="tech-stack-tag">React</span>
+                  <span className="tech-stack-tag">MongoDB</span>
+                  <span className="tech-stack-tag">Node.js</span>
+                  <span className="tech-stack-tag">Express</span>
+                  <span className="tech-stack-tag">JWT</span>
+                </div>
+              </div>
+            </a>
+            <RepositoryLink href="https://github.com/naaa760/jirnov">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </a>
-            </div>
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              View GitHub Repository
+            </RepositoryLink>
           </div>
 
           <div className="project-card">
-            <div className="project-image-container">
-              <Image
-                src="/i6.png"
-                alt="NFT Marketplace"
-                className="project-image"
-                width={400}
-                height={260}
-              />
-            </div>
-            <div className="project-content">
-              <h3 className="project-title">NFT Marketplace</h3>
-              <p className="project-description">
-                A decentralized NFT marketplace allowing users to create, buy,
-                sell, and trade digital assets with secure blockchain
-                integration.
-              </p>
-              <div className="tech-stack-tags">
-                <span className="tech-stack-tag">Web3.js</span>
-                <span className="tech-stack-tag">Solidity</span>
-                <span className="tech-stack-tag">React</span>
-                <span className="tech-stack-tag">Hardhat</span>
+            <a
+              href="https://mutli-app.vercel.app/"
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src="/i6.png"
+                  alt="NFT Marketplace"
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
               </div>
-              <a
-                href="https://github.com/yourusername/nft-marketplace"
-                className="repository-link"
+              <div className="project-content">
+                <h3 className="project-title">TalkCast</h3>
+                <p className="project-description">
+                  TalkCast is a modern podcast platform that connects creators
+                  and listeners through a beautiful, unified interface. It
+                  solves the problem of content discovery by offering
+                  personalized recommendations while giving creators tools to
+                  grow their audience. The platform combines stunning design
+                  with community features like Fans Like You transforming the
+                  podcast experience from fragmented and overwhelming to curated
+                  and engaging for everyone involved.
+                </p>
+                <div className="tech-stack-tags">
+                  <span className="tech-stack-tag">Next.js</span>
+                  <span className="tech-stack-tag">TypeScript</span>
+                  <span className="tech-stack-tag">React</span>
+                  <span className="tech-stack-tag">Convex</span>
+                  <span className="tech-stack-tag">Clerk</span>
+                </div>
+              </div>
+            </a>
+            <RepositoryLink href="https://github.com/naaa760/mutli-app">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </a>
-            </div>
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              View GitHub Repository
+            </RepositoryLink>
+          </div>
+
+          <div className="project-card">
+            <a
+              href="https://vocavista-nu.vercel.app/"
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src="/i7.png"
+                  alt="Data Visualization Dashboard"
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
+              </div>
+              <div className="project-content">
+                <h3 className="project-title">VocaVista</h3>
+                <p className="project-description">
+                  This project is a Next.js web app featuring secure user
+                  authentication via Clerk and personalized AI using Google's
+                  Gemini. It uses a serverless PostgreSQL database (Neon) for
+                  secure, contextual user data storage.
+                </p>
+                <div className="tech-stack-tags">
+                  <span className="tech-stack-tag">Next.js</span>
+                  <span className="tech-stack-tag">React</span>
+                  <span className="tech-stack-tag">Prisma</span>
+                  <span className="tech-stack-tag">PostgreSQL</span>
+                </div>
+              </div>
+            </a>
+            <RepositoryLink href="https://github.com/naaa760/vocavista">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              View GitHub Repository
+            </RepositoryLink>
+          </div>
+
+          <div className="project-card">
+            <a
+              href="https://snapcart-r2tx.onrender.com/"
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src="/i8.png"
+                  alt="AI Content Generator"
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
+              </div>
+              <div className="project-content">
+                <div className="featured-label">Featured Project</div>
+                <h3 className="project-title">SnapCart</h3>
+                <p className="project-description">
+                  SnapCart is a modern e-commerce platform with a
+                  React/TypeScript frontend and a Node.js/Express backend, using
+                  Zustand for state management, Neon PostgreSQL for data
+                  storage, and secure CRUD operations via a RESTful API.
+                </p>
+                <div className="tech-stack-tags">
+                  <span className="tech-stack-tag">React</span>
+                  <span className="tech-stack-tag">Postman</span>
+                  <span className="tech-stack-tag">Zustand</span>
+                  <span className="tech-stack-tag">Neon</span>
+                  <span className="tech-stack-tag">Arcjet</span>
+                </div>
+              </div>
+            </a>
+            <RepositoryLink href="https://github.com/naaa760/snapcart">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              View GitHub Repository
+            </RepositoryLink>
           </div>
         </div>
       </section>
