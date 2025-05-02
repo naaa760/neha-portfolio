@@ -419,9 +419,9 @@ export default function Home() {
                   communication in one intuitive interface. It simplifies
                   complex workflows while providing powerful features for
                   tracking progress, managing resources, and analyzing project
-                  performance. The platform's flexible design adapts to various
-                  team sizes and methodologies, making project management more
-                  efficient and less overwhelming.
+                  performance. The platform&apos;s flexible design adapts to
+                  various team sizes and methodologies, making project
+                  management more efficient and less overwhelming.
                 </p>
                 <div className="tech-stack-tags">
                   <span className="tech-stack-tag">React</span>
@@ -517,9 +517,9 @@ export default function Home() {
                 <h3 className="project-title">VocaVista</h3>
                 <p className="project-description">
                   This project is a Next.js web app featuring secure user
-                  authentication via Clerk and personalized AI using Google's
-                  Gemini. It uses a serverless PostgreSQL database (Neon) for
-                  secure, contextual user data storage.
+                  authentication via Clerk and personalized AI using
+                  Google&apos;s Gemini. It uses a serverless PostgreSQL database
+                  (Neon) for secure, contextual user data storage.
                 </p>
                 <div className="tech-stack-tags">
                   <span className="tech-stack-tag">Next.js</span>
