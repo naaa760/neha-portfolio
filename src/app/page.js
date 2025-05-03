@@ -136,7 +136,9 @@ export default function Home() {
             <h3 className="category-title">Languages</h3>
             <div className="tech-items">
               <span className="tech-item">Python</span>
-
+              <span className="tech-item">TailwindCSS</span>
+              <span className="tech-item">Redux</span>
+              <span className="tech-item">Jest</span>
               <span className="tech-item">JavaScript</span>
               <span className="tech-item">TypeScript</span>
               <span className="tech-item">HTML/CSS</span>
@@ -150,7 +152,6 @@ export default function Home() {
               <span className="tech-item">React.js</span>
               <span className="tech-item">Express.js</span>
               <span className="tech-item">Node.js</span>
-              <span className="tech-item">FastAPI</span>
               <span className="tech-item">Streamlit</span>
             </div>
           </div>
@@ -159,15 +160,14 @@ export default function Home() {
             <h3 className="category-title">Tools, Cloud & Databases</h3>
             <div className="tech-items">
               <span className="tech-item">AWS</span>
-
-              <span className="tech-item">Git</span>
+              <span className="tech-item">Vercel</span>
               <span className="tech-item">PostgreSQL</span>
               <span className="tech-item">Docker</span>
               <span className="tech-item">MongoDB</span>
               <span className="tech-item">Firebase</span>
               <span className="tech-item">Restful APIs</span>
               <span className="tech-item">Prisma</span>
-              <span className="tech-item">CI/CD</span>
+              <span className="tech-item">CI/CD: Github Actions</span>
               <span className="tech-item">LLM</span>
               <span className="tech-item">Convex</span>
               <span className="tech-item">Websocket.io</span>
