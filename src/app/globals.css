@@ -1066,3 +1066,155 @@ section[id] {
     text-align: left;
   }
 }
+
+/* Remote work section styling */
+.remote-work-section {
+  margin: calc(var(--spacing-unit) * 10) 0 calc(var(--spacing-unit) * 6);
+  text-align: center;
+  padding: calc(var(--spacing-unit) * 4) 0;
+}
+
+.remote-work-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.remote-work-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .remote-work-title {
+    font-size: 1.5rem;
+  }
+
+  .remote-work-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Gradient light effects */
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  opacity: 0.15;
+  z-index: -1;
+  filter: blur(120px);
+  pointer-events: none;
+}
+
+body::before {
+  top: -50px;
+  left: -50px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 180, 0, 0.5) 0%,
+    rgba(165, 85, 20, 0.3) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  animation: pulse-top-left 8s ease-in-out infinite alternate;
+}
+
+body::after {
+  bottom: -50px;
+  right: -50px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 215, 0, 0.4) 0%,
+    rgba(209, 105, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  animation: pulse-bottom-right 10s ease-in-out infinite alternate;
+}
+
+/* Additional corner lights */
+.container::before,
+.container::after {
+  content: "";
+  position: fixed;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  opacity: 0.12;
+  z-index: -1;
+  filter: blur(100px);
+  pointer-events: none;
+}
+
+.container::before {
+  top: 30%;
+  right: -50px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 170, 50, 0.5) 0%,
+    rgba(190, 95, 10, 0.3) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  animation: pulse-right 12s ease-in-out infinite alternate;
+}
+
+.container::after {
+  bottom: 20%;
+  left: -50px;
+  background: radial-gradient(
+    circle,
+    rgba(235, 190, 50, 0.4) 0%,
+    rgba(180, 80, 20, 0.25) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  animation: pulse-left 9s ease-in-out infinite alternate;
+}
+
+/* Subtle pulse animations */
+@keyframes pulse-top-left {
+  0% {
+    opacity: 0.15;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.25;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes pulse-bottom-right {
+  0% {
+    opacity: 0.15;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.22;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes pulse-right {
+  0% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse-left {
+  0% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.18;
+    transform: scale(1.2);
+  }
+}

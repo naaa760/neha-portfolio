@@ -780,6 +780,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className="remote-work-section">
+        <h2 className="section-title">I WORK REMOTELY</h2>
+        <p className="remote-work-subtitle">
+          I am based in India with Remote work Available.
+        </p>
+      </section>
     </main>
   );
 }
