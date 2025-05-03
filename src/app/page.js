@@ -786,7 +786,7 @@ export default function Home() {
       </section>
 
       <section className="remote-work-section">
-        <h2 className="section-title">I WORK REMOTELY</h2>
+        <h2 className="section-title">I WORK REMOTELY & ONSITE also</h2>
         <p className="remote-work-subtitle">
           I am based in India with Remote work Available.
         </p>
