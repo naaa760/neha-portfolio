@@ -142,6 +142,7 @@ export default function Home() {
               <span className="tech-item">JavaScript</span>
               <span className="tech-item">TypeScript</span>
               <span className="tech-item">HTML/CSS</span>
+              <span className="tech-item">FastAPI</span>
             </div>
           </div>
 
