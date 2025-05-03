@@ -173,6 +173,15 @@ export default function Home() {
               <span className="tech-item">Websocket.io</span>
             </div>
           </div>
+
+          <p className="skills-description">
+            With 2 years of experience, I specialize in front-end and full-stack
+            development using React, Next.js, TypeScript, Node.js, and Prisma.
+            Proficient in AWS, Docker, SQL, and Vercel, I build high-performance
+            applications with seamless user interfaces, robust APIs, and
+            cross-platform solutions. Skilled in GitHub workflows and deployment
+            pipelines for efficient, scalable results.
+          </p>
         </div>
       </section>
 
