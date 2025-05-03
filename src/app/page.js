@@ -595,13 +595,16 @@ export default function Home() {
             <h4 className="experience-company">Travana</h4>
             <div className="experience-gap"></div>
             <p className="experience-description">
-              Travana AI is revolutionizing the way you book flights and hotels
-              with just your voice you can search for the best deals compare
-              prices across multiple platforms and make reservations—all
-              hands-free Our AI-powered assistant not only simplifies travel
-              planning but also provides real-time insights and warnings about
-              potential issues (such as no parking or low reviews) and displays
-              relevant details for a seamless booking experience
+              As a Full Stack Developer at Travana AI, I’m building the future
+              of voice-powered travel booking. I work on both frontend and
+              backend systems that enable users to search for flights and
+              hotels, compare deals across platforms, and make reservations—all
+              through natural voice commands. My role involves developing
+              responsive user interfaces using React and Next.js, as well as
+              architecting scalable backend services with Node.js and Python. I
+              collaborate closely with our AI and product teams to integrate
+              real-time voice processing, natural language understanding, and
+              smart recommendation systems into the booking flow.
             </p>
             <div className="experience-timeline">
               02/2025 - 05/2025(contract)
