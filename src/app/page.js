@@ -786,6 +786,12 @@ export default function Home() {
         <p className="remote-work-subtitle">
           I am based in India with Remote work Available.
         </p>
+        <a
+          href="mailto:nehaprasad27118@gmail.com"
+          className="remote-work-email"
+        >
+          email please at nehaprasad27118@gmail.com
+        </a>
       </section>
     </main>
   );
