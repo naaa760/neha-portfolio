@@ -2044,6 +2044,7 @@ body::after {
   border-radius: 50%;
   background: #4ade80; /* Green dot for available */
   display: inline-block;
+  animation: blinkDot 2s infinite;
 }
 
 .status-dropdown {
@@ -2122,5 +2123,18 @@ body::after {
 
   .status-dropdown {
     width: 160px;
+  }
+}
+
+/* Add blinking animation */
+@keyframes blinkDot {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 6px rgba(74, 222, 128, 0.6);
+  }
+  50% {
+    opacity: 0.6;
+    box-shadow: 0 0 2px rgba(74, 222, 128, 0.3);
   }
 }
