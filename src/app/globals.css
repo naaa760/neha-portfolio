@@ -535,11 +535,16 @@ main.container {
     font-size: 1.1rem;
     text-align: left;
   }
+
+  .tech-stack-section .section-title {
+    text-align: left;
+  }
 }
 
 @media (max-width: 480px) {
   .tech-items {
     gap: calc(var(--spacing-unit) * 0.75);
+    justify-content: flex-start;
   }
 
   .tech-item {
@@ -549,6 +554,7 @@ main.container {
 
   .category-title {
     font-size: 1rem;
+    text-align: left;
   }
 }
 
