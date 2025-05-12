@@ -744,13 +744,29 @@ export default function Home() {
             </div>
             <h2 className="chat-title">Ready to chat?</h2>
             <p className="chat-description">
-              Schedule a free 30-minute strategy call to refine your idea and
-              initiate our collaboration.
+              Schedule a free strategy call to discuss your project and explore
+              how we can work together.
             </p>
-            <a href="mailto:nehaprasad27118@gmail.com" className="chat-button">
-              <span className="chat-button-icon">📧</span>
-              Book a Free Call
-            </a>
+            <div className="chat-buttons">
+              <a
+                href="https://cal.com/nehaaa06/15min"
+                className="chat-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="chat-button-icon">🕒</span>
+                15 Min Quick Chat
+              </a>
+              <a
+                href="https://cal.com/nehaaa06/30min"
+                className="chat-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="chat-button-icon">📅</span>
+                30 Min Deep Dive
+              </a>
+            </div>
             <p className="chat-quote">
               &quot;Turning your vision into digital reality is just one
               conversation away&quot;
