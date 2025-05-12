@@ -31,20 +31,20 @@ export default function Home() {
 
       <section className="hero">
         <div className="profile-image-container">
-          <div className="profile-glow"></div>
           <Image
-            src="/user.png" // Make sure you have this image in your public folder
+            src="/user.png"
             alt="Neha"
             className="profile-image"
             width={200}
             height={200}
             priority
           />
+          <div className="profile-scan"></div>
         </div>
         <div className="hero-content">
-          <h1 className="hero-title">Hey, I&apos;m Neha.</h1>
+          <h1 className="hero-title">Hey, I&apos;m Neha Prasad</h1>
           <p className="hero-subtitle">
-            I build <strong>full stack apps</strong> that matter.
+            I build <strong>Full Stack Apps</strong> that matter.
           </p>
           <div className="social-links">
             <a href="https://x.com/nehaaaa_6" className="social-link">
@@ -114,10 +114,11 @@ export default function Home() {
             Distance(online) 2021-2025(April)
           </p>
           <p className="about-text">
-            I am a developer with over two years of experience building websites
-            and APIs using React, Next.js, and TypeScript. I take Figma designs
-            and turn them into working, responsive components. I also manage AWS
-            front-end deployments to keep websites running efficiently.
+            I am a Software Developer with over two years of experience building
+            websites and APIs using React, Next.js, and TypeScript. I take Figma
+            designs and turn them into working, responsive components. I also
+            manage AWS front-end deployments to keep websites running
+            efficiently.
           </p>
           <p className="about-text">
             I focus on creating fast, bug-free, and optimized solutions, and I
@@ -192,56 +193,6 @@ export default function Home() {
         <div className="projects-grid">
           <div className="project-card">
             <a
-              href="https://voice-assistant-i3q2.vercel.app/"
-              className="project-card-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="project-image-container">
-                <Image
-                  src="/i1.png"
-                  alt="Auravoice"
-                  className="project-image"
-                  width={400}
-                  height={260}
-                />
-              </div>
-              <div className="project-content">
-                <h3 className="project-title">Auravoice</h3>
-                <p className="project-description">
-                  It feels like having a conversation with a friend—just speak,
-                  and Deepgram turns your words into text, LLaMA3 whips up a
-                  reply, and ElevenLabs speaks back in a natural voice. With
-                  support for multiple AI models and a fully responsive design,
-                  this sleek web app makes talking to AI feel effortless on any
-                  device.
-                </p>
-                <div className="tech-stack-tags">
-                  <span className="tech-stack-tag">React</span>
-                  <span className="tech-stack-tag">Node.js</span>
-                  <span className="tech-stack-tag">DEEPGRAM</span>
-                  <span className="tech-stack-tag">GROQ</span>
-                  <span className="tech-stack-tag">ELEVENLABS</span>
-                  <span className="tech-stack-tag">Tailwind CSS</span>
-                </div>
-              </div>
-            </a>
-            <RepositoryLink href="https://github.com/naaa760/voice-assistant">
-              <svg
-                width="20"
-                height="20"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-              </svg>
-              View GitHub Repository
-            </RepositoryLink>
-          </div>
-
-          <div className="project-card">
-            <a
               href="https://mern-video-calling-realtime-chat-app-50ki.onrender.com/"
               className="project-card-link"
               target="_blank"
@@ -279,6 +230,56 @@ export default function Home() {
               </div>
             </a>
             <RepositoryLink href="https://github.com/naaa760/mern-video-calling-realtime-chat-app-social-app">
+              <svg
+                width="20"
+                height="20"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              View GitHub Repository
+            </RepositoryLink>
+          </div>
+
+          <div className="project-card">
+            <a
+              href="https://voice-assistant-i3q2.vercel.app/"
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src="/i1.png"
+                  alt="Auravoice"
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
+              </div>
+              <div className="project-content">
+                <h3 className="project-title">Auravoice</h3>
+                <p className="project-description">
+                  It feels like having a conversation with a friend—just speak,
+                  and Deepgram turns your words into text, LLaMA3 whips up a
+                  reply, and ElevenLabs speaks back in a natural voice. With
+                  support for multiple AI models and a fully responsive design,
+                  this sleek web app makes talking to AI feel effortless on any
+                  device.
+                </p>
+                <div className="tech-stack-tags">
+                  <span className="tech-stack-tag">React</span>
+                  <span className="tech-stack-tag">Node.js</span>
+                  <span className="tech-stack-tag">DEEPGRAM</span>
+                  <span className="tech-stack-tag">GROQ</span>
+                  <span className="tech-stack-tag">ELEVENLABS</span>
+                  <span className="tech-stack-tag">Tailwind CSS</span>
+                </div>
+              </div>
+            </a>
+            <RepositoryLink href="https://github.com/naaa760/voice-assistant">
               <svg
                 width="20"
                 height="20"
