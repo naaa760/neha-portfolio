@@ -9,20 +9,17 @@ export default function ProjectsSection({ projects }) {
   // Initially show only 4 projects
   const visibleProjects = showAll ? projects : projects.slice(0, 4);
 
-  // Function to determine card size based on content length
+  // Determine card size based on content
   const getCardSize = (project) => {
-    const descLength = project.description.length;
-    const techCount = project.techStack.length;
-
-    // Make specific projects with less content have smaller cards
-    if (project.title === "HealthPulse" || project.title === "DineDash") {
+    // Make shorter content cards smaller
+    if (
+      project.title === "HealthPulse" ||
+      project.title === "DineDash" ||
+      project.description.length < 180
+    ) {
       return "small";
     }
-
-    // For other projects, determine size based on content length
-    if (descLength < 250) return "small";
-    if (descLength < 450) return "medium";
-    return "large";
+    return "medium";
   };
 
   return (
@@ -32,16 +29,8 @@ export default function ProjectsSection({ projects }) {
         {visibleProjects.map((project, index) => (
           <div
             className="project-card"
+            data-size={getCardSize(project)}
             key={index}
-            style={{
-              // Inline styles to adjust height based on content without changing other CSS
-              minHeight:
-                getCardSize(project) === "small"
-                  ? "300px"
-                  : getCardSize(project) === "medium"
-                  ? "400px"
-                  : "500px",
-            }}
           >
             <a
               href={project.liveLink}
@@ -49,13 +38,7 @@ export default function ProjectsSection({ projects }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div
-                className="project-image-container"
-                style={{
-                  // Adjust image container height based on card size
-                  height: getCardSize(project) === "small" ? "140px" : "180px",
-                }}
-              >
+              <div className="project-image-container">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -80,8 +63,8 @@ export default function ProjectsSection({ projects }) {
               <RepositoryLink href={project.repoLink}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
+                  width="18"
+                  height="18"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -91,7 +74,7 @@ export default function ProjectsSection({ projects }) {
                 >
                   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                 </svg>
-                GitHub Repository
+                GitHub
               </RepositoryLink>
             )}
           </div>
