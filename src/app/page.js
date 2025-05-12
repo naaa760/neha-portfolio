@@ -99,7 +99,7 @@ export default function Home() {
                 Twitter
               </a>
               <a
-                href="https://drive.google.com/file/d/1LWAhiSbekOjgB_aeJ6F0FgrEDa9I1YGj/view"
+                href="https://drive.google.com/file/d/1NT7uXOoL9_hLcMZ20OWMd1jp6N3HTIos/view"
                 className="social-link"
               >
                 <svg
