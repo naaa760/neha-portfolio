@@ -2011,3 +2011,116 @@ body::after {
 .projects-grid {
   transition: height 0.5s ease;
 }
+
+/* Status Indicator Component */
+.status-container {
+  position: relative;
+  margin-top: 20px;
+  z-index: 10;
+}
+
+.status-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(15, 15, 15, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.status-button:hover {
+  background: rgba(20, 20, 20, 0.95);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4ade80; /* Green dot for available */
+  display: inline-block;
+}
+
+.status-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background: rgba(15, 15, 15, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 12px;
+  width: 180px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.2s ease;
+}
+
+.status-title {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  margin-bottom: 8px;
+  font-family: var(--font-geist-mono);
+  padding-left: 2px;
+}
+
+.status-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 2px;
+  transition: all 0.2s ease;
+}
+
+.status-option:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+.status-icon {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+}
+
+.status-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
+  font-family: var(--font-geist-mono);
+}
+
+.status-link:hover {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .status-container {
+    margin-top: 10px;
+  }
+
+  .status-button {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+
+  .status-dropdown {
+    width: 160px;
+  }
+}
