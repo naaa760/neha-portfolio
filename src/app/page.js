@@ -4,8 +4,46 @@ import Link from "next/link";
 import Image from "next/image";
 import RepositoryLink from "@/components/RepositoryLink";
 import Timer from "@/components/Timer";
+import { useEffect, useRef } from "react";
 
 export default function Home() {
+  const pathRef = useRef(null);
+  const containerRef = useRef(null);
+
+  // Add this effect to handle mouse movement
+  useEffect(() => {
+    const container = containerRef.current;
+    const path = pathRef.current;
+
+    if (!container || !path) return;
+
+    const handleMouseMove = (e) => {
+      const rect = container.getBoundingClientRect();
+      const x = e.clientX - rect.left; // x position within the container
+      const y = e.clientY - rect.top; // y position within the container
+
+      // Calculate middle point displacement based on cursor position
+      const midX = rect.width / 2;
+      const displacement = (y - rect.height / 2) * 1.5; // Amplify movement
+
+      // Update the path with new coordinates that follow the cursor
+      path.setAttribute("d", `M0 0 Q ${midX} ${displacement} 793 0`);
+    };
+
+    const handleMouseLeave = () => {
+      // Return to flat line when mouse leaves
+      path.setAttribute("d", "M0 0 H793");
+    };
+
+    container.addEventListener("mousemove", handleMouseMove);
+    container.addEventListener("mouseleave", handleMouseLeave);
+
+    return () => {
+      container.removeEventListener("mousemove", handleMouseMove);
+      container.removeEventListener("mouseleave", handleMouseLeave);
+    };
+  }, []);
+
   return (
     <>
       <main className="container">
@@ -710,8 +748,8 @@ export default function Home() {
             <div className="chat-left">
               <h3>Start here</h3>
               <h2>
-                Let&apos;s hop on a quick call and see if we&apos;ve got the
-                right chemistry.
+                Let&apos;s hop on a quick call and see we&apos;ve got the right
+                chemistry.
               </h2>
               <p>Want to bounce ideas?</p>
               <p>
@@ -719,7 +757,6 @@ export default function Home() {
                 possible.
               </p>
               <p>Looking to build something bigger?</p>
-              <p>I can connect you with the right team and resources.</p>
 
               <p>Perfect! Let&apos;s grab a coffee and brainstorm in person.</p>
             </div>
@@ -781,19 +818,18 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <div className="bottom-line-container">
+      <div className="bottom-line-container" ref={containerRef}>
         <svg
           className="w-full h-16 overflow-visible undefined"
           viewBox="0 0 793 64"
           preserveAspectRatio="none"
         >
           <path
-            stroke="#1E3E3E"
-            strokeWidth="1"
+            ref={pathRef}
+            stroke="rgba(192, 192, 192, 0.5)"
+            strokeWidth="1.5"
             fill="none"
-            pathLength="1"
-            strokeDasharray="1px 10px"
-            d="M0 32h793"
+            d="M0 0 H793"
           />
         </svg>
       </div>

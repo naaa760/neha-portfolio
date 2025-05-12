@@ -1896,11 +1896,15 @@ body::after {
 
 /* Bottom line animation */
 .bottom-line-container {
-  width: 100%;
+  width: 80%;
   height: 64px;
   position: relative;
-  overflow: hidden;
-  margin-top: 40px;
+  overflow: visible;
+  margin: 40px auto 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Show cursor pointer to indicate interactivity */
 }
 
 .bottom-line-container svg {
@@ -1910,23 +1914,12 @@ body::after {
 
 .bottom-line-container path {
   stroke: rgba(192, 192, 192, 0.3);
-  stroke-width: 1;
+  stroke-width: 1.5px;
   fill: none;
-  transition: all 0.3s ease;
+  transition: stroke 0.3s ease;
 }
 
-/* Interactive effect */
+/* Remove hover animation - it's now controlled by JavaScript */
 .bottom-line-container:hover path {
-  d: path("M0 32 Q 396.5 64 793 32");
-  animation: waveLine 2s ease-in-out infinite;
-}
-
-@keyframes waveLine {
-  0%,
-  100% {
-    d: path("M0 32 Q 396.5 64 793 32");
-  }
-  50% {
-    d: path("M0 32 Q 396.5 0 793 32");
-  }
+  stroke: rgba(192, 192, 192, 0.7);
 }
