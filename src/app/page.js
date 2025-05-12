@@ -253,12 +253,13 @@ export default function Home() {
               Distance(online) 2021-2025(April)
             </div>
             <div className="about-summary">
-              I&apos;m a Software Developer with 2+ years of experience turning
-              Figma designs into responsive websites using React, Next.js, and
-              TypeScript. I handle AWS front-end deployments and build fast,
-              bug-free apps—often with the help of AI tools. I&apos;ve also
-              worked on LLM-based projects and love learning new tech to keep
-              improving my work.
+              I&apos;m a Software Developer with 2+ years of experience about
+              crafting dynamic and user-centric web apps. With experience in
+              modern technologies, I thrive on building scalable and Intuitive
+              web solutions. I embrace challenges as opportunities to learn and
+              grow as a developer. I build fast, bug-free apps—often with the
+              help of AI tools. I&apos;ve also worked on LLM-based projects and
+              love learning new tech to keep improving my work.
             </div>
           </div>
         </section>
