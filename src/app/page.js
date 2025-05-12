@@ -253,17 +253,12 @@ export default function Home() {
               Distance(online) 2021-2025(April)
             </div>
             <div className="about-summary">
-              I am a Software Developer with over two years of experience
-              building websites and APIs using React, Next.js, and TypeScript. I
-              take Figma designs and turn them into working, responsive
-              components. I also manage AWS front-end deployments to keep
-              websites running efficiently.
-              <br />
-              <br />I focus on creating fast, bug-free, and optimized solutions,
-              and I use AI tools to speed up development. Additionally, I have
-              experience building LLM apps. I'm always eager to learn new
-              technologies and improve my skills to deliver the best results for
-              every project.
+              I&apos;m a Software Developer with 2+ years of experience turning
+              Figma designs into responsive websites using React, Next.js, and
+              TypeScript. I handle AWS front-end deployments and build fast,
+              bug-free apps—often with the help of AI tools. I&apos;ve also
+              worked on LLM-based projects and love learning new tech to keep
+              improving my work.
             </div>
           </div>
         </section>
@@ -314,16 +309,6 @@ export default function Home() {
                 <span className="tech-item">Websocket.io</span>
               </div>
             </div>
-
-            <p className="skills-description">
-              With 2 years of experience, I specialize in front-end and
-              full-stack development using React, Next.js, TypeScript, Node.js,
-              and Prisma. Proficient in AWS, Docker, SQL, and Vercel, I build
-              high-performance applications with seamless user interfaces,
-              robust APIs, and cross-platform solutions. Skilled in GitHub
-              workflows and deployment pipelines for efficient, scalable
-              results.
-            </p>
           </div>
         </section>
 
