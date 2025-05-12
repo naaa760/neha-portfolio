@@ -208,13 +208,12 @@ export default function Home() {
               <div className="project-content">
                 <h3 className="project-title">Auravoice</h3>
                 <p className="project-description">
-                  this project is a voice assistant web app that lets users talk
-                  with AI naturally. It features a sleek landing page and a
-                  dashboard where users can speak and hear AI responses. It uses
-                  Deepgram to convert speech to text, Groq&apos;s LLaMA3 for AI
-                  responses, and ElevenLabs for natural-sounding voice replies.
-                  I&apos;ve added support for multiple AI models and made
-                  everything responsive across all devices
+                  It feels like having a conversation with a friend—just speak,
+                  and Deepgram turns your words into text, LLaMA3 whips up a
+                  reply, and ElevenLabs speaks back in a natural voice. With
+                  support for multiple AI models and a fully responsive design,
+                  this sleek web app makes talking to AI feel effortless on any
+                  device.
                 </p>
                 <div className="tech-stack-tags">
                   <span className="tech-stack-tag">React</span>
@@ -414,10 +413,10 @@ export default function Home() {
                   seamless, beautifully designed space, turning the chaos of
                   podcast discovery into a personalized, engaging journey. By
                   offering smart recommendations tailored to each listener and
-                  powerful growth tools for creators—like our “Fans Like You”
-                  community feature—it transforms a fragmented landscape into a
-                  vibrant, connected ecosystem where everyone can find and share
-                  the stories they love.
+                  powerful growth tools for creators—like our &quot;Fans Like
+                  You&quot; community feature—it transforms a fragmented
+                  landscape into a vibrant, connected ecosystem where everyone
+                  can find and share the stories they love.
                 </p>
                 <div className="tech-stack-tags">
                   <span className="tech-stack-tag">Next.js</span>
@@ -637,17 +636,61 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="remote-work-section">
-        <h2 className="section-title">I WORK REMOTELY & ONSITE also</h2>
-        <p className="remote-work-subtitle">
-          I am based in India with Remote work Available.
-        </p>
-        <a
-          href="mailto:nehaprasad27118@gmail.com"
-          className="remote-work-email"
-        >
-          email please at nehaprasad27118@gmail.com
-        </a>
+      <section className="chat-section">
+        <div className="chat-container">
+          <div className="chat-left">
+            <h3>Start here</h3>
+            <h2>
+              Let's hop on a quick call and see if we've got the right
+              chemistry.
+            </h2>
+            <p>Want to bounce ideas?</p>
+            <p>Let's jump on a quick call and explore what's possible.</p>
+            <p>Looking to build something bigger?</p>
+            <p>I can connect you with the right team and resources.</p>
+            <p>In Nagpur?</p>
+            <p>Perfect! Let's grab a coffee and brainstorm in person.</p>
+          </div>
+          <div className="chat-right">
+            <div className="chat-icon">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4Z"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M22 7L13.03 12.7C12.7213 12.8934 12.3643 12.996 12 12.996C11.6357 12.996 11.2787 12.8934 11 12.7L2 7"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+            <h2 className="chat-title">Ready to chat?</h2>
+            <p className="chat-description">
+              Schedule a free 30-minute strategy call to refine your idea and
+              initiate our collaboration.
+            </p>
+            <a href="mailto:nehaprasad27118@gmail.com" className="chat-button">
+              <span className="chat-button-icon">📧</span>
+              Book a Free Call
+            </a>
+            <p className="chat-quote">
+              "Turning your vision into digital reality is just one conversation
+              away"
+            </p>
+          </div>
+        </div>
       </section>
     </main>
   );
