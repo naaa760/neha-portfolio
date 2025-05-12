@@ -448,7 +448,7 @@ export default function Home() {
         <div className="experience-list">
           <div className="experience-item">
             <h3 className="experience-title-styled">Full Stack developer</h3>
-            <h4 className="travana">
+            <h4 className="experience-company-container">
               <a
                 href="https://www.linkedin.com/company/aievrything/posts/?feedView=all"
                 target="_blank"
@@ -457,6 +457,13 @@ export default function Home() {
               >
                 Travana
               </a>
+              <Image
+                src="/lg.png"
+                alt="Travana logo"
+                width={20}
+                height={20}
+                className="company-logo"
+              />
             </h4>
             <div className="experience-gap"></div>
             <p className="experience-description">
@@ -475,7 +482,7 @@ export default function Home() {
 
           <div className="experience-item">
             <h3 className="experience-title-styled">Hackathon Contributor</h3>
-            <h4 className="experience-company">
+            <h4 className="experience-company-container">
               <a
                 href="https://lablab.ai/u/@nehhaa6"
                 target="_blank"
@@ -484,6 +491,13 @@ export default function Home() {
               >
                 Lablab.ai
               </a>
+              <Image
+                src="/lg2.png"
+                alt="Lablab.ai logo"
+                width={20}
+                height={20}
+                className="company-logo"
+              />
             </h4>
             <div className="experience-gap"></div>
             <p className="experience-description">
@@ -500,7 +514,7 @@ export default function Home() {
 
           <div className="experience-item">
             <h3 className="experience-title-styled">Frontend Developer</h3>
-            <h4 className="experience-company">
+            <h4 className="experience-company-container">
               <a
                 href="https://www.linkedin.com/company/girlscriptsoc/posts/?feedView=all"
                 target="_blank"
@@ -509,6 +523,13 @@ export default function Home() {
               >
                 GSSOC
               </a>
+              <Image
+                src="/lg3.png"
+                alt="GSSOC logo"
+                width={20}
+                height={20}
+                className="company-logo"
+              />
             </h4>
             <div className="experience-gap"></div>
             <p className="experience-description">
@@ -525,7 +546,7 @@ export default function Home() {
 
           <div className="experience-item">
             <h3 className="experience-title-styled">SWE</h3>
-            <h4 className="experience-company">
+            <h4 className="experience-company-container">
               <a
                 href="https://www.linkedin.com/company/headstarterai/"
                 target="_blank"
@@ -534,6 +555,13 @@ export default function Home() {
               >
                 HeadStarter
               </a>
+              <Image
+                src="/lg4.png"
+                alt="HeadStarter logo"
+                width={20}
+                height={20}
+                className="company-logo"
+              />
             </h4>
             <div className="experience-gap"></div>
             <p className="experience-description">

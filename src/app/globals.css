@@ -1657,3 +1657,23 @@ body::after {
     text-align: left;
   }
 }
+
+/* Experience company styling */
+.experience-company-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: calc(var(--spacing-unit));
+}
+
+.company-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.experience-company-link:hover + .company-logo {
+  opacity: 1;
+}
