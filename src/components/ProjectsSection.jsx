@@ -14,19 +14,14 @@ export default function ProjectsSection({ projects }) {
     const descLength = project.description.length;
     const techCount = project.techStack.length;
 
-    // Make HealthPulse and DineDash explicitly small based on their titles
-    if (
-      project.title === "HealthPulse" ||
-      project.title === "DineDash" ||
-      descLength < 100
-    ) {
+    // Make specific projects with less content have smaller cards
+    if (project.title === "HealthPulse" || project.title === "DineDash") {
       return "small";
     }
 
-    if (descLength < 250 && techCount <= 5) {
-      return "medium";
-    }
-
+    // For other projects, determine size based on content length
+    if (descLength < 250) return "small";
+    if (descLength < 450) return "medium";
     return "large";
   };
 
@@ -38,7 +33,15 @@ export default function ProjectsSection({ projects }) {
           <div
             className="project-card"
             key={index}
-            data-size={getCardSize(project)}
+            style={{
+              // Inline styles to adjust height based on content without changing other CSS
+              minHeight:
+                getCardSize(project) === "small"
+                  ? "300px"
+                  : getCardSize(project) === "medium"
+                  ? "400px"
+                  : "500px",
+            }}
           >
             <a
               href={project.liveLink}
@@ -46,7 +49,13 @@ export default function ProjectsSection({ projects }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="project-image-container">
+              <div
+                className="project-image-container"
+                style={{
+                  // Adjust image container height based on card size
+                  height: getCardSize(project) === "small" ? "140px" : "180px",
+                }}
+              >
                 <Image
                   src={project.image}
                   alt={project.title}
