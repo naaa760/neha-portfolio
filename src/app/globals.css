@@ -44,13 +44,17 @@ body {
   padding: calc(var(--spacing-unit) * 3);
 }
 
-/* Header styling */
+/* Updated navbar styling */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: calc(var(--spacing-unit) * 2) 0;
-  margin-bottom: calc(var(--spacing-unit) * 4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 10, 15, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .site-name {
@@ -73,28 +77,62 @@ body {
 
 .nav-links {
   display: flex;
-  gap: calc(var(--spacing-unit) * 4);
+  gap: 2rem;
   margin: 0 auto;
-  position: absolute;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
+  padding: 0.5rem 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .nav-link {
   color: var(--text-secondary);
   text-decoration: none;
+  font-size: 0.9rem;
   font-weight: 500;
-  transition: color var(--transition-speed), transform var(--transition-speed);
-  position: relative;
-}
-
-.nav-link:after {
-  display: none;
+  padding: 0.4rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
 }
 
 .nav-link:hover {
   color: var(--text-primary);
-  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-1px);
+}
+
+/* Add padding to main content to account for fixed header */
+main.container {
+  padding-top: 100px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 1rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-links {
+    gap: 0.5rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .nav-link {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+  }
 }
 
 /* Hero section styling */
@@ -325,10 +363,6 @@ body {
     gap: calc(var(--spacing-unit) * 3);
     text-align: center;
     padding-bottom: calc(var(--spacing-unit) * 2);
-  }
-
-  .nav-links {
-    gap: calc(var(--spacing-unit) * 2);
   }
 
   .profile-image-container {
