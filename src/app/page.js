@@ -448,7 +448,16 @@ export default function Home() {
         <div className="experience-list">
           <div className="experience-item">
             <h3 className="experience-title-styled">Full Stack developer</h3>
-            <h4 className="experience-company">Travana</h4>
+            <h4 className="travana">
+              <a
+                href="https://www.linkedin.com/company/aievrything/posts/?feedView=all"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="experience-company-link"
+              >
+                Travana
+              </a>
+            </h4>
             <div className="experience-gap"></div>
             <p className="experience-description">
               • Building voice-powered travel booking at Travana AI using React,
@@ -466,7 +475,16 @@ export default function Home() {
 
           <div className="experience-item">
             <h3 className="experience-title-styled">Hackathon Contributor</h3>
-            <h4 className="experience-company">Lablab.ai</h4>
+            <h4 className="experience-company">
+              <a
+                href="https://lablab.ai/u/@nehhaa6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="experience-company-link"
+              >
+                Lablab.ai
+              </a>
+            </h4>
             <div className="experience-gap"></div>
             <p className="experience-description">
               • Built AI-driven solutions using advanced models, APIs, and
@@ -482,7 +500,16 @@ export default function Home() {
 
           <div className="experience-item">
             <h3 className="experience-title-styled">Frontend Developer</h3>
-            <h4 className="experience-company">GSSOC</h4>
+            <h4 className="experience-company">
+              <a
+                href="https://www.linkedin.com/company/girlscriptsoc/posts/?feedView=all"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="experience-company-link"
+              >
+                GSSOC
+              </a>
+            </h4>
             <div className="experience-gap"></div>
             <p className="experience-description">
               • Led frontend teams in React and Next.js to deliver responsive,
@@ -498,7 +525,16 @@ export default function Home() {
 
           <div className="experience-item">
             <h3 className="experience-title-styled">SWE</h3>
-            <h4 className="experience-company">Headstarter</h4>
+            <h4 className="experience-company">
+              <a
+                href="https://www.linkedin.com/company/headstarterai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="experience-company-link"
+              >
+                HeadStarter
+              </a>
+            </h4>
             <div className="experience-gap"></div>
             <p className="experience-description">
               • Architected and deployed 5 AI-driven apps with React/Next.js,
