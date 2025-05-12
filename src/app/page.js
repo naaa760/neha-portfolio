@@ -253,10 +253,10 @@ export default function Home() {
               Distance(online) 2021-2025(April)
             </div>
             <div className="about-summary">
-              I&apos;m a Software Developer with 2+ years of experience building
-              scalable, user-friendly web apps using modern tech. I enjoy
-              tackling challenges, use AI tools to speed up development, and
-              have worked on LLM-based projects.
+              I&apos;m a Software Developer(Frontend) with 2+ years of
+              experience building scalable, user-friendly web apps using modern
+              tech. I enjoy tackling challenges, use AI tools to speed up
+              development, and have worked on LLM-based projects.
             </div>
           </div>
         </section>
@@ -271,7 +271,7 @@ export default function Home() {
                 <span className="tech-item">Python</span>
                 <span className="tech-item">TailwindCSS</span>
                 <span className="tech-item">Redux</span>
-                <span className="tech-item">Jest</span>
+
                 <span className="tech-item">JavaScript</span>
                 <span className="tech-item">TypeScript</span>
                 <span className="tech-item">HTML/CSS</span>
@@ -301,8 +301,10 @@ export default function Home() {
                 <span className="tech-item">Firebase</span>
                 <span className="tech-item">Restful APIs</span>
                 <span className="tech-item">Prisma</span>
-                <span className="tech-item">CI/CD: Github Actions</span>
+                <span className="tech-item">Shadcn UI</span>
+
                 <span className="tech-item">LLM</span>
+                <span className="tech-item">Framer Motion</span>
                 <span className="tech-item">Convex</span>
                 <span className="tech-item">Websocket.io</span>
               </div>
