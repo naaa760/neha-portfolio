@@ -3,10 +3,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import RepositoryLink from "@/components/RepositoryLink";
+import Timer from "@/components/Timer";
 
 export default function Home() {
   return (
     <main className="container">
+      <Timer />
       <header className="header">
         <nav className="nav-links">
           <Link href="#about" className="nav-link">
@@ -42,8 +44,7 @@ export default function Home() {
         <div className="hero-content">
           <h1 className="hero-title">Hey, I&apos;m Neha.</h1>
           <p className="hero-subtitle">
-            I&apos;m a <strong>Software Developer</strong> and passionate about
-            building <strong>impactful solutions</strong>.
+            I build <strong>full stack apps</strong> that matter.
           </p>
           <div className="social-links">
             <a href="https://x.com/nehaaaa_6" className="social-link">

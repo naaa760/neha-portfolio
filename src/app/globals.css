@@ -1719,3 +1719,112 @@ body::after {
 .experience-company-link:hover + .company-logo {
   opacity: 1;
 }
+
+/* Timer styling */
+.timer {
+  position: fixed;
+  top: 30px;
+  left: 30px; /* Changed back to left */
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
+  );
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  z-index: 1000; /* Increased to ensure it's above other elements */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  animation: pulse 2s infinite;
+  overflow: hidden;
+  max-width: 140px; /* Added to control width */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.timer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.08),
+    transparent
+  );
+  animation: shine 3s infinite;
+}
+
+.timer-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.85rem;
+  font-family: var(--font-geist-mono);
+  letter-spacing: 0.5px;
+  background: linear-gradient(to right, #fff, #a0a0a0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: block; /* Added for better text control */
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  }
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .timer {
+    top: 85px; /* Moved below the header */
+    left: 20px;
+    padding: 6px 12px;
+    max-width: 120px;
+    background: linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.07),
+      rgba(255, 255, 255, 0.03)
+    );
+  }
+
+  .timer-text {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timer {
+    top: 85px;
+    left: 15px;
+    padding: 5px 10px;
+    max-width: 110px;
+  }
+
+  .timer-text {
+    font-size: 0.7rem;
+  }
+}
