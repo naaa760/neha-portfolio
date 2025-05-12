@@ -1,0 +1,117 @@
+"use client";
+import { useState } from "react";
+import Image from "next/image";
+import RepositoryLink from "./RepositoryLink";
+
+export default function ProjectsSection({ projects }) {
+  const [showAll, setShowAll] = useState(false);
+
+  // Initially show only 4 projects
+  const visibleProjects = showAll ? projects : projects.slice(0, 4);
+
+  // Function to determine card size based on content length
+  const getCardSize = (project) => {
+    const descLength = project.description.length;
+    const techCount = project.techStack.length;
+
+    // Make HealthPulse and DineDash explicitly small based on their titles
+    if (
+      project.title === "HealthPulse" ||
+      project.title === "DineDash" ||
+      descLength < 100
+    ) {
+      return "small";
+    }
+
+    if (descLength < 250 && techCount <= 5) {
+      return "medium";
+    }
+
+    return "large";
+  };
+
+  return (
+    <section className="projects-section" id="projects">
+      <h2 className="section-title">PROJECTS</h2>
+      <div className="projects-grid">
+        {visibleProjects.map((project, index) => (
+          <div
+            className="project-card"
+            key={index}
+            data-size={getCardSize(project)}
+          >
+            <a
+              href={project.liveLink}
+              className="project-card-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="project-image-container">
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  className="project-image"
+                  width={400}
+                  height={260}
+                />
+              </div>
+              <div className="project-content">
+                <h3 className="project-title">{project.title}</h3>
+                <p className="project-description">{project.description}</p>
+                <div className="tech-stack-tags">
+                  {project.techStack.map((tech, techIndex) => (
+                    <span className="tech-stack-tag" key={techIndex}>
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </a>
+            {project.repoLink && (
+              <RepositoryLink href={project.repoLink}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                GitHub Repository
+              </RepositoryLink>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* Show More/Less button */}
+      {projects.length > 4 && (
+        <button
+          className="show-more-button"
+          onClick={() => setShowAll(!showAll)}
+        >
+          {showAll ? "Show Less Projects" : "Show More Projects"}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className={showAll ? "rotate-up" : ""}
+          >
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      )}
+    </section>
+  );
+}

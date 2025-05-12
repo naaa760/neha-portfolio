@@ -5,6 +5,7 @@ import Image from "next/image";
 import RepositoryLink from "@/components/RepositoryLink";
 import Timer from "@/components/Timer";
 import { useEffect, useRef } from "react";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export default function Home() {
   const pathRef = useRef(null);
@@ -43,6 +44,103 @@ export default function Home() {
       container.removeEventListener("mouseleave", handleMouseLeave);
     };
   }, []);
+
+  // Define your projects data
+  const projects = [
+    {
+      title: "BeamUp",
+      description:
+        "BeamUp makes language learning feel natural by pairing you with a friendly community for real conversations—so you build confidence and fluency while chatting about things you love. Whether you're aiming to make international friends, polish your communication skills, or just practice a new tongue, BeamUp's supportive, real-world environment adapts to your goals and keeps you motivated every step of the way.",
+      image: "/i2.png",
+      liveLink:
+        "https://mern-video-calling-realtime-chat-app-50ki.onrender.com/",
+      repoLink:
+        "https://github.com/naaa760/mern-video-calling-realtime-chat-app-social-app",
+      techStack: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Context API",
+        "JWT",
+      ],
+    },
+    {
+      title: "Auravoice",
+      description:
+        "It feels like having a conversation with a friend—just speak, and Deepgram turns your words into text, LLaMA3 whips up a reply, and ElevenLabs speaks back in a natural voice. With support for multiple AI models and a fully responsive design, this sleek web app makes talking to AI feel effortless on any device.",
+      image: "/i1.png",
+      liveLink: "https://voice-assistant-i3q2.vercel.app/",
+      repoLink: "https://github.com/naaa760/voice-assistant",
+      techStack: [
+        "React",
+        "Node.js",
+        "DEEPGRAM",
+        "GROQ",
+        "ELEVENLABS",
+        "Tailwind CSS",
+      ],
+    },
+    {
+      title: "EchoHire",
+      description:
+        "This AI mock interview platform delivers lifelike, real-time practice sessions with personalized questions and actionable feedback, all secured by hacker-proof authentication. Built on React and Firebase with a fully customizable interview creator and diverse formats, it empowers candidates to sharpen their coding skills and ace every technical interview.",
+      image: "/i3.png",
+      liveLink:
+        "https://interview-platform-with-a-real-time-ai-voice-agent.vercel.app/landing",
+      repoLink:
+        "https://github.com/naaa760/interview-platform-with-a-real-time-ai-voice-agent",
+      techStack: ["Next.js", "Firebase", "React", "VAPI", "Zod"],
+    },
+    {
+      title: "Jirnov",
+      description:
+        "JINova brings task management, team collaboration, and client communication together in one sleek, intuitive workspace, turning the maze of project logistics into a clear, effortless flow. Its powerful progress tracking, resource management, and performance analytics adapt to any team size or methodology—so you spend less time wrestling with tools and more time driving results.",
+      image: "/i5.png",
+      liveLink: "https://jirnov.vercel.app/",
+      repoLink: "https://github.com/naaa760/jirnov",
+      techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
+    },
+    {
+      title: "TalkCast",
+      description:
+        'TalkCast brings together creators and listeners in one seamless, beautifully designed space, turning the chaos of podcast discovery into a personalized, engaging journey. By offering smart recommendations tailored to each listener and powerful growth tools for creators—like our "Fans Like You" community feature—it transforms a fragmented landscape into a vibrant, connected ecosystem where everyone can find and share the stories they love.',
+      image: "/i6.png",
+      liveLink: "https://mutli-app.vercel.app/",
+      repoLink: "https://github.com/naaa760/mutli-app",
+      techStack: ["Next.js", "TypeScript", "React", "Convex", "Clerk"],
+    },
+
+    {
+      title: "DineDash",
+      description:
+        "The site uses Next.js to create a luxury restaurant experience with video backgrounds, animated sections, and smooth scroll effects. Key logic includes showcasing menus, testimonials, and gallery visuals, with a responsive, interactive reservation form to drive bookings.",
+      image: "/i4.png",
+      liveLink: "https://dine-dash-8v75.vercel.app/",
+      repoLink: "https://github.com/naaa760/dine-dash",
+      techStack: ["Next.js", "TypeScript", "React", "Framer-motion"],
+    },
+
+    {
+      title: "HealthPulse",
+      description:
+        "I used Created reusable React components and managed state using React Hooks for a dynamic admindashboard. Enhancing performance",
+      image: "/i7.png",
+      liveLink: "https://health-pulse-beta.vercel.app/",
+      repoLink: "https://github.com/naaa760/MindsDB-Hackathon",
+      techStack: [
+        "React",
+        "TypeScript",
+        "React",
+        "SQL",
+        "Python",
+        "Prisma",
+        "PostgreSQL",
+      ],
+    },
+
+    // Add any other projects you have
+  ];
 
   return (
     <>
@@ -228,263 +326,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="projects-section" id="projects">
-          <h2 className="section-title">PROJECTS</h2>
-          <div className="projects-grid">
-            <div className="project-card">
-              <a
-                href="https://mern-video-calling-realtime-chat-app-50ki.onrender.com/"
-                className="project-card-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="project-image-container">
-                  <Image
-                    src="/i2.png"
-                    alt="E-Commerce Platform"
-                    className="project-image"
-                    width={400}
-                    height={260}
-                  />
-                </div>
-                <div className="project-content">
-                  <h3 className="project-title">BeamUp</h3>
-                  <p className="project-description">
-                    BeamUp makes language learning feel natural by pairing you
-                    with a friendly community for real conversations—so you
-                    build confidence and fluency while chatting about things you
-                    love. Whether you&apos;re aiming to make international
-                    friends, polish your communication skills, or just practice
-                    a new tongue, BeamUp&apos;s supportive, real-world
-                    environment adapts to your goals and keeps you motivated
-                    every step of the way.
-                  </p>
-                  <div className="tech-stack-tags">
-                    <span className="tech-stack-tag">React</span>
-                    <span className="tech-stack-tag">Node.js</span>
-                    <span className="tech-stack-tag">Express</span>
-                    <span className="tech-stack-tag">MongoDB</span>
-                    <span className="tech-stack-tag">Context API</span>
-                    <span className="tech-stack-tag">JWT</span>
-                  </div>
-                </div>
-              </a>
-              <RepositoryLink href="https://github.com/naaa760/mern-video-calling-realtime-chat-app-social-app">
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </RepositoryLink>
-            </div>
-
-            <div className="project-card">
-              <a
-                href="https://voice-assistant-i3q2.vercel.app/"
-                className="project-card-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="project-image-container">
-                  <Image
-                    src="/i1.png"
-                    alt="Auravoice"
-                    className="project-image"
-                    width={400}
-                    height={260}
-                  />
-                </div>
-                <div className="project-content">
-                  <h3 className="project-title">Auravoice</h3>
-                  <p className="project-description">
-                    It feels like having a conversation with a friend—just
-                    speak, and Deepgram turns your words into text, LLaMA3 whips
-                    up a reply, and ElevenLabs speaks back in a natural voice.
-                    With support for multiple AI models and a fully responsive
-                    design, this sleek web app makes talking to AI feel
-                    effortless on any device.
-                  </p>
-                  <div className="tech-stack-tags">
-                    <span className="tech-stack-tag">React</span>
-                    <span className="tech-stack-tag">Node.js</span>
-                    <span className="tech-stack-tag">DEEPGRAM</span>
-                    <span className="tech-stack-tag">GROQ</span>
-                    <span className="tech-stack-tag">ELEVENLABS</span>
-                    <span className="tech-stack-tag">Tailwind CSS</span>
-                  </div>
-                </div>
-              </a>
-              <RepositoryLink href="https://github.com/naaa760/voice-assistant">
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </RepositoryLink>
-            </div>
-
-            <div className="project-card">
-              <a
-                href="https://interview-platform-with-a-real-time-ai-voice-agent.vercel.app/landing"
-                className="project-card-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="project-image-container">
-                  <Image
-                    src="/i3.png"
-                    alt="EchoHire"
-                    className="project-image"
-                    width={400}
-                    height={260}
-                  />
-                </div>
-                <div className="project-content">
-                  <h3 className="project-title">EchoHire</h3>
-                  <p className="project-description">
-                    This AI mock interview platform delivers lifelike, real-time
-                    practice sessions with personalized questions and actionable
-                    feedback, all secured by hacker-proof authentication. Built
-                    on React and Firebase with a fully customizable interview
-                    creator and diverse formats, it empowers candidates to
-                    sharpen their coding skills and ace every technical
-                    interview.
-                  </p>
-                  <div className="tech-stack-tags">
-                    <span className="tech-stack-tag">Next.js</span>
-                    <span className="tech-stack-tag">Firebase</span>
-                    <span className="tech-stack-tag">React</span>
-                    <span className="tech-stack-tag">VAPI</span>
-                    <span className="tech-stack-tag">Zod</span>
-                  </div>
-                </div>
-              </a>
-              <RepositoryLink href="https://github.com/naaa760/interview-platform-with-a-real-time-ai-voice-agent">
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </RepositoryLink>
-            </div>
-
-            <div className="project-card">
-              <a
-                href="https://jirnov.vercel.app/"
-                className="project-card-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="project-image-container">
-                  <Image
-                    src="/i5.png"
-                    alt="Fitness Tracking App"
-                    className="project-image"
-                    width={400}
-                    height={260}
-                  />
-                </div>
-                <div className="project-content">
-                  <h3 className="project-title">Jirnov</h3>
-                  <p className="project-description">
-                    JINova brings task management, team collaboration, and
-                    client communication together in one sleek, intuitive
-                    workspace, turning the maze of project logistics into a
-                    clear, effortless flow. Its powerful progress tracking,
-                    resource management, and performance analytics adapt to any
-                    team size or methodology—so you spend less time wrestling
-                    with tools and more time driving results.
-                  </p>
-                  <div className="tech-stack-tags">
-                    <span className="tech-stack-tag">React</span>
-                    <span className="tech-stack-tag">MongoDB</span>
-                    <span className="tech-stack-tag">Node.js</span>
-                    <span className="tech-stack-tag">Express</span>
-                    <span className="tech-stack-tag">JWT</span>
-                  </div>
-                </div>
-              </a>
-              <RepositoryLink href="https://github.com/naaa760/jirnov">
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </RepositoryLink>
-            </div>
-
-            <div className="project-card">
-              <a
-                href="https://mutli-app.vercel.app/"
-                className="project-card-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="project-image-container">
-                  <Image
-                    src="/i6.png"
-                    alt="NFT Marketplace"
-                    className="project-image"
-                    width={400}
-                    height={260}
-                  />
-                </div>
-                <div className="project-content">
-                  <h3 className="project-title">TalkCast</h3>
-                  <p className="project-description">
-                    TalkCast brings together creators and listeners in one
-                    seamless, beautifully designed space, turning the chaos of
-                    podcast discovery into a personalized, engaging journey. By
-                    offering smart recommendations tailored to each listener and
-                    powerful growth tools for creators—like our &quot;Fans Like
-                    You&quot; community feature—it transforms a fragmented
-                    landscape into a vibrant, connected ecosystem where everyone
-                    can find and share the stories they love.
-                  </p>
-                  <div className="tech-stack-tags">
-                    <span className="tech-stack-tag">Next.js</span>
-                    <span className="tech-stack-tag">TypeScript</span>
-                    <span className="tech-stack-tag">React</span>
-                    <span className="tech-stack-tag">Convex</span>
-                    <span className="tech-stack-tag">Clerk</span>
-                  </div>
-                </div>
-              </a>
-              <RepositoryLink href="https://github.com/naaa760/mutli-app">
-                <svg
-                  width="20"
-                  height="20"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                </svg>
-                View GitHub Repository
-              </RepositoryLink>
-            </div>
-          </div>
-        </section>
+        <ProjectsSection projects={projects} />
 
         <section className="experience-section" id="experience">
           <h2 className="section-title">EXPERIENCE</h2>
