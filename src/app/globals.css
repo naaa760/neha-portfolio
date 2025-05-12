@@ -47,14 +47,17 @@ body {
 /* Updated navbar styling */
 .header {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   background: rgba(10, 10, 15, 0.8);
   backdrop-filter: blur(10px);
   z-index: 100;
-  padding: 1rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 0.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 30px;
+  width: fit-content; /* Make width fit the content */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .site-name {
@@ -77,26 +80,23 @@ body {
 
 .nav-links {
   display: flex;
-  gap: 2rem;
-  margin: 0 auto;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 0.5rem 1.5rem;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 50px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.2rem 0.6rem;
+  background: transparent;
 }
 
 .nav-link {
   color: var(--text-secondary);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500;
-  padding: 0.4rem 1rem;
-  border-radius: 25px;
+  padding: 0.3rem 0.6rem;
+  border-radius: 15px;
   transition: all 0.3s ease;
   letter-spacing: 0.3px;
+  text-align: center;
 }
 
 .nav-link:hover {
@@ -107,31 +107,35 @@ body {
 
 /* Add padding to main content to account for fixed header */
 main.container {
-  padding-top: 100px;
+  padding-top: 120px; /* Increased to account for header's top margin */
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .header {
+    padding: 0.3rem;
+  }
+
   .nav-links {
-    gap: 1rem;
-    padding: 0.4rem 1rem;
+    gap: 0.3rem;
+    padding: 0.2rem 0.4rem;
   }
 
   .nav-link {
-    font-size: 0.8rem;
-    padding: 0.3rem 0.8rem;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
   }
 }
 
 @media (max-width: 480px) {
   .nav-links {
-    gap: 0.5rem;
-    padding: 0.3rem 0.8rem;
+    gap: 0.2rem;
+    padding: 0.15rem 0.3rem;
   }
 
   .nav-link {
-    font-size: 0.75rem;
-    padding: 0.25rem 0.6rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
   }
 }
 
