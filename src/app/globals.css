@@ -773,8 +773,8 @@ main.container {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: calc(var(--spacing-unit) * 4); /* Increased gap between cards */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
 }
 
 .project-card {
@@ -784,8 +784,8 @@ main.container {
   display: flex;
   flex-direction: column;
   transition: all 0.35s ease;
-  height: 100%;
-  min-height: 700px;
+  height: auto !important;
+  max-height: none !important;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.05);
   position: relative;
@@ -814,7 +814,7 @@ main.container {
 
 .project-image-container {
   width: 100%;
-  height: 260px;
+  height: 140px;
   position: relative;
   overflow: hidden;
 }
@@ -826,11 +826,11 @@ main.container {
 }
 
 .project-content {
-  padding: calc(var(--spacing-unit) * 4);
+  padding: 12px 14px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: calc(var(--spacing-unit) * 3);
+  gap: 6px !important;
 }
 
 .featured-label {
@@ -855,30 +855,35 @@ main.container {
 }
 
 .project-title {
-  font-size: 1.5rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 4px;
   color: #ffffff;
 }
 
 .project-description {
   color: #808080;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   line-height: 1.5;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  max-height: 60px !important;
 }
 
 .tech-stack-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: auto;
+  gap: 5px !important;
+  margin-top: 6px !important;
 }
 
 .tech-stack-tag {
-  font-size: 0.7rem;
-  padding: 4px 10px;
+  font-size: 0.65rem;
+  padding: 3px 6px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 4px;
   color: #b0b0b0;
@@ -913,7 +918,7 @@ main.container {
   position: relative;
   z-index: 2;
   margin: 0;
-  padding: calc(var(--spacing-unit) * 0.9) calc(var(--spacing-unit) * 2);
+  padding: 8px 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   background-color: #000000; /* Pure black background */
   display: flex;
@@ -921,6 +926,7 @@ main.container {
   justify-content: center;
   font-weight: 500;
   letter-spacing: 0.3px;
+  font-size: 0.75rem;
 }
 
 .repository-link:hover {
@@ -943,7 +949,7 @@ main.container {
   }
 
   .project-card {
-    min-height: 650px;
+    min-height: auto !important;
   }
 
   .project-content {
@@ -953,7 +959,7 @@ main.container {
 
 @media (max-width: 480px) {
   .project-card {
-    min-height: 600px;
+    min-height: auto !important;
   }
 
   .project-description {
