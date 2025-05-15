@@ -49,6 +49,25 @@ export default function Home() {
   // Define your projects data
   const projects = [
     {
+      title: "EVO2",
+      description:
+        "EVO2 is a sleek, intuitive web app that turns tiny DNA tweaks into powerful insights. Just search your gene, let our AI predict if a variant is harmful or harmless, and instantly see how it compares to real-world cases. In minutes, EVO2 makes the mysteries of your genome crystal clear—so researchers and clinicians can focus on what matters most: better health.",
+      image: "/evo.png",
+      liveLink: "https://evo2-sage.vercel.app/",
+      repoLink: "https://github.com/naaa760/evo2",
+      techStack: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Modal",
+        "Python",
+        "FastAPI",
+        "Shadcn UI",
+        "EVo2",
+      ],
+    },
+
+    {
       title: "BeamUp",
       description:
         "BeamUp makes language learning feel natural by pairing you with a friendly community for real conversations—so you build confidence and fluency while chatting about things you love. Whether you're aiming to make international friends, polish your communication skills, or just practice a new tongue, BeamUp's supportive, real-world environment adapts to your goals and keeps you motivated every step of the way.",
@@ -270,7 +289,6 @@ export default function Home() {
               <div className="tech-items">
                 <span className="tech-item">Python</span>
                 <span className="tech-item">TailwindCSS</span>
-                <span className="tech-item">Redux</span>
 
                 <span className="tech-item">JavaScript</span>
                 <span className="tech-item">TypeScript</span>
@@ -286,7 +304,6 @@ export default function Home() {
                 <span className="tech-item">React.js</span>
                 <span className="tech-item">Express.js</span>
                 <span className="tech-item">Node.js</span>
-                <span className="tech-item">Streamlit</span>
               </div>
             </div>
 
@@ -304,8 +321,7 @@ export default function Home() {
                 <span className="tech-item">Shadcn UI</span>
 
                 <span className="tech-item">LLM</span>
-                <span className="tech-item">Framer Motion</span>
-                <span className="tech-item">Convex</span>
+
                 <span className="tech-item">Websocket.io</span>
               </div>
             </div>
