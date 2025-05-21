@@ -122,7 +122,7 @@ export default function Home() {
     {
       title: "EchoHire",
       description:
-        "This AI mock interview platform delivers lifelike, real-time practice sessions with personalized questions and actionable feedback, all secured by hacker-proof authentication. Built on React and Firebase with a fully customizable interview creator and diverse formats, it empowers candidates to sharpen their coding skills and ace every technical interview.",
+        "This AI platform offers realistic mock technical interviews with personalized questions and detailed feedback. Built with React and Firebase, it features secure authentication and customizable interview formats to help developers prepare for coding interviews.",
       image: "/i3.png",
       liveLink:
         "https://interview-platform-with-a-real-time-ai-voice-agent.vercel.app/landing",
@@ -133,7 +133,7 @@ export default function Home() {
     {
       title: "Jirnov",
       description:
-        "JINova brings task management, team collaboration, and client communication together in one sleek, intuitive workspace, turning the maze of project logistics into a clear, effortless flow. Its powerful progress tracking, resource management, and performance analytics adapt to any team size or methodology—so you spend less time wrestling with tools and more time driving results.",
+        "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines workflows for teams of any size, letting you focus on results rather than managing multiple tools.",
       image: "/i5.png",
       liveLink: "https://jirnov.vercel.app/",
       repoLink: "https://github.com/naaa760/jirnov",
@@ -142,7 +142,7 @@ export default function Home() {
     {
       title: "TalkCast",
       description:
-        'TalkCast brings together creators and listeners in one seamless, beautifully designed space, turning the chaos of podcast discovery into a personalized, engaging journey. By offering smart recommendations tailored to each listener and powerful growth tools for creators—like our "Fans Like You" community feature—it transforms a fragmented landscape into a vibrant, connected ecosystem where everyone can find and share the stories they love.',
+        "TalkCast creates a unified platform for podcast creators and listeners. It personalizes discovery with smart recommendations and helps creators grow through community features like Fans Like You making it easier for everyone to find and share content they love.",
       image: "/i6.png",
       liveLink: "https://mutli-app.vercel.app/",
       repoLink: "https://github.com/naaa760/mutli-app",
