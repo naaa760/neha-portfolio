@@ -51,7 +51,7 @@ export default function Home() {
     {
       title: "EVO2",
       description:
-        "EVO2 is a sleek, intuitive web app that turns tiny DNA tweaks into powerful insights. Just search your gene, let our AI predict if a variant is harmful or harmless, and instantly see how it compares to real-world cases. In minutes, EVO2 makes the mysteries of your genome crystal clear—so researchers and clinicians can focus on what matters most: better health.",
+        "EVO2 is a web tool that quickly checks if DNA changes are harmful. Users simply search for a gene, and AI predicts whether a variant affects health by comparing it to known cases. This helps researchers and doctors make faster decisions without needing complex technical skills.",
       image: "/evo.png",
       liveLink: "https://evo2-sage.vercel.app/",
       repoLink: "https://github.com/naaa760/evo2",
