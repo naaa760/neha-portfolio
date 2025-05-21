@@ -68,6 +68,24 @@ export default function Home() {
     },
 
     {
+      title: "Finderness",
+      description:
+        "LocalFinder is a user-friendly app that helps people quickly find nearby by adjusting distance, and relevant local businesses by filtering options based on category, ratings, and location. It simplifies decision-making with a clean interface that lets users compare nearby options at a glance, perfect for discovering restaurants, hotels, and services in both familiar and new areas.",
+      image: "/map.png",
+      liveLink: "https://local-business-finder-app-7db1.vercel.app",
+      repoLink: "https://github.com/naaa760/local-business-finder-app",
+      techStack: [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Leaflet",
+        "JWT",
+      ],
+    },
+
+    {
       title: "BeamUp",
       description:
         "BeamUp makes language learning feel natural by pairing you with a friendly community for real conversations—so you build confidence and fluency while chatting about things you love. Whether you're aiming to make international friends, polish your communication skills, or just practice a new tongue, BeamUp's supportive, real-world environment adapts to your goals and keeps you motivated every step of the way.",
@@ -139,24 +157,6 @@ export default function Home() {
       liveLink: "https://dine-dash-8v75.vercel.app/",
       repoLink: "https://github.com/naaa760/dine-dash",
       techStack: ["Next.js", "TypeScript", "React", "Framer-motion"],
-    },
-
-    {
-      title: "HealthPulse",
-      description:
-        "I used Created reusable React components and managed state using React Hooks for a dynamic admindashboard. Enhancing performance",
-      image: "/i7.png",
-      liveLink: "https://health-pulse-beta.vercel.app/",
-      repoLink: "https://github.com/naaa760/MindsDB-Hackathon",
-      techStack: [
-        "React",
-        "TypeScript",
-        "React",
-        "SQL",
-        "Python",
-        "Prisma",
-        "PostgreSQL",
-      ],
     },
 
     // Add any other projects you have
