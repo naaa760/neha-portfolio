@@ -70,7 +70,7 @@ export default function Home() {
     {
       title: "Finderness",
       description:
-        "LocalFinder is a user-friendly app that helps people quickly find nearby by adjusting distance, and relevant local businesses by filtering options based on category, ratings, and location. It simplifies decision-making with a clean interface that lets users compare nearby options at a glance, perfect for discovering restaurants, hotels, and services in both familiar and new areas.",
+        "LocalFinder is an app that shows nearby businesses based on distance, category, and ratings. With a simple interface, users can easily compare local options to find restaurants, hotels, and services whether they're at home or traveling.",
       image: "/map.png",
       liveLink: "https://local-business-finder-app-7db1.vercel.app",
       repoLink: "https://github.com/naaa760/local-business-finder-app",
@@ -88,7 +88,7 @@ export default function Home() {
     {
       title: "BeamUp",
       description:
-        "BeamUp makes language learning feel natural by pairing you with a friendly community for real conversations—so you build confidence and fluency while chatting about things you love. Whether you're aiming to make international friends, polish your communication skills, or just practice a new tongue, BeamUp's supportive, real-world environment adapts to your goals and keeps you motivated every step of the way.",
+        "BeamUp connects language learners with native speakers for authentic conversations about shared interests. The app builds fluency through real-world practice in a supportive community, adapting to your specific goals and keeping you engaged.",
       image: "/i2.png",
       liveLink:
         "https://mern-video-calling-realtime-chat-app-50ki.onrender.com/",
@@ -106,7 +106,7 @@ export default function Home() {
     {
       title: "Auravoice",
       description:
-        "It feels like having a conversation with a friend—just speak, and Deepgram turns your words into text, LLaMA3 whips up a reply, and ElevenLabs speaks back in a natural voice. With support for multiple AI models and a fully responsive design, this sleek web app makes talking to AI feel effortless on any device.",
+        "This web app creates natural AI conversations through voice. You speak, Deepgram transcribes, LLaMA3 generates responses, and ElevenLabs delivers them in a realistic voice. With multiple AI options and responsive design, it works smoothly across all devices.",
       image: "/i1.png",
       liveLink: "https://voice-assistant-i3q2.vercel.app/",
       repoLink: "https://github.com/naaa760/voice-assistant",
