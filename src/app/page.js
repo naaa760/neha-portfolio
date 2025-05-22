@@ -51,7 +51,7 @@ export default function Home() {
     {
       title: "EVO2",
       description:
-        "EVO2 is a web tool that quickly checks if DNA changes are harmful. Users simply search for a gene, and AI predicts whether a variant affects health by comparing it to known cases. This helps researchers and doctors make faster decisions without needing complex technical skills.",
+        "EVO2 is a web tool that quickly checks if DNA changes are harmful. Users simply search for a gene, and AI predicts whether a variant affects health by comparing it to known.",
       image: "/evo.png",
       liveLink: "https://evo2-sage.vercel.app/",
       repoLink: "https://github.com/naaa760/evo2",
@@ -70,7 +70,7 @@ export default function Home() {
     {
       title: "Finderness",
       description:
-        "LocalFinder is an app that shows nearby businesses based on distance, category, and ratings. With a simple interface, users can easily compare local options to find restaurants, hotels, and services whether they're at home or traveling.",
+        "LocalFinder is an app that shows nearby businesses based on distance, category, and ratings. With a simple interface, users can easily compare local options to find restaurants, hotels.",
       image: "/map.png",
       liveLink: "https://local-business-finder-app-7db1.vercel.app",
       repoLink: "https://github.com/naaa760/local-business-finder-app",
@@ -88,7 +88,7 @@ export default function Home() {
     {
       title: "BeamUp",
       description:
-        "BeamUp connects language learners with native speakers for authentic conversations about shared interests. The app builds fluency through real-world practice in a supportive community, adapting to your specific goals and keeping you engaged.",
+        "BeamUp connects language learners with native speakers for authentic conversations about shared interests. The app builds fluency through real-world practice in a supportive community.",
       image: "/i2.png",
       liveLink:
         "https://mern-video-calling-realtime-chat-app-50ki.onrender.com/",
@@ -106,7 +106,7 @@ export default function Home() {
     {
       title: "Auravoice",
       description:
-        "This web app creates natural AI conversations through voice. You speak, Deepgram transcribes, LLaMA3 generates responses, and ElevenLabs delivers them in a realistic voice. With multiple AI options and responsive design, it works smoothly across all devices.",
+        "This web app creates natural AI conversations through voice. You speak, Deepgram transcribes, LLaMA3 generates responses, and ElevenLabs delivers them in a realistic voice.",
       image: "/i1.png",
       liveLink: "https://voice-assistant-i3q2.vercel.app/",
       repoLink: "https://github.com/naaa760/voice-assistant",
@@ -122,7 +122,7 @@ export default function Home() {
     {
       title: "EchoHire",
       description:
-        "This AI platform offers realistic mock technical interviews with personalized questions and detailed feedback. Built with React and Firebase, it features secure authentication and customizable interview formats to help developers prepare for coding interviews.",
+        "This AI platform offers realistic mock technical interviews with personalized questions and detailed feedback. Built with React and Firebase, it features secure authentication.",
       image: "/i3.png",
       liveLink:
         "https://interview-platform-with-a-real-time-ai-voice-agent.vercel.app/landing",
@@ -133,7 +133,7 @@ export default function Home() {
     {
       title: "Jirnov",
       description:
-        "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines workflows for teams of any size, letting you focus on results rather than managing multiple tools.",
+        "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines.",
       image: "/i5.png",
       liveLink: "https://jirnov.vercel.app/",
       repoLink: "https://github.com/naaa760/jirnov",
@@ -142,7 +142,7 @@ export default function Home() {
     {
       title: "TalkCast",
       description:
-        "TalkCast creates a unified platform for podcast creators and listeners. It personalizes discovery with smart recommendations and helps creators grow through community features like Fans Like You making it easier for everyone to find and share content they love.",
+        "TalkCast creates a unified platform for podcast creators and listeners. It personalizes discovery with smart recommendations and helps creators grow through community.",
       image: "/i6.png",
       liveLink: "https://mutli-app.vercel.app/",
       repoLink: "https://github.com/naaa760/mutli-app",
@@ -152,7 +152,7 @@ export default function Home() {
     {
       title: "DineDash",
       description:
-        "The site uses Next.js to create a luxury restaurant experience with video backgrounds, animated sections, and smooth scroll effects. Key logic includes showcasing menus, testimonials, and gallery visuals, with a responsive, interactive reservation form to drive bookings.",
+        "The site uses Next.js to create a luxury restaurant experience with video backgrounds, animated sections, and smooth scroll effects. Key logic includes showcasing menus, testimonials.",
       image: "/i4.png",
       liveLink: "https://dine-dash-8v75.vercel.app/",
       repoLink: "https://github.com/naaa760/dine-dash",
@@ -334,7 +334,9 @@ export default function Home() {
           <h2 className="section-title">EXPERIENCE</h2>
           <div className="experience-list">
             <div className="experience-item">
-              <h3 className="experience-title-styled">Full Stack developer</h3>
+              <h3 className="experience-title-styled">
+                Full Stack developer intern
+              </h3>
               <h4 className="experience-company-container">
                 <a
                   href="https://www.linkedin.com/company/aievrything/posts/?feedView=all"
@@ -362,9 +364,7 @@ export default function Home() {
                 real-time voice processing, NLU, and smart recommendations into
                 a seamless booking experience.
               </p>
-              <div className="experience-timeline">
-                02/2025 - 05/2025(contract)
-              </div>
+              <div className="experience-timeline">02/2025 - 05/2025</div>
             </div>
 
             <div className="experience-item">
