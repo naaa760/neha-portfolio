@@ -304,6 +304,7 @@ export default function Home() {
                 <span className="tech-item">React.js</span>
                 <span className="tech-item">Express.js</span>
                 <span className="tech-item">Node.js</span>
+                <span className="tech-item">Nuxt.js</span>
               </div>
             </div>
 
