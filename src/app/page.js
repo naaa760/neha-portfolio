@@ -320,10 +320,9 @@ export default function Home() {
                 <span className="tech-item">Restful APIs</span>
                 <span className="tech-item">Prisma</span>
                 <span className="tech-item">Shadcn UI</span>
+                <span className="tech-item">Restful APIs</span>
 
                 <span className="tech-item">LLM</span>
-
-                <span className="tech-item">Websocket.io</span>
               </div>
             </div>
           </div>
