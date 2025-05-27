@@ -49,6 +49,25 @@ export default function Home() {
   // Define your projects data
   const projects = [
     {
+      title: "EDUNO",
+      description:
+        "Eduno makes quality education accessible by removing barriers like cost, location, and scheduling through AI tutors that adapt to each student's learning style and pace. It combines advanced AI technology with an intuitive interface to provide personalized tutoring at affordable prices, helping students with homework, exam prep, and new skills.",
+      image: "/lms.png",
+      liveLink: "https://lms-app-navy.vercel.app/",
+      repoLink: "https://github.com/naaa760/lms-app",
+      techStack: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Sentry",
+        "Supabase",
+        "VAPI",
+        "Shadcn UI",
+        "Zod",
+      ],
+    },
+
+    {
       title: "EVO2",
       description:
         "EVO2 is a web tool that quickly checks if DNA changes are harmful. Users simply search for a gene, and AI predicts whether a variant affects health by comparing it to known.",
@@ -147,16 +166,6 @@ export default function Home() {
       liveLink: "https://mutli-app.vercel.app/",
       repoLink: "https://github.com/naaa760/mutli-app",
       techStack: ["Next.js", "TypeScript", "React", "Convex", "Clerk"],
-    },
-
-    {
-      title: "DineDash",
-      description:
-        "The site uses Next.js to create a luxury restaurant experience with video backgrounds, animated sections, and smooth scroll effects. Key logic includes showcasing menus, testimonials.",
-      image: "/i4.png",
-      liveLink: "https://dine-dash-8v75.vercel.app/",
-      repoLink: "https://github.com/naaa760/dine-dash",
-      techStack: ["Next.js", "TypeScript", "React", "Framer-motion"],
     },
 
     // Add any other projects you have
