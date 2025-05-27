@@ -79,7 +79,43 @@ export default function ProjectsSection({ projects }) {
                 </RepositoryLink>
               )}
               {index === 0 && (
+                <RepositoryLink href="https://drive.google.com/file/d/1R4gZ1vKUudm5vOJcM3bDc1S_SnvH10k7/view">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M12 2v20m-7-7 7 7 7-7" />
+                  </svg>
+                  Video
+                </RepositoryLink>
+              )}
+              {index === 1 && (
                 <RepositoryLink href="https://drive.google.com/file/d/1R7eAZUVClgFQsG_9JoDlVecanAU14S9c/view">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M12 2v20m-7-7 7 7 7-7" />
+                  </svg>
+                  Video
+                </RepositoryLink>
+              )}
+              {index === 2 && (
+                <RepositoryLink href="https://drive.google.com/file/d/1R8pR242fn-edmDCJt7Jb3eboMBP5j-0R/view">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18"
