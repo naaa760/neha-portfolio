@@ -122,6 +122,19 @@ export default function Home() {
         "JWT",
       ],
     },
+
+    {
+      title: "EchoHire",
+      description:
+        "This AI platform offers realistic mock technical interviews with personalized questions and detailed feedback. Built with React and Firebase, it features secure authentication.",
+      image: "/i3.png",
+      liveLink:
+        "https://interview-platform-with-a-real-time-ai-voice-agent.vercel.app/landing",
+      repoLink:
+        "https://github.com/naaa760/interview-platform-with-a-real-time-ai-voice-agent",
+      techStack: ["Next.js", "Firebase", "React", "VAPI", "Zod"],
+    },
+
     {
       title: "Auravoice",
       description:
@@ -138,17 +151,7 @@ export default function Home() {
         "Tailwind CSS",
       ],
     },
-    {
-      title: "EchoHire",
-      description:
-        "This AI platform offers realistic mock technical interviews with personalized questions and detailed feedback. Built with React and Firebase, it features secure authentication.",
-      image: "/i3.png",
-      liveLink:
-        "https://interview-platform-with-a-real-time-ai-voice-agent.vercel.app/landing",
-      repoLink:
-        "https://github.com/naaa760/interview-platform-with-a-real-time-ai-voice-agent",
-      techStack: ["Next.js", "Firebase", "React", "VAPI", "Zod"],
-    },
+
     {
       title: "Jirnov",
       description:
