@@ -49,7 +49,7 @@ export default function Home() {
   // Define your projects data
   const projects = [
     {
-      title: "EDUNO",
+      title: "EDUNO(LMS)",
       description:
         "Eduno makes quality education accessible by removing barriers like cost, location, and scheduling through AI tutors that adapt to each student's learning style and pace. It combines advanced AI technology with an intuitive interface to provide personalized tutoring at affordable prices, helping students with homework, exam prep, and new skills.",
       image: "/lms.png",
@@ -68,7 +68,7 @@ export default function Home() {
     },
 
     {
-      title: "EVO2",
+      title: "EVO2(BioTech + AI + DNA)",
       description:
         "EVO2 is a web tool that quickly checks if DNA changes are harmful. Users simply search for a gene, and AI predicts whether a variant affects health by comparing it to known.",
       image: "/evo.png",
@@ -87,7 +87,7 @@ export default function Home() {
     },
 
     {
-      title: "Finderness",
+      title: "Finderness(Any Buisness Finder)",
       description:
         "LocalFinder is an app that shows nearby businesses based on distance, category, and ratings. With a simple interface, users can easily compare local options to find restaurants, hotels.",
       image: "/map.png",
@@ -105,7 +105,7 @@ export default function Home() {
     },
 
     {
-      title: "BeamUp",
+      title: "BeamUp(Video calling + Chat App)",
       description:
         "BeamUp connects language learners with native speakers for authentic conversations about shared interests. The app builds fluency through real-world practice in a supportive community.",
       image: "/i2.png",
@@ -124,7 +124,7 @@ export default function Home() {
     },
 
     {
-      title: "EchoHire",
+      title: "EchoHire(AI Interview Platform)",
       description:
         "This AI platform offers realistic mock technical interviews with personalized questions and detailed feedback. Built with React and Firebase, it features secure authentication.",
       image: "/i3.png",
@@ -136,7 +136,7 @@ export default function Home() {
     },
 
     {
-      title: "Auravoice",
+      title: "Auravoice(AI Voice Assistant)",
       description:
         "This web app creates natural AI conversations through voice. You speak, Deepgram transcribes, LLaMA3 generates responses, and ElevenLabs delivers them in a realistic voice.",
       image: "/i1.png",
@@ -153,7 +153,7 @@ export default function Home() {
     },
 
     {
-      title: "Jirnov",
+      title: "Jirnov(Project Management + Collaboration)",
       description:
         "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines.",
       image: "/i5.png",
@@ -162,7 +162,7 @@ export default function Home() {
       techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
     },
     {
-      title: "TalkCast",
+      title: "TalkCast(Podcast + AI)",
       description:
         "TalkCast creates a unified platform for podcast creators and listeners. It personalizes discovery with smart recommendations and helps creators grow through community.",
       image: "/i6.png",
