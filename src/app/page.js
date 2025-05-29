@@ -108,7 +108,7 @@ export default function Home() {
     {
       title: "BeamUp(Video calling + Chat App)",
       description:
-        "BeamUp connects language learners with native speakers for authentic conversations about shared interests. The app builds fluency through real-world practice in a supportive community.",
+        "BeamUp connects language learners with native speakers for authentic conversations about shared interests, building fluency through real-world practice in a supportive community.",
       image: "/i2.png",
       liveLink:
         "https://mern-video-calling-realtime-chat-app-50ki.onrender.com/",
