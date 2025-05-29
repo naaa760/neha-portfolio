@@ -231,7 +231,7 @@ export default function Home() {
                 Twitter
               </a>
               <a
-                href="https://drive.google.com/file/d/1Pc_4FH4OH7vhfV2U0b5OK0YtgRZUjNlp/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1S3yYXlT_KJDlMktZNAGu1SYV3zP7npKY/view?usp=drivesdk"
                 className="social-link"
               >
                 <svg
