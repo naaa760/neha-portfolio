@@ -51,7 +51,7 @@ export default function Home() {
     {
       title: "EDUNO(LMS)",
       description:
-        "Eduno makes quality education accessible by removing barriers like cost, location, and scheduling through AI tutors that adapt to each student's learning style and pace. It combines advanced AI technology with an intuitive interface to provide personalized tutoring at affordable prices, helping students with homework, exam prep, and new skills.",
+        "Eduno is a modern SaaS LMS that removes barriers of cost, location, and scheduling by offering AI-driven voice tutors and real-time sessions through Vapi, combined with secure Supabase authentication and Stripe subscriptions to deliver personalized, accessible learning experiences.",
       image: "/lms.png",
       liveLink: "https://lms-app-navy.vercel.app/",
       repoLink: "https://github.com/naaa760/lms-app",
@@ -70,7 +70,7 @@ export default function Home() {
     {
       title: "EVO2(BioTech + AI + DNA)",
       description:
-        "EVO2 is a web tool that quickly checks if DNA changes are harmful. Users simply search for a gene, and AI predicts whether a variant affects health by comparing it to known.",
+        "Evo2 is a web tool that enables users to search for genes and employs AI to predict whether DNA variants are harmful by comparing them against known clinical data.",
       image: "/evo.png",
       liveLink: "https://evo2-sage.vercel.app/",
       repoLink: "https://github.com/naaa760/evo2",
@@ -90,6 +90,7 @@ export default function Home() {
       title: "Finderness(Any Buisness Finder)",
       description:
         "LocalFinder is an app that shows nearby businesses based on distance, category, and ratings. With a simple interface, users can easily compare local options to find restaurants, hotels.",
+
       image: "/map.png",
       liveLink: "https://local-business-finder-app-7db1.vercel.app",
       repoLink: "https://github.com/naaa760/local-business-finder-app",
