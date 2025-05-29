@@ -353,7 +353,7 @@ export default function Home() {
               <h3 className="experience-title-styled">API Fellow</h3>
               <h4 className="experience-company-container">
                 <a
-                  href="https://lablab.ai/u/@nehhaa6"
+                  href="https://keploy.io/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="experience-company-link"
@@ -361,8 +361,8 @@ export default function Home() {
                   Keploy
                 </a>
                 <Image
-                  src="/lg2.png"
-                  alt="Lablab.ai logo"
+                  src="/lg1.png"
+                  alt="Keploy logo"
                   width={20}
                   height={20}
                   className="company-logo"
@@ -370,10 +370,9 @@ export default function Home() {
               </h4>
               <div className="experience-gap"></div>
               <p className="experience-description">
-                • Built AI-driven solutions with advanced models, APIs, and
-                automation leading full-stack development in hackathons to
-                deliver impactful projects like MindsDB and HealthPulse focused
-                on prompt optimization and scalability.
+                • At Keploy, I build real-world apps, rigorously test APIs,
+                automate smart workflows, and grow through open-source
+                collaboration with top developers.
               </p>
               <div className="experience-timeline">05/2025 - 06/2025</div>
             </div>
