@@ -372,13 +372,10 @@ export default function Home() {
               </h4>
               <div className="experience-gap"></div>
               <p className="experience-description">
-                • Building voice-powered travel booking at Travana AI using
-                React, Next.js, Node.js, and Python—enabling users to search,
-                compare, and book with natural voice commands.
-                <br />
-                <br />• Collaborating with AI and product teams to integrate
-                real-time voice processing, NLU, and smart recommendations into
-                a seamless booking experience.
+                • Built a voice-powered travel booking platform at Travana AI
+                using React, Next.js, Node.js, and Python enabling users to
+                search and book trips using natural voice commands, real-time
+                NLU, and smart AI recommendations.
               </p>
               <div className="experience-timeline">02/2025 - 05/2025</div>
             </div>
@@ -404,13 +401,10 @@ export default function Home() {
               </h4>
               <div className="experience-gap"></div>
               <p className="experience-description">
-                • Built AI-driven solutions using advanced models, APIs, and
-                automation, with a focus on real-world impact and scalable
-                architecture.
-                <br />
-                <br />• Led full-stack development and AI integration in
-                hackathons, delivering projects like MindsDB and HealthPulse
-                that optimize prompt engineering.
+                • Built AI-driven solutions with advanced models, APIs, and
+                automation leading full-stack development in hackathons to
+                deliver impactful projects like MindsDB and HealthPulse focused
+                on prompt optimization and scalability.
               </p>
               <div className="experience-timeline">09/2024 - present</div>
             </div>
@@ -436,13 +430,10 @@ export default function Home() {
               </h4>
               <div className="experience-gap"></div>
               <p className="experience-description">
-                • Led frontend teams in React and Next.js to deliver responsive,
-                API-driven interfaces, boosting application performance by 40%
-                through strategic code optimization and lazy loading.
-                <br />
-                <br />• Collaborated with UX/UI designers and mentored junior
-                developers via code reviews, ensuring intuitive UX and
-                maintaining high-quality standards.
+                • Led frontend teams using React and Next.js to build
+                responsive, API-driven interfaces boosting performance by 40%
+                with code optimization and lazy loading, while mentoring juniors
+                and ensuring intuitive UX through close design collaboration.
               </p>
               <div className="experience-timeline">05/2023 - 08/2023</div>
             </div>
@@ -468,13 +459,10 @@ export default function Home() {
               </h4>
               <div className="experience-gap"></div>
               <p className="experience-description">
-                • Architected and deployed 5 AI-driven apps with React/Next.js,
-                Firebase, Clerk, and Vercel—establishing CI/CD pipelines for
-                rapid, reliable releases.
-                <br />
-                <br />• Led a 3-person team to launch a flashcard-generation
-                SaaS using the OpenAI API and built a RAG-based Q&A system with
-                OpenAI and Pinecone.
+                • Architected and deployed 5 AI-driven apps with React, Next.js,
+                Firebase, Clerk, and Vercel setting up CI/CD for fast, reliable
+                releases. Led a team to launch a flashcard SaaS with OpenAI and
+                built a RAG-based Q&A system using Pinecone.
               </p>
               <div className="experience-timeline">06/2024 - 09/2024</div>
             </div>
