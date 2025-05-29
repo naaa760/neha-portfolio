@@ -350,6 +350,35 @@ export default function Home() {
           <h2 className="section-title">EXPERIENCE</h2>
           <div className="experience-list">
             <div className="experience-item">
+              <h3 className="experience-title-styled">API Fellow</h3>
+              <h4 className="experience-company-container">
+                <a
+                  href="https://lablab.ai/u/@nehhaa6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="experience-company-link"
+                >
+                  Keploy
+                </a>
+                <Image
+                  src="/lg2.png"
+                  alt="Lablab.ai logo"
+                  width={20}
+                  height={20}
+                  className="company-logo"
+                />
+              </h4>
+              <div className="experience-gap"></div>
+              <p className="experience-description">
+                • Built AI-driven solutions with advanced models, APIs, and
+                automation leading full-stack development in hackathons to
+                deliver impactful projects like MindsDB and HealthPulse focused
+                on prompt optimization and scalability.
+              </p>
+              <div className="experience-timeline">05/2025 - 06/2025</div>
+            </div>
+
+            <div className="experience-item">
               <h3 className="experience-title-styled">
                 Full Stack developer intern
               </h3>
@@ -406,7 +435,7 @@ export default function Home() {
                 deliver impactful projects like MindsDB and HealthPulse focused
                 on prompt optimization and scalability.
               </p>
-              <div className="experience-timeline">09/2024 - present</div>
+              <div className="experience-timeline">09/2024 - 05/2025</div>
             </div>
 
             <div className="experience-item">
