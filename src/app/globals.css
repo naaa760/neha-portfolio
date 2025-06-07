@@ -275,8 +275,10 @@ main.container {
 
 .social-links {
   display: flex;
+  flex-wrap: wrap;
   gap: calc(var(--spacing-unit) * 2);
   margin-top: calc(var(--spacing-unit) * 3);
+  justify-content: flex-start;
 }
 
 .social-link {
@@ -290,6 +292,8 @@ main.container {
   text-decoration: none;
   transition: transform var(--transition-speed), color var(--transition-speed);
   font-size: 0.9rem;
+  white-space: nowrap;
+  min-width: fit-content;
 }
 
 .social-link:hover {
@@ -420,7 +424,15 @@ main.container {
 
   .social-links {
     justify-content: center;
-    gap: calc(var(--spacing-unit) * 1.5);
+    gap: calc(var(--spacing-unit) * 1.2);
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .social-link {
+    font-size: 0.85rem;
+    padding: calc(var(--spacing-unit) * 0.8) calc(var(--spacing-unit) * 1.2);
+    flex-shrink: 0;
   }
 
   .section-title {
@@ -458,9 +470,18 @@ main.container {
     font-size: 1rem;
   }
 
+  .social-links {
+    gap: calc(var(--spacing-unit) * 0.8);
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
   .social-link {
-    padding: calc(var(--spacing-unit)) calc(var(--spacing-unit) * 1.5);
-    font-size: 0.9rem;
+    padding: calc(var(--spacing-unit) * 0.6) calc(var(--spacing-unit) * 1);
+    font-size: 0.8rem;
+    min-width: auto;
+    flex: 0 0 auto;
   }
 
   .section-title {
