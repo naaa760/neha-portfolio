@@ -125,6 +125,24 @@ export default function Home() {
     },
 
     {
+      title: "AI Workflow Builder (HITL Interface)",
+      description:
+        "A Human-In-The-Loop (HITL) interface that allows users to create, edit, and manage AI-assisted workflow steps.",
+      image: "/hub.png",
+      liveLink: "https://assignment-mmau.vercel.app/",
+      repoLink:
+        "https://github.com/naaa760/workflow-interface?tab=readme-ov-file",
+      techStack: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Zustand",
+        "Tailwind CSS",
+      ],
+    },
+
+    {
       title: "EchoHire(AI Interview Platform)",
       description:
         "This AI platform offers realistic mock technical interviews with personalized questions and detailed feedback. Built with React and Firebase, it features secure authentication.",
@@ -134,23 +152,6 @@ export default function Home() {
       repoLink:
         "https://github.com/naaa760/interview-platform-with-a-real-time-ai-voice-agent",
       techStack: ["Next.js", "Firebase", "React", "VAPI", "Zod"],
-    },
-
-    {
-      title: "Auravoice(AI Voice Assistant)",
-      description:
-        "This web app creates natural AI conversations through voice. You speak, Deepgram transcribes, LLaMA3 generates responses, and ElevenLabs delivers them in a realistic voice.",
-      image: "/i1.png",
-      liveLink: "https://voice-assistant-i3q2.vercel.app/",
-      repoLink: "https://github.com/naaa760/voice-assistant",
-      techStack: [
-        "React",
-        "Node.js",
-        "DEEPGRAM",
-        "GROQ",
-        "ELEVENLABS",
-        "Tailwind CSS",
-      ],
     },
 
     {
