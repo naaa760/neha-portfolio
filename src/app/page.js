@@ -320,43 +320,43 @@ export default function Home() {
 
           <div className="tech-categories">
             <div className="tech-category">
-              <h3 className="category-title">Languages</h3>
+              <h3 className="category-title">Frontend</h3>
               <div className="tech-items">
-                <span className="tech-item">Python</span>
-                <span className="tech-item">TailwindCSS</span>
-
+                <span className="tech-item">React</span>
                 <span className="tech-item">JavaScript</span>
                 <span className="tech-item">TypeScript</span>
-                <span className="tech-item">HTML/CSS</span>
-                <span className="tech-item">FastAPI</span>
+                <span className="tech-item">Next.js</span>
+                <span className="tech-item">Python</span>
+                <span className="tech-item">TailwindCSS</span>
+                <span className="tech-item">Shadcn UI</span>
+                <span className="tech-item">Zustand</span>
               </div>
             </div>
 
             <div className="tech-category">
-              <h3 className="category-title">Frameworks & Libraries</h3>
+              <h3 className="category-title">Backend</h3>
               <div className="tech-items">
-                <span className="tech-item">Next.js</span>
-                <span className="tech-item">React.js</span>
-                <span className="tech-item">Express.js</span>
                 <span className="tech-item">Node.js</span>
+                <span className="tech-item">Express.js</span>
+                <span className="tech-item">MongoDB</span>
+                <span className="tech-item">PostgreSQL</span>
+                <span className="tech-item">Prisma</span>
+                <span className="tech-item">Restful APIs</span>
+                <span className="tech-item">JWT</span>
+                <span className="tech-item">FastAPI</span>
+                <span className="tech-item">Firebase</span>
               </div>
             </div>
 
             <div className="tech-category">
               <h3 className="category-title">Tools, Cloud & Databases</h3>
               <div className="tech-items">
+                <span className="tech-item">LLMs</span>
                 <span className="tech-item">AWS</span>
                 <span className="tech-item">Vercel</span>
-                <span className="tech-item">PostgreSQL</span>
-                <span className="tech-item">Docker</span>
-                <span className="tech-item">MongoDB</span>
-                <span className="tech-item">Firebase</span>
-                <span className="tech-item">Restful APIs</span>
-                <span className="tech-item">Prisma</span>
-                <span className="tech-item">Shadcn UI</span>
-                <span className="tech-item">Restful APIs</span>
-                <span className="tech-item">LLM</span>
-                <span className="tech-item">WebSockets</span>
+                <span className="tech-item">Supabase</span>
+                <span className="tech-item">GitHub Actions</span>
+                <span className="tech-item">Cypress</span>
               </div>
             </div>
           </div>
