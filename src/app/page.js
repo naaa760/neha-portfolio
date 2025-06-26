@@ -49,6 +49,26 @@ export default function Home() {
   // Define your projects data
   const projects = [
     {
+      title: "Jirnov(Project Management + Collaboration)",
+      description:
+        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. Just log in, connect your wallet, pick your token’s name, symbol, and supply, and hit “deploy.” You’ll see your new token live on the blockchain",
+      image: "/crypt.png",
+      liveLink: "https://sparkmint-qj65.vercel.app/",
+      repoLink: "https://github.com/naaa760/sparkmint",
+      techStack: ["React", "Next.js", "Solana", "Web3.js", "tailwindcss"],
+    },
+
+    {
+      title: "sparkmint",
+      description:
+        "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines.",
+      image: "/i5.png",
+      liveLink: "https://jirnov.vercel.app/",
+      repoLink: "https://github.com/naaa760/jirnov",
+      techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
+    },
+
+    {
       title: "EDUNO(LMS)",
       description:
         "Eduno is a modern SaaS LMS that removes barriers of cost, location, and scheduling by offering AI-driven voice tutors and real-time sessions through Vapi, combined with secure Supabase authentication and Stripe subscriptions to deliver personalized, accessible learning experiences.",
@@ -154,15 +174,6 @@ export default function Home() {
       techStack: ["Next.js", "Firebase", "React", "VAPI", "Zod"],
     },
 
-    {
-      title: "Jirnov(Project Management + Collaboration)",
-      description:
-        "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines.",
-      image: "/i5.png",
-      liveLink: "https://jirnov.vercel.app/",
-      repoLink: "https://github.com/naaa760/jirnov",
-      techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
-    },
     {
       title: "TalkCast(Podcast + AI)",
       description:
