@@ -51,21 +51,21 @@ export default function Home() {
     {
       title: "Jirnov(Project Management + Collaboration)",
       description:
-        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. Just log in, connect your wallet, pick your token’s name, symbol, and supply, and hit “deploy.” You’ll see your new token live on the blockchain",
-      image: "/crypt.png",
-      liveLink: "https://sparkmint-qj65.vercel.app/",
-      repoLink: "https://github.com/naaa760/sparkmint",
-      techStack: ["React", "Next.js", "Solana", "Web3.js", "tailwindcss"],
-    },
-
-    {
-      title: "sparkmint",
-      description:
         "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines.",
       image: "/i5.png",
       liveLink: "https://jirnov.vercel.app/",
       repoLink: "https://github.com/naaa760/jirnov",
       techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
+    },
+
+    {
+      title: "sparkmint ",
+      description:
+        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. Just log in, connect your wallet, pick your token’s name, symbol, and supply, and hit “deploy.” You’ll see your new token live on the blockchain",
+      image: "/crypt.png",
+      liveLink: "https://sparkmint-qj65.vercel.app/",
+      repoLink: "https://github.com/naaa760/sparkmint",
+      techStack: ["React", "Next.js", "Solana", "Web3.js", "tailwindcss"],
     },
 
     {
