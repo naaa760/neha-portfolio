@@ -72,7 +72,7 @@ export default function Home() {
       image: "/eon.png",
       liveLink: "https://eonlogic-mk8l.vercel.app/",
       repoLink: "https://github.com/naaa760/eonlogic",
-      techStack: ["React", "Next.js", "MongoDB", "Node.js", "Express", "JWT"],
+      techStack: ["React", "Next.js", "Node.js", "Express", "PostgreSql"],
     },
 
     {
@@ -82,14 +82,7 @@ export default function Home() {
       image: "/i5.png",
       liveLink: "https://jirnov.vercel.app/",
       repoLink: "https://github.com/naaa760/jirnov",
-      techStack: [
-        "React",
-        "MongoDB",
-        "Node.js",
-        "Express",
-        "PostgreSql",
-        "JWT",
-      ],
+      techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
     },
 
     {
