@@ -316,6 +316,10 @@ export default function Home() {
             <div className="about-summary">
               I like technology and some eunterprenurship and deep science. they
               make a notch in the tech world.
+              <br />
+              <br />
+              tldr; learnt by contributing around on the internet and building
+              projects.
             </div>
           </div>
         </section>
@@ -328,11 +332,11 @@ export default function Home() {
               <h3 className="category-title">Frontend</h3>
               <div className="tech-items">
                 <span className="tech-item">React</span>
-                <span className="tech-item">JavaScript</span>
+
                 <span className="tech-item">TypeScript</span>
                 <span className="tech-item">Next.js</span>
                 <span className="tech-item">Python</span>
-                <span className="tech-item">TailwindCSS</span>
+
                 <span className="tech-item">Shadcn UI</span>
                 <span className="tech-item">Zustand</span>
               </div>
@@ -347,9 +351,8 @@ export default function Home() {
                 <span className="tech-item">PostgreSQL</span>
                 <span className="tech-item">Prisma</span>
                 <span className="tech-item">Restful APIs</span>
-                <span className="tech-item">JWT</span>
+
                 <span className="tech-item">FastAPI</span>
-                <span className="tech-item">Firebase</span>
               </div>
             </div>
 
@@ -358,10 +361,12 @@ export default function Home() {
               <div className="tech-items">
                 <span className="tech-item">LLMs</span>
                 <span className="tech-item">AWS</span>
-                <span className="tech-item">Vercel</span>
+
                 <span className="tech-item">Supabase</span>
-                <span className="tech-item">GitHub Actions</span>
+
                 <span className="tech-item">Cypress</span>
+                <span className="tech-item">Firebase</span>
+                <span className="tech-item">Pytorch</span>
               </div>
             </div>
           </div>
