@@ -49,13 +49,47 @@ export default function Home() {
   // Define your projects data
   const projects = [
     {
+      title: "Heariffy(Audio Classification)",
+      description:
+        "A comprehensive end-to-end project for training and deploying deep learning models for audio classification.",
+      image: "/aud.png",
+      liveLink: "https://heariffy-byu8.vercel.app/",
+      repoLink: "https://github.com/naaa760/heariffy",
+      techStack: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Python",
+        "Pytorch",
+        "Modal",
+      ],
+    },
+
+    {
+      title: "Eonlogic(AI Site Builder)",
+      description:
+        " Durable-style AI Site Builder – a fun, dev-friendly tool that instantly turns your business details into a sleek, ready-to-launch Next.js website with design, images, and copy done for you.",
+      image: "/eon.png",
+      liveLink: "https://eonlogic-mk8l.vercel.app/",
+      repoLink: "https://github.com/naaa760/eonlogic",
+      techStack: ["React", "Next.js", "MongoDB", "Node.js", "Express", "JWT"],
+    },
+
+    {
       title: "Jirnov(Project Management + Collaboration)",
       description:
         "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines.",
       image: "/i5.png",
       liveLink: "https://jirnov.vercel.app/",
       repoLink: "https://github.com/naaa760/jirnov",
-      techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
+      techStack: [
+        "React",
+        "MongoDB",
+        "Node.js",
+        "Express",
+        "PostgreSql",
+        "JWT",
+      ],
     },
 
     {
@@ -141,24 +175,6 @@ export default function Home() {
         "MongoDB",
         "Context API",
         "JWT",
-      ],
-    },
-
-    {
-      title: "AI Workflow Builder (HITL Interface)",
-      description:
-        "A Human-In-The-Loop (HITL) interface that allows users to create, edit, and manage AI-assisted workflow steps.",
-      image: "/hub.png",
-      liveLink: "https://assignment-mmau.vercel.app/",
-      repoLink:
-        "https://github.com/naaa760/workflow-interface?tab=readme-ov-file",
-      techStack: [
-        "React",
-        "Next.js",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Zustand",
-        "Tailwind CSS",
       ],
     },
 
@@ -378,7 +394,7 @@ export default function Home() {
           <h2 className="section-title">EXPERIENCE</h2>
           <div className="experience-list">
             <div className="experience-item">
-              <h3 className="experience-title-styled">API Fellow</h3>
+              <h3 className="experience-title-styled">Intern</h3>
               <h4 className="experience-company-container">
                 <a
                   href="https://keploy.io/"
@@ -462,36 +478,7 @@ export default function Home() {
                 deliver impactful projects like MindsDB and HealthPulse focused
                 on prompt optimization and scalability.
               </p>
-              <div className="experience-timeline">09/2024 - 05/2025</div>
-            </div>
-
-            <div className="experience-item">
-              <h3 className="experience-title-styled">Frontend Developer</h3>
-              <h4 className="experience-company-container">
-                <a
-                  href="https://www.linkedin.com/company/girlscriptsoc/posts/?feedView=all"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="experience-company-link"
-                >
-                  GSSOC
-                </a>
-                <Image
-                  src="/lg3.png"
-                  alt="GSSOC logo"
-                  width={20}
-                  height={20}
-                  className="company-logo"
-                />
-              </h4>
-              <div className="experience-gap"></div>
-              <p className="experience-description">
-                • Led frontend teams using React and Next.js to build
-                responsive, API-driven interfaces boosting performance by 40%
-                with code optimization and lazy loading, while mentoring juniors
-                and ensuring intuitive UX through close design collaboration.
-              </p>
-              <div className="experience-timeline">05/2023 - 08/2023</div>
+              <div className="experience-timeline">09/2024 - 07/2025</div>
             </div>
 
             <div className="experience-item">
