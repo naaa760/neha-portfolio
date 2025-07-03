@@ -76,26 +76,6 @@ export default function Home() {
     },
 
     {
-      title: "Jirnov(Project Management + Collaboration)",
-      description:
-        "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines.",
-      image: "/i5.png",
-      liveLink: "https://jirnov.vercel.app/",
-      repoLink: "https://github.com/naaa760/jirnov",
-      techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
-    },
-
-    {
-      title: "sparkmint ",
-      description:
-        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. Just log in, connect your wallet, pick your token’s name, symbol, and supply, and hit “deploy.” You’ll see your new token live on the blockchain",
-      image: "/crypt.png",
-      liveLink: "https://sparkmint-qj65.vercel.app/",
-      repoLink: "https://github.com/naaa760/sparkmint",
-      techStack: ["React", "Next.js", "Solana", "Web3.js", "tailwindcss"],
-    },
-
-    {
       title: "EDUNO(LMS)",
       description:
         "Eduno is a modern SaaS LMS that removes barriers of cost, location, and scheduling by offering AI-driven voice tutors and real-time sessions through Vapi, combined with secure Supabase authentication and Stripe subscriptions to deliver personalized, accessible learning experiences.",
@@ -134,6 +114,16 @@ export default function Home() {
     },
 
     {
+      title: "sparkmint ",
+      description:
+        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. Just log in, connect your wallet, pick your token’s name, symbol, and supply, and hit “deploy.” You’ll see your new token live on the blockchain",
+      image: "/crypt.png",
+      liveLink: "https://sparkmint-qj65.vercel.app/",
+      repoLink: "https://github.com/naaa760/sparkmint",
+      techStack: ["React", "Next.js", "Solana", "Web3.js", "tailwindcss"],
+    },
+
+    {
       title: "Finderness(Any Buisness Finder)",
       description:
         "LocalFinder is an app that shows nearby businesses based on distance, category, and ratings. With a simple interface, users can easily compare local options to find restaurants, hotels.",
@@ -150,6 +140,15 @@ export default function Home() {
         "Leaflet",
         "JWT",
       ],
+    },
+    {
+      title: "Jirnov(Project Management + Collaboration)",
+      description:
+        "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines.",
+      image: "/i5.png",
+      liveLink: "https://jirnov.vercel.app/",
+      repoLink: "https://github.com/naaa760/jirnov",
+      techStack: ["React", "MongoDB", "Node.js", "Express", "JWT"],
     },
 
     {
