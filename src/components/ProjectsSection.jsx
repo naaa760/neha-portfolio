@@ -114,7 +114,7 @@ export default function ProjectsSection({ projects }) {
                   Video
                 </RepositoryLink>
               )}
-              {index === 4 && (
+              {index === 5 && (
                 <RepositoryLink href="https://drive.google.com/file/d/1R8pR242fn-edmDCJt7Jb3eboMBP5j-0R/view">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
