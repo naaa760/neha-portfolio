@@ -314,14 +314,8 @@ export default function Home() {
               Distance(online) 2021-2025(April)
             </div>
             <div className="about-summary">
-              I&apos;m a Software Developer with 2+ years&apos; experience
-              building scalable, user-friendly web applications using React,
-              Next.js, and TypeScript. I thrive on solving complex UI/UX
-              challenges and leverage AI tools and LLMs to accelerate
-              development—most recently by integrating a chatbot assistant into
-              our customer support portal. I&apos;m passionate about clean code,
-              performance optimization, and continuously learning new
-              technologies.
+              I like technology and some eunterprenurship and deep science. they
+              make a notch in the tech world.
             </div>
           </div>
         </section>

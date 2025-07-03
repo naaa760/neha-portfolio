@@ -2097,9 +2097,16 @@ body::after {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #4ade80;
+  background: radial-gradient(
+    circle at center,
+    #ffffff 0%,
+    #e5e5e5 50%,
+    #c8c8c8 100%
+  );
   display: inline-block;
   animation: blinkDot 2s infinite;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.9),
+    0 0 12px rgba(255, 255, 255, 0.8);
 }
 
 .status-dropdown {
@@ -2186,11 +2193,11 @@ body::after {
   0%,
   100% {
     opacity: 1;
-    box-shadow: 0 0 6px rgba(74, 222, 128, 0.6);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
   }
   50% {
     opacity: 0.6;
-    box-shadow: 0 0 2px rgba(74, 222, 128, 0.3);
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
   }
 }
 
