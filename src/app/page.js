@@ -368,11 +368,9 @@ export default function Home() {
             <div className="tech-category">
               <h3 className="category-title">Tools, Cloud & Databases</h3>
               <div className="tech-items">
+                <span className="tech-item">System Design</span>
                 <span className="tech-item">LLMs</span>
                 <span className="tech-item">AWS</span>
-
-                <span className="tech-item">Supabase</span>
-
                 <span className="tech-item">Cypress</span>
                 <span className="tech-item">Firebase</span>
                 <span className="tech-item">Pytorch</span>
