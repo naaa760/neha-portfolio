@@ -78,7 +78,7 @@ export default function Home() {
     {
       title: "EDUNO(LMS)",
       description:
-        "Eduno is a SaaS LMS that removes barriers of cost, location, and scheduling by offering AI-driven voice tutors and real-time.",
+        "Built an AI tutoring platform where students create personalized voice tutors and have real conversations with them.",
       image: "/lms.png",
       liveLink: "https://lms-app-navy.vercel.app/",
       repoLink: "https://github.com/naaa760/lms-app",
