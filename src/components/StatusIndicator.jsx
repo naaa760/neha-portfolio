@@ -21,19 +21,13 @@ export default function StatusIndicator() {
           <div className="status-option">
             <span className="status-icon">□</span>
             <a href="#contact" className="status-link">
-              freelance
+              Open to Full‑Time Opportunities
             </a>
           </div>
           <div className="status-option">
             <span className="status-icon">□</span>
             <a href="#contact" className="status-link">
-              full-time
-            </a>
-          </div>
-          <div className="status-option">
-            <span className="status-icon">□</span>
-            <a href="#contact" className="status-link">
-              contract
+              Seeking Backend/Full‑Stack Roles
             </a>
           </div>
         </div>

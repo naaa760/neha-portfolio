@@ -68,7 +68,7 @@ export default function Home() {
     {
       title: "Eonlogic(AI Site Builder)",
       description:
-        " Durable-style AI Site Builder – a fun, dev-friendly tool that instantly turns your business details into a sleek, ready-to-launch Next.js website with design, images, and copy done for you.",
+        " Durable-style AI Site Builder – a fun, dev-friendly tool that instantly turns your business.",
       image: "/eon.png",
       liveLink: "https://eonlogic-mk8l.vercel.app/",
       repoLink: "https://github.com/naaa760/eonlogic",
@@ -78,7 +78,7 @@ export default function Home() {
     {
       title: "EDUNO(LMS)",
       description:
-        "Eduno is a modern SaaS LMS that removes barriers of cost, location, and scheduling by offering AI-driven voice tutors and real-time sessions through Vapi, combined with secure Supabase authentication and Stripe subscriptions to deliver personalized, accessible learning experiences.",
+        "Eduno is a SaaS LMS that removes barriers of cost, location, and scheduling by offering AI-driven voice tutors and real-time.",
       image: "/lms.png",
       liveLink: "https://lms-app-navy.vercel.app/",
       repoLink: "https://github.com/naaa760/lms-app",
@@ -109,14 +109,14 @@ export default function Home() {
         "Python",
         "FastAPI",
         "Shadcn UI",
-        "EVo2",
+        "Evo2",
       ],
     },
 
     {
-      title: "Finderness(Any Buisness Finder)",
+      title: "Finderness (Any Business Finder)",
       description:
-        "LocalFinder is an app that shows nearby businesses based on distance, category, and ratings. With a simple interface, users can easily compare local options to find restaurants, hotels.",
+        "Any Business Finder is an app that shows nearby businesses based on distance, category, and ratings. With a simple interface, users can easily compare local options to find restaurants, hotels.",
 
       image: "/map.png",
       liveLink: "https://local-business-finder-app-7db1.vercel.app",
@@ -133,9 +133,9 @@ export default function Home() {
     },
 
     {
-      title: "sparkmint ",
+      title: "SparkMint (Crypto Token Creator)",
       description:
-        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. Just log in, connect your wallet, pick your token’s name, symbol, and supply, and hit “deploy.” You’ll see your new token live on the blockchain",
+        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. connect your wallet, pick your token’s name, symbol, and supply, and hit “deploy.” You’ll see your new token live on the blockchain",
       image: "/crypt.png",
       liveLink: "https://sparkmint-qj65.vercel.app/",
       repoLink: "https://github.com/naaa760/sparkmint",
@@ -174,7 +174,7 @@ export default function Home() {
     {
       title: "EchoHire(AI Interview Platform)",
       description:
-        "This AI platform offers realistic mock technical interviews with personalized questions and detailed feedback. Built with React and Firebase, it features secure authentication.",
+        "This AI platform offers realistic mock technical interviews with personalized questions and detailed feedback.",
       image: "/i3.png",
       liveLink:
         "https://interview-platform-with-a-real-time-ai-voice-agent.vercel.app/landing",
@@ -411,12 +411,12 @@ export default function Home() {
                 automate smart workflows, and grow through open-source
                 collaboration with top developers.
               </p>
-              <div className="experience-timeline">05/2025 - 06/2025</div>
+              <div className="experience-timeline">May/2025 - July/2025</div>
             </div>
 
             <div className="experience-item">
               <h3 className="experience-title-styled">
-                Full Stack developer intern
+                Full Stack Developer Intern
               </h3>
               <h4 className="experience-company-container">
                 <a
@@ -442,7 +442,7 @@ export default function Home() {
                 search and book trips using natural voice commands, real-time
                 NLU, and smart AI recommendations.
               </p>
-              <div className="experience-timeline">02/2025 - 05/2025</div>
+              <div className="experience-timeline">Feb/2025 - May/2025</div>
             </div>
 
             <div className="experience-item">
@@ -471,7 +471,7 @@ export default function Home() {
                 deliver impactful projects like MindsDB and HealthPulse focused
                 on prompt optimization and scalability.
               </p>
-              <div className="experience-timeline">09/2024 - 07/2025</div>
+              <div className="experience-timeline">Sept/2024 - May/2025</div>
             </div>
 
             <div className="experience-item">
@@ -500,7 +500,7 @@ export default function Home() {
                 releases. Led a team to launch a flashcard SaaS with OpenAI and
                 built a RAG-based Q&A system using Pinecone.
               </p>
-              <div className="experience-timeline">06/2024 - 09/2024</div>
+              <div className="experience-timeline">June/2024 - Sept/2024</div>
             </div>
           </div>
         </section>
