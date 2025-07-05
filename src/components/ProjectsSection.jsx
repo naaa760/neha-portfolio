@@ -143,7 +143,7 @@ export default function ProjectsSection({ projects }) {
           className="show-more-button"
           onClick={() => setShowAll(!showAll)}
         >
-          {showAll ? "Show Less Projects" : "Show More Projects"}
+          {showAll ? "Show Less Projects" : "Browse 5 More Live Demos"}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
