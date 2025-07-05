@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import RepositoryLink from "@/components/RepositoryLink";
+
 import Timer from "@/components/Timer";
 import { useEffect, useRef } from "react";
 import ProjectsSection from "@/components/ProjectsSection";
@@ -24,11 +24,9 @@ export default function Home() {
       const x = e.clientX - rect.left; // x position within the container
       const y = e.clientY - rect.top; // y position within the container
 
-      // Calculate middle point displacement based on cursor position
       const midX = rect.width / 2;
       const displacement = (y - rect.height / 2) * 1.5; // Amplify movement
 
-      // Update the path with new coordinates that follow the cursor
       path.setAttribute("d", `M0 0 Q ${midX} ${displacement} 793 0`);
     };
 
@@ -192,8 +190,6 @@ export default function Home() {
       repoLink: "https://github.com/naaa760/mutli-app",
       techStack: ["Next.js", "TypeScript", "React", "Convex", "Clerk"],
     },
-
-    // Add any other projects you have
   ];
 
   return (
@@ -236,7 +232,8 @@ export default function Home() {
             <h1 className="hero-title">Hey, I&apos;m Neha Prasad</h1>
             <StatusIndicator />
             <p className="hero-subtitle">
-              I build <strong>Full Stack Apps</strong> that matter.
+              I build scalable <strong>Full Stack Apps</strong> that solve user
+              pain points and drive measurable growth.
             </p>
             <div className="social-links">
               <a href="https://x.com/nehaaaa_6" className="social-link">
@@ -323,8 +320,8 @@ export default function Home() {
               Distance(online) 2021-2025(April)
             </div>
             <div className="about-summary">
-              I like technology and some eunterprenurship and deep science. they
-              make a notch in the tech world.
+              I’m passionate about deep‑tech and entrepreneurship—building
+              products that make an impact.
               <br />
               <br />
               tldr; learnt by contributing around on the internet and building
