@@ -231,10 +231,12 @@ export default function Home() {
           <div className="hero-content">
             <h1 className="hero-title">Hey, I&apos;m Neha Prasad</h1>
             <StatusIndicator />
-            <p className="hero-subtitle">
+            <br />
+            <p className="hero-subtitle text-sm md:text-base">
               I build scalable <strong>Full Stack Apps</strong> that solve user
               pain points and drive measurable growth.
             </p>
+
             <div className="social-links">
               <a href="https://x.com/nehaaaa_6" className="social-link">
                 <svg
@@ -320,7 +322,7 @@ export default function Home() {
               Distance(online) 2021-2025(April)
             </div>
             <div className="about-summary">
-              I’m passionate about deep‑tech and entrepreneurship—building
+              I’m passionate about deep‑tech and entrepreneurship building
               products that make an impact.
               <br />
               <br />
@@ -402,9 +404,8 @@ export default function Home() {
               </h4>
               <div className="experience-gap"></div>
               <p className="experience-description">
-                • At Keploy, I build real-world apps, rigorously test APIs,
-                automate smart workflows, and grow through open-source
-                collaboration with top developers.
+                • At Keploy, wrote and maintained 12 Cypress API tests that
+                reduced regression bugs by 30 %.
               </p>
               <div className="experience-timeline">May/2025 - July/2025</div>
             </div>
