@@ -337,42 +337,29 @@ export default function Home() {
 
           <div className="tech-categories">
             <div className="tech-category">
-              <h3 className="category-title">Frontend</h3>
+              <h3 className="category-title">Expert (2 + Years)</h3>
               <div className="tech-items">
-                <span className="tech-item">React</span>
-
-                <span className="tech-item">TypeScript</span>
-                <span className="tech-item">Next.js</span>
-                <span className="tech-item">Python</span>
-
-                <span className="tech-item">Shadcn UI</span>
-                <span className="tech-item">Zustand</span>
+                <span className="tech-item">🟦 React</span>
+                <span className="tech-item">🔷 Next.js</span>
+                <span className="tech-item">⚙️ TypeScript</span>
+                <span className="tech-item">🐘 PostgreSQL</span>
               </div>
             </div>
 
             <div className="tech-category">
-              <h3 className="category-title">Backend</h3>
+              <h3 className="category-title">Comfortable (6 – 18 Months)</h3>
               <div className="tech-items">
-                <span className="tech-item">Node.js</span>
-                <span className="tech-item">Express.js</span>
-                <span className="tech-item">MongoDB</span>
-                <span className="tech-item">PostgreSQL</span>
-                <span className="tech-item">Prisma</span>
-                <span className="tech-item">Restful APIs</span>
-
-                <span className="tech-item">FastAPI</span>
+                <span className="tech-item">🚀 FastAPI</span>
+                <span className="tech-item">🎯 Firebase</span>
+                <span className="tech-item">🤖 PyTorch</span>
               </div>
             </div>
 
             <div className="tech-category">
-              <h3 className="category-title">Tools, Cloud & Databases</h3>
+              <h3 className="category-title">Familiar (0 – 6 Months)</h3>
               <div className="tech-items">
-                <span className="tech-item">System Design</span>
-                <span className="tech-item">LLMs</span>
-                <span className="tech-item">AWS</span>
-                <span className="tech-item">Cypress</span>
-                <span className="tech-item">Firebase</span>
-                <span className="tech-item">Pytorch</span>
+                <span className="tech-item">☁️ AWS</span>
+                <span className="tech-item">🐳 Docker</span>
               </div>
             </div>
           </div>
