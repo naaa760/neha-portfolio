@@ -322,7 +322,7 @@ export default function Home() {
               Distance(online) 2021-2025(April)
             </div>
             <div className="about-summary">
-              I'm passionate about deep‑tech and entrepreneurship building
+              I&apos;m passionate about deep‑tech and entrepreneurship building
               products that make an impact.
               <br />
               <br />
