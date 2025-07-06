@@ -133,7 +133,7 @@ export default function Home() {
     {
       title: "SparkMint (Crypto Token Creator)",
       description:
-        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. connect your wallet, pick your token’s name, symbol, and supply, and hit “deploy.” You’ll see your new token live on the blockchain",
+        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. connect your wallet, pick your token's name, symbol, and supply, and hit 'deploy.' You'll see your new token live on the blockchain",
       image: "/crypt.png",
       liveLink: "https://sparkmint-qj65.vercel.app/",
       repoLink: "https://github.com/naaa760/sparkmint",
@@ -322,7 +322,7 @@ export default function Home() {
               Distance(online) 2021-2025(April)
             </div>
             <div className="about-summary">
-              I’m passionate about deep‑tech and entrepreneurship building
+              I'm passionate about deep‑tech and entrepreneurship building
               products that make an impact.
               <br />
               <br />
@@ -337,29 +337,80 @@ export default function Home() {
 
           <div className="tech-categories">
             <div className="tech-category">
-              <h3 className="category-title">Expert (2 + Years)</h3>
+              <h3 className="category-title">Expert (2 + Years)</h3>
               <div className="tech-items">
-                <span className="tech-item">🟦 React</span>
-                <span className="tech-item">🔷 Next.js</span>
-                <span className="tech-item">⚙️ TypeScript</span>
-                <span className="tech-item">🐘 PostgreSQL</span>
+                <div className="tech-item">
+                  <span>React</span>
+                </div>
+                <div className="tech-item">
+                  <span>Next.js</span>
+                </div>
+                <div className="tech-item">
+                  <span>TypeScript</span>
+                </div>
+                <div className="tech-item">
+                  <span>PostgreSQL</span>
+                </div>
+                <div className="tech-item">
+                  <span>MongoDB</span>
+                </div>
+                <div className="tech-item">
+                  <span>Node.js</span>
+                </div>
+                <div className="tech-item">
+                  <span>Express</span>
+                </div>
+                <div className="tech-item">
+                  <span>Tailwind</span>
+                </div>
+                <div className="tech-item">
+                  <span>Python</span>
+                </div>
+                <div className="tech-item">
+                  <span>System Design</span>
+                </div>
               </div>
             </div>
 
             <div className="tech-category">
-              <h3 className="category-title">Comfortable (6 – 18 Months)</h3>
+              <h3 className="category-title">Comfortable (6 – 18 Months)</h3>
               <div className="tech-items">
-                <span className="tech-item">🚀 FastAPI</span>
-                <span className="tech-item">🎯 Firebase</span>
-                <span className="tech-item">🤖 PyTorch</span>
+                <div className="tech-item">
+                  <span>FastAPI</span>
+                </div>
+                <div className="tech-item">
+                  <span>Shadcn UI</span>
+                </div>
+                <div className="tech-item">
+                  <span>LLM</span>
+                </div>
+                <div className="tech-item">
+                  <span>☁️ AWS</span>
+                </div>
+                <div className="tech-item">
+                  <span>Firebase</span>
+                </div>
+                <div className="tech-item">
+                  <span>Prisma</span>
+                </div>
               </div>
             </div>
 
             <div className="tech-category">
-              <h3 className="category-title">Familiar (0 – 6 Months)</h3>
+              <h3 className="category-title">Familiar (0 – 6 Months)</h3>
               <div className="tech-items">
-                <span className="tech-item">☁️ AWS</span>
-                <span className="tech-item">🐳 Docker</span>
+                <div className="tech-item">
+                  <span>🐳 Docker</span>
+                </div>
+                <div className="tech-item">
+                  <span>PyTorch</span>
+                </div>
+                <div className="tech-item">
+                  <span>Cypress</span>
+                </div>
+                <div className="tech-item">
+                  <span>Restful APIs</span>
+                </div>
               </div>
             </div>
           </div>
@@ -392,7 +443,7 @@ export default function Home() {
               <div className="experience-gap"></div>
               <p className="experience-description">
                 • At Keploy, wrote and maintained 12 Cypress API tests that
-                reduced regression bugs by 30 %.
+                reduced regression bugs by 30 %.
               </p>
               <div className="experience-timeline">May/2025 - July/2025</div>
             </div>
