@@ -49,7 +49,7 @@ export default function Home() {
     {
       title: "Heariffy(Audio Classification)",
       description:
-        "A comprehensive end-to-end project for training and deploying deep learning models for audio classification.",
+        "Real‑time audio‑classification web app using a PyTorch CNN model served via FastAPI in a React/Tailwind frontend.",
       image: "/aud.png",
       liveLink: "https://heariffy-byu8.vercel.app/",
       repoLink: "https://github.com/naaa760/heariffy",
@@ -66,7 +66,7 @@ export default function Home() {
     {
       title: "Eonlogic(AI Site Builder)",
       description:
-        " Durable-style AI Site Builder – a fun, dev-friendly tool that instantly turns your business.",
+        "AI Site Builder that instantly generates business websites using React, Next.js & Express.",
       image: "/eon.png",
       liveLink: "https://eonlogic-mk8l.vercel.app/",
       repoLink: "https://github.com/naaa760/eonlogic",
@@ -76,7 +76,7 @@ export default function Home() {
     {
       title: "EDUNO(LMS)",
       description:
-        "Built an AI tutoring platform where students create personalized voice tutors and have real conversations with them.",
+        "AI‑driven tutoring platform with personalized voice tutors, built on React, Next.js & Supabase.",
       image: "/lms.png",
       liveLink: "https://lms-app-navy.vercel.app/",
       repoLink: "https://github.com/naaa760/lms-app",
@@ -95,7 +95,7 @@ export default function Home() {
     {
       title: "EVO2(BioTech + AI + DNA)",
       description:
-        "Evo2 is a web tool that enables users to search for genes and employs AI to predict whether DNA variants are harmful by comparing them against known clinical data.",
+        "Biotech tool for gene lookup and AI‑powered harmful DNA‑variant prediction via FastAPI & React.",
       image: "/evo.png",
       liveLink: "https://evo2-sage.vercel.app/",
       repoLink: "https://github.com/naaa760/evo2",
@@ -114,7 +114,7 @@ export default function Home() {
     {
       title: "Finderness (Any Business Finder)",
       description:
-        "Any Business Finder is an app that shows nearby businesses based on distance, category, and ratings. With a simple interface, users can easily compare local options to find restaurants, hotels.",
+        "Location‑based Next.js app to discover and filter nearby businesses in real time.",
 
       image: "/map.png",
       liveLink: "https://local-business-finder-app-7db1.vercel.app",
@@ -133,7 +133,7 @@ export default function Home() {
     {
       title: "SparkMint (Crypto Token Creator)",
       description:
-        "SparkMint makes creating your own Solana-based crypto token as easy as filling out a simple form. connect your wallet, pick your token's name, symbol, and supply, and hit 'deploy.' You'll see your new token live on the blockchain",
+        "Solana token‑creation dashboard in React & Web3, letting users deploy custom tokens in one click.",
       image: "/crypt.png",
       liveLink: "https://sparkmint-qj65.vercel.app/",
       repoLink: "https://github.com/naaa760/sparkmint",
@@ -143,7 +143,7 @@ export default function Home() {
     {
       title: "Jirnov(Project Management + Collaboration)",
       description:
-        "JINova integrates project management, team collaboration, and client communication in one intuitive platform. With built-in tracking, resource management, and analytics, it streamlines.",
+        "AI‑powered content platform built with Next.js & Tailwind for interactive note‑taking and tutorials.",
       image: "/i5.png",
       liveLink: "https://jirnov.vercel.app/",
       repoLink: "https://github.com/naaa760/jirnov",
@@ -153,7 +153,7 @@ export default function Home() {
     {
       title: "BeamUp(Video calling + Chat App)",
       description:
-        "BeamUp connects language learners with native speakers for authentic conversations about shared interests, building fluency through real-world practice in a supportive community.",
+        "MERN‑stack real‑time video conferencing + chat application for seamless peer‑to‑peer calls.",
       image: "/i2.png",
       liveLink:
         "https://mern-video-calling-realtime-chat-app-50ki.onrender.com/",
@@ -184,7 +184,7 @@ export default function Home() {
     {
       title: "TalkCast(Podcast + AI)",
       description:
-        "TalkCast creates a unified platform for podcast creators and listeners. It personalizes discovery with smart recommendations and helps creators grow through community.",
+        "Unified podcast platform offering personalized discovery for listeners and community‑driven growth tools for creators.",
       image: "/i6.png",
       liveLink: "https://mutli-app.vercel.app/",
       repoLink: "https://github.com/naaa760/mutli-app",
