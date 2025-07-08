@@ -27,7 +27,7 @@ export default function StatusIndicator() {
           <div className="status-option">
             <span className="status-icon">□</span>
             <a href="#contact" className="status-link">
-              Seeking Backend/Full‑Stack Roles
+              Seeking Frontend/Full‑Stack Roles
             </a>
           </div>
         </div>
