@@ -444,8 +444,10 @@ export default function Home() {
               </h4>
               <div className="experience-gap"></div>
               <p className="experience-description">
-                • At Keploy, wrote and maintained 12 Cypress API tests that
-                reduced regression bugs by 30 %.
+                • As a Keploy API Fellow, I enhanced automated API testing
+                adding deterministic tests, CI/CD integration, improved
+                mocking/coverage, fixed bugs, updated docs, and championed best
+                practices.
               </p>
               <div className="experience-timeline">May/2025 - July/2025</div>
             </div>
