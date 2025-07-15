@@ -7,6 +7,7 @@ import Timer from "@/components/Timer";
 import { useEffect, useRef } from "react";
 import ProjectsSection from "@/components/ProjectsSection";
 import StatusIndicator from "@/components/StatusIndicator";
+import OpenSourceContributions from "@/components/OpenSourceContributions";
 
 export default function Home() {
   const pathRef = useRef(null);
@@ -417,6 +418,7 @@ export default function Home() {
         </section>
 
         <ProjectsSection projects={projects} />
+        <OpenSourceContributions />
 
         <section className="experience-section" id="experience">
           <h2 className="section-title">EXPERIENCE</h2>
