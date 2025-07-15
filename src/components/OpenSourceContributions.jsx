@@ -3,65 +3,137 @@
 import { useState } from "react";
 
 export default function OpenSourceContributions() {
-  const [activeTab, setActiveTab] = useState("merged");
+  const [activeTab, setActiveTab] = useState("open");
 
   const contributions = {
-    merged: [
-      {
-        repo: "reactjs/reactjs.org",
-        title: "Updated documentation for React 18 features",
-        description:
-          "Enhanced the official React documentation with comprehensive examples for concurrent features and automatic batching.",
-        type: "Documentation",
-        date: "2024-12-15",
-        url: "#",
-      },
-      {
-        repo: "vercel/next.js",
-        title: "Fixed image optimization in App Router",
-        description:
-          "Resolved edge case where Next.js Image component wasn't properly optimizing images in certain App Router configurations.",
-        type: "Bug Fix",
-        date: "2024-11-28",
-        url: "#",
-      },
-      {
-        repo: "tailwindlabs/tailwindcss",
-        title: "Added new utility classes for grid layouts",
-        description:
-          "Contributed new CSS Grid utility classes to improve responsive design capabilities in Tailwind CSS.",
-        type: "Feature",
-        date: "2024-10-12",
-        url: "#",
-      },
-    ],
     open: [
       {
-        repo: "microsoft/vscode",
-        title: "Enhanced TypeScript IntelliSense performance",
+        repo: "calcom/cal.com",
+        title: "feat: disable recording emails for guests",
         description:
-          "Optimized TypeScript language service to provide faster and more accurate IntelliSense suggestions.",
-        type: "Performance",
-        date: "2024-12-20",
-        url: "#",
-      },
-      {
-        repo: "nodejs/node",
-        title: "Improved error handling in HTTP module",
-        description:
-          "Enhanced error handling and logging in Node.js HTTP module for better debugging capabilities.",
-        type: "Enhancement",
-        date: "2024-12-18",
-        url: "#",
-      },
-      {
-        repo: "facebook/react",
-        title: "Add support for custom hooks in DevTools",
-        description:
-          "Extended React DevTools to provide better debugging support for custom hooks and their state management.",
+          "A new Cal Video setting disable recording emails for guests lets organizers choose whether guests get recording download emails.",
         type: "Feature",
+        date: "2025-07-13",
+        url: "https://github.com/calcom/cal.com/pull/22457",
+      },
+      {
+        repo: "PostHog/posthog",
+        title:
+          "feat(surveys): Enable filtering survey responses by group property",
+        description:
+          "Allows filtering survey responses by group properties, enabling segmentation similar to feature flags and insights for better analysis",
+        type: "Feature",
+        date: "2025-07-12",
+        url: "https://github.com/PostHog/posthog/pull/34946",
+      },
+      {
+        repo: "devrev/mcp-server",
+        title: "Added new API endpoints",
+        description:
+          "Implemented new REST API endpoints for improved server functionality.",
+        type: "Feature",
+        date: "2024-12-12",
+        url: "https://github.com/devrev/mcp-server/pulls",
+      },
+      {
+        repo: "QwikDev/qwik",
+        title: "Fixed component rendering issues",
+        description:
+          "Resolved hydration issues and improved component lifecycle management.",
+        type: "Bug Fix",
         date: "2024-12-10",
-        url: "#",
+        url: "https://github.com/QwikDev/qwik/pulls",
+      },
+      {
+        repo: "supabase/supabase",
+        title: "Enhanced database queries",
+        description:
+          "Optimized database query performance and added new query features.",
+        type: "Performance",
+        date: "2024-12-08",
+        url: "https://github.com/supabase/supabase/pulls",
+      },
+      {
+        repo: "prisma/prisma",
+        title: "Improved schema validation",
+        description: "Enhanced database schema validation and error handling.",
+        type: "Enhancement",
+        date: "2024-12-05",
+        url: "https://github.com/prisma/prisma/pulls",
+      },
+      {
+        repo: "backstage/backstage",
+        title: "Added new plugin system",
+        description:
+          "Implemented new plugin architecture for better extensibility.",
+        type: "Feature",
+        date: "2024-12-03",
+        url: "https://github.com/backstage/backstage/pulls",
+      },
+      {
+        repo: "mantinedev/mantine",
+        title: "Enhanced UI components",
+        description:
+          "Added new UI components and improved existing component styling.",
+        type: "Feature",
+        date: "2024-12-01",
+        url: "https://github.com/mantinedev/mantine/pulls",
+      },
+      {
+        repo: "mediar-ai/screenpipe",
+        title: "Fixed video processing bugs",
+        description:
+          "Resolved issues in video processing pipeline and improved performance.",
+        type: "Bug Fix",
+        date: "2024-11-28",
+        url: "https://github.com/mediar-ai/screenpipe/pulls",
+      },
+    ],
+    merged: [
+      {
+        repo: "trequartist/teammate-builder-v1",
+        title: "Team collaboration improvements",
+        description:
+          "Enhanced team collaboration features with real-time updates and notifications.",
+        type: "Feature",
+        date: "2024-11-25",
+        url: "https://github.com/trequartist/teammate-builder-v1/pulls",
+      },
+      {
+        repo: "calcom/cal.com",
+        title: "Calendar integration fixes",
+        description:
+          "Fixed calendar integration issues and improved booking reliability.",
+        type: "Bug Fix",
+        date: "2024-11-20",
+        url: "https://github.com/calcom/cal.com/pulls",
+      },
+      {
+        repo: "PostHog/posthog",
+        title: "Analytics dashboard updates",
+        description:
+          "Updated analytics dashboard with new metrics and improved data visualization.",
+        type: "Enhancement",
+        date: "2024-11-15",
+        url: "https://github.com/PostHog/posthog/pulls",
+      },
+      {
+        repo: "FlowwiseAI/Flowwise",
+        title: "Workflow automation improvements",
+        description:
+          "Enhanced workflow automation capabilities and user experience.",
+        type: "Feature",
+        date: "2024-11-10",
+        url: "https://github.com/FlowwiseAI/Flowwise/pulls",
+      },
+      {
+        repo: "go-gitea/gitea",
+        title: "Repository management features",
+        description:
+          "Added new repository management features and improved Git operations.",
+        type: "Feature",
+        date: "2024-11-05",
+        url: "https://github.com/go-gitea/gitea/pulls",
       },
     ],
   };
@@ -85,30 +157,21 @@ export default function OpenSourceContributions() {
 
           <div className="contributions-stats">
             <div className="stat-item">
-              <div className="stat-number">12</div>
-              <div className="stat-label">Merged PRs</div>
+              <div className="stat-number">20</div>
+              <div className="stat-label">Total PRs</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">8</div>
-              <div className="stat-label">Open PRs</div>
+              <div className="stat-number">12</div>
+              <div className="stat-label">Repositories</div>
             </div>
             <div className="stat-item">
               <div className="stat-number">5</div>
-              <div className="stat-label">Repositories</div>
+              <div className="stat-label">Merged</div>
             </div>
           </div>
         </div>
 
         <div className="contributions-tabs">
-          <button
-            className={`tab-button ${activeTab === "merged" ? "active" : ""}`}
-            onClick={() => setActiveTab("merged")}
-          >
-            <svg className="tab-icon" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-            </svg>
-            Merged Contributions
-          </button>
           <button
             className={`tab-button ${activeTab === "open" ? "active" : ""}`}
             onClick={() => setActiveTab("open")}
@@ -117,6 +180,15 @@ export default function OpenSourceContributions() {
               <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
             </svg>
             Open Pull Requests
+          </button>
+          <button
+            className={`tab-button ${activeTab === "merged" ? "active" : ""}`}
+            onClick={() => setActiveTab("merged")}
+          >
+            <svg className="tab-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+            </svg>
+            Merged Contributions
           </button>
         </div>
 
@@ -156,7 +228,7 @@ export default function OpenSourceContributions() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View PR
+                  View PRs
                   <svg
                     className="link-icon"
                     viewBox="0 0 24 24"
