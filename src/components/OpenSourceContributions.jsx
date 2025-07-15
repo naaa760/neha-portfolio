@@ -26,114 +26,56 @@ export default function OpenSourceContributions() {
         date: "2025-07-12",
         url: "https://github.com/PostHog/posthog/pull/34946",
       },
-      {
-        repo: "devrev/mcp-server",
-        title: "Added new API endpoints",
-        description:
-          "Implemented new REST API endpoints for improved server functionality.",
-        type: "Feature",
-        date: "2024-12-12",
-        url: "https://github.com/devrev/mcp-server/pulls",
-      },
+
       {
         repo: "QwikDev/qwik",
-        title: "Fixed component rendering issues",
+        title:
+          "fix:Route store updates through scheduler during SPA navigation.",
         description:
-          "Resolved hydration issues and improved component lifecycle management.",
+          "Fixes useTask running for wrong path by ensuring store updates are properly scheduled with `untrack()`.",
         type: "Bug Fix",
-        date: "2024-12-10",
-        url: "https://github.com/QwikDev/qwik/pulls",
+        date: "2025-07-10",
+        url: "https://github.com/QwikDev/qwik/pull/7725",
       },
       {
         repo: "supabase/supabase",
-        title: "Enhanced database queries",
+        title: "fix: Allow auth config changes with hooks on Free/Pro plans.",
         description:
-          "Optimized database query performance and added new query features.",
-        type: "Performance",
-        date: "2024-12-08",
-        url: "https://github.com/supabase/supabase/pulls",
-      },
-      {
-        repo: "prisma/prisma",
-        title: "Improved schema validation",
-        description: "Enhanced database schema validation and error handling.",
-        type: "Enhancement",
-        date: "2024-12-05",
-        url: "https://github.com/prisma/prisma/pulls",
+          "Auth config updates now skip hook fields, allowing other settings to be saved without plan restriction errors.",
+        type: "Bug Fix",
+        date: "2025-07-09",
+        url: "https://github.com/supabase/supabase/pull/37070",
       },
       {
         repo: "backstage/backstage",
-        title: "Added new plugin system",
-        description:
-          "Implemented new plugin architecture for better extensibility.",
+        title:
+          "feat:Revamped sidebar with collapsible groups, header toggle, and theme switcher.",
+        description: "Improved the Backstage sidebar UX",
         type: "Feature",
-        date: "2024-12-03",
-        url: "https://github.com/backstage/backstage/pulls",
+        date: "2025-07-08",
+        url: "https://github.com/backstage/backstage/pull/30515",
       },
       {
-        repo: "mantinedev/mantine",
-        title: "Enhanced UI components",
+        repo: "prisma/prisma",
+        title:
+          "fix: Resolve incorrect type inference for AND clauses with include",
         description:
-          "Added new UI components and improved existing component styling.",
-        type: "Feature",
-        date: "2024-12-01",
-        url: "https://github.com/mantinedev/mantine/pulls",
-      },
-      {
-        repo: "mediar-ai/screenpipe",
-        title: "Fixed video processing bugs",
-        description:
-          "Resolved issues in video processing pipeline and improved performance.",
+          "Fixes TypeScript bug where AND with `include` returned base model type instead of related data.",
         type: "Bug Fix",
-        date: "2024-11-28",
-        url: "https://github.com/mediar-ai/screenpipe/pulls",
+        date: "2025-07-07",
+        url: "https://github.com/prisma/prisma/pull/27640",
       },
     ],
     merged: [
       {
-        repo: "trequartist/teammate-builder-v1",
-        title: "Team collaboration improvements",
-        description:
-          "Enhanced team collaboration features with real-time updates and notifications.",
-        type: "Feature",
-        date: "2024-11-25",
-        url: "https://github.com/trequartist/teammate-builder-v1/pulls",
-      },
-      {
-        repo: "calcom/cal.com",
-        title: "Calendar integration fixes",
-        description:
-          "Fixed calendar integration issues and improved booking reliability.",
-        type: "Bug Fix",
-        date: "2024-11-20",
-        url: "https://github.com/calcom/cal.com/pulls",
-      },
-      {
-        repo: "PostHog/posthog",
-        title: "Analytics dashboard updates",
-        description:
-          "Updated analytics dashboard with new metrics and improved data visualization.",
-        type: "Enhancement",
-        date: "2024-11-15",
-        url: "https://github.com/PostHog/posthog/pulls",
-      },
-      {
-        repo: "FlowwiseAI/Flowwise",
-        title: "Workflow automation improvements",
-        description:
-          "Enhanced workflow automation capabilities and user experience.",
-        type: "Feature",
-        date: "2024-11-10",
-        url: "https://github.com/FlowwiseAI/Flowwise/pulls",
-      },
-      {
         repo: "go-gitea/gitea",
-        title: "Repository management features",
+        title:
+          "fix: improve english grammar and readability in locale_en-US.ini",
         description:
-          "Added new repository management features and improved Git operations.",
-        type: "Feature",
-        date: "2024-11-05",
-        url: "https://github.com/go-gitea/gitea/pulls",
+          "Improved English grammar and readability in locale_en-US.ini",
+        type: "Bug Fix",
+        date: "2025-07-06",
+        url: "https://github.com/go-gitea/gitea/pull/35017",
       },
     ],
   };
