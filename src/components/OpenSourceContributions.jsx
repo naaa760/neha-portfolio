@@ -8,17 +8,6 @@ export default function OpenSourceContributions() {
   const contributions = {
     open: [
       {
-        repo: "PostHog/posthog",
-        title:
-          "feat(surveys): Enable filtering survey responses by group property",
-        description:
-          "Allows filtering survey responses by group properties, enabling segmentation similar to feature flags and insights for better analysis",
-        type: "Feature",
-        date: "2025-07-12",
-        url: "https://github.com/PostHog/posthog/pull/34946",
-      },
-
-      {
         repo: "calcom/cal.com",
         title: "feat: disable recording emails for guests",
         description:
@@ -26,6 +15,16 @@ export default function OpenSourceContributions() {
         type: "Feature",
         date: "2025-07-13",
         url: "https://github.com/calcom/cal.com/pull/22457",
+      },
+      {
+        repo: "PostHog/posthog",
+        title:
+          "feat(surveys): Enable filtering survey responses by group property",
+        description:
+          "Allows filtering survey responses by group properties, enabling segmentation similar to feature flags and insights for better analysis",
+        type: "Feature",
+        date: "2025-07-12",
+        url: "https://github.com/PostHog/posthog/pull/34955",
       },
 
       {
@@ -107,6 +106,16 @@ export default function OpenSourceContributions() {
       },
     ],
     merged: [
+      {
+        repo: "PostHog/posthog",
+        title:
+          "feat(surveys): Enable filtering survey responses by group property",
+        description:
+          "Allows filtering survey responses by group properties, enabling segmentation similar to feature flags and insights for better analysis",
+        type: "Feature",
+        date: "2025-07-12",
+        url: "https://github.com/PostHog/posthog/pull/34946",
+      },
       {
         repo: "go-gitea/gitea",
         title:
