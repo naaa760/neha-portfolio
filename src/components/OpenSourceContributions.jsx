@@ -28,6 +28,36 @@ export default function OpenSourceContributions() {
       },
 
       {
+        repo: "LlamaIndexTS",
+        title: "feat: multi-turn image generation support",
+        description:
+          "Added image_id parameter to image generation tools for multi-turn support",
+        type: "Feature",
+        date: "2025-07-15",
+        url: "https://github.com/run-llama/LlamaIndexTS/pull/2106",
+      },
+
+      {
+        repo: "Vercel/ai",
+        title: "fix: fixed the Google Gemini provider's generateObject",
+        description:
+          "generateObject wasn't working with Gemini models - type validation was failing.",
+        type: "Bug Fix",
+        date: "2025-07-15",
+        url: "https://github.com/vercel/ai/pull/7342",
+      },
+
+      {
+        repo: "mattermost/mattermost",
+        title: "fix: Skip custom attributes API for non-enterprise users",
+        description:
+          "The bug has been resolved by modifying the loadMe() function in webapp/channels/src/packages/mattermost-redux/src/actions/users.ts.",
+        type: "Bug Fix",
+        date: "2025-07-15",
+        url: "https://github.com/mattermost/mattermost/pull/33442",
+      },
+
+      {
         repo: "QwikDev/qwik",
         title:
           "fix:Route store updates through scheduler during SPA navigation.",
