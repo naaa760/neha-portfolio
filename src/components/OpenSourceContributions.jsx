@@ -95,6 +95,15 @@ export default function OpenSourceContributions() {
         date: "2025-07-07",
         url: "https://github.com/prisma/prisma/pull/27640",
       },
+
+      {
+        repo: "All PRs Open and Merged Here",
+        title: "Click on the link to see all my PRs",
+        description: "Click on the link to see all my PRs",
+        type: "All PRs",
+
+        url: "https://github.com/naaa760/naaa760/blob/main/contributions.md",
+      },
     ],
     merged: [
       {
