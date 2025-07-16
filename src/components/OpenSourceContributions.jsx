@@ -8,15 +8,6 @@ export default function OpenSourceContributions() {
   const contributions = {
     open: [
       {
-        repo: "calcom/cal.com",
-        title: "feat: disable recording emails for guests",
-        description:
-          "A new Cal Video setting disable recording emails for guests lets organizers choose whether guests get recording download emails.",
-        type: "Feature",
-        date: "2025-07-13",
-        url: "https://github.com/calcom/cal.com/pull/22457",
-      },
-      {
         repo: "PostHog/posthog",
         title:
           "feat(surveys): Enable filtering survey responses by group property",
@@ -25,6 +16,16 @@ export default function OpenSourceContributions() {
         type: "Feature",
         date: "2025-07-12",
         url: "https://github.com/PostHog/posthog/pull/34946",
+      },
+
+      {
+        repo: "calcom/cal.com",
+        title: "feat: disable recording emails for guests",
+        description:
+          "A new Cal Video setting disable recording emails for guests lets organizers choose whether guests get recording download emails.",
+        type: "Feature",
+        date: "2025-07-13",
+        url: "https://github.com/calcom/cal.com/pull/22457",
       },
 
       {
