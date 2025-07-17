@@ -28,16 +28,6 @@ export default function OpenSourceContributions() {
       },
 
       {
-        repo: "LlamaIndexTS",
-        title: "feat: multi-turn image generation support",
-        description:
-          "Added image_id parameter to image generation tools for multi-turn support",
-        type: "Feature",
-        date: "2025-07-15",
-        url: "https://github.com/run-llama/LlamaIndexTS/pull/2106",
-      },
-
-      {
         repo: "Vercel/ai",
         title: "fix: fixed the Google Gemini provider's generateObject",
         description:
@@ -48,26 +38,6 @@ export default function OpenSourceContributions() {
       },
 
       {
-        repo: "mattermost/mattermost",
-        title: "fix: Skip custom attributes API for non-enterprise users",
-        description:
-          "The bug has been resolved by modifying the loadMe() function in webapp/channels/src/packages/mattermost-redux/src/actions/users.ts.",
-        type: "Bug Fix",
-        date: "2025-07-15",
-        url: "https://github.com/mattermost/mattermost/pull/33442",
-      },
-
-      {
-        repo: "QwikDev/qwik",
-        title:
-          "fix:Route store updates through scheduler during SPA navigation.",
-        description:
-          "Fixes useTask running for wrong path by ensuring store updates are properly scheduled with `untrack()`.",
-        type: "Bug Fix",
-        date: "2025-07-10",
-        url: "https://github.com/QwikDev/qwik/pull/7725",
-      },
-      {
         repo: "supabase/supabase",
         title: "fix: Allow auth config changes with hooks on Free/Pro plans.",
         description:
@@ -75,25 +45,6 @@ export default function OpenSourceContributions() {
         type: "Bug Fix",
         date: "2025-07-09",
         url: "https://github.com/supabase/supabase/pull/37070",
-      },
-      {
-        repo: "backstage/backstage",
-        title:
-          "feat:Revamped sidebar with collapsible groups, header toggle, and theme switcher.",
-        description: "Improved the Backstage sidebar UX",
-        type: "Feature",
-        date: "2025-07-08",
-        url: "https://github.com/backstage/backstage/pull/30515",
-      },
-      {
-        repo: "prisma/prisma",
-        title:
-          "fix: Resolve incorrect type inference for AND clauses with include",
-        description:
-          "Fixes TypeScript bug where AND with `include` returned base model type instead of related data.",
-        type: "Bug Fix",
-        date: "2025-07-07",
-        url: "https://github.com/prisma/prisma/pull/27640",
       },
 
       {
@@ -116,6 +67,17 @@ export default function OpenSourceContributions() {
         date: "2025-07-12",
         url: "https://github.com/PostHog/posthog/pull/34946",
       },
+
+      {
+        repo: "LlamaIndexTS",
+        title: "feat: multi-turn image generation support",
+        description:
+          "Added image_id parameter to image generation tools for multi-turn support",
+        type: "Feature",
+        date: "2025-07-15",
+        url: "https://github.com/run-llama/LlamaIndexTS/pull/2106",
+      },
+
       {
         repo: "go-gitea/gitea",
         title:
