@@ -48,6 +48,25 @@ export default function Home() {
   // Define your projects data
   const projects = [
     {
+      title: "CareTalk(Agent)",
+      description:
+        "CrTk is an AI-driven mental health app with real-time therapy, mood tracking, and crisis support—built for privacy, empathy, and scale.",
+      image: "/care.png",
+      liveLink: "https://caretalk-agent.vercel.app/",
+      repoLink: "https://github.com/naaa760/caretalk-agent",
+      techStack: [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "MongoDB",
+        "Inngest",
+        "Node.js",
+        "EchoAPI",
+        "Sentry",
+      ],
+    },
+
+    {
       title: "Heariffy(Audio Classification)",
       description:
         "Real‑time audio‑classification web app using a PyTorch CNN model served via FastAPI in a React/Tailwind frontend.",
