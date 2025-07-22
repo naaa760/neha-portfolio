@@ -78,7 +78,7 @@ export default function ProjectsSection({ projects }) {
                   GitHub
                 </RepositoryLink>
               )}
-              {index === 2 && (
+              {index === 4 && (
                 <RepositoryLink href="https://drive.google.com/file/d/1R4gZ1vKUudm5vOJcM3bDc1S_SnvH10k7/view">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ export default function ProjectsSection({ projects }) {
                   Video
                 </RepositoryLink>
               )}
-              {index === 3 && (
+              {index === 5 && (
                 <RepositoryLink href="https://drive.google.com/file/d/1R7eAZUVClgFQsG_9JoDlVecanAU14S9c/view">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +114,7 @@ export default function ProjectsSection({ projects }) {
                   Video
                 </RepositoryLink>
               )}
-              {index === 5 && (
+              {index === 6 && (
                 <RepositoryLink href="https://drive.google.com/file/d/1R8pR242fn-edmDCJt7Jb3eboMBP5j-0R/view">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
