@@ -48,6 +48,17 @@ export default function OpenSourceContributions() {
       },
 
       {
+        repo: "google-gemini/gemini-cli",
+        title:
+          "fix: keep command help text visible when full command name is typed",
+        description:
+          "his PR fixes a UX issue where command help text disappears when typing the full command name. Previously, typing /bu ",
+        type: "Bug Fix",
+        date: "2025-07-18",
+        url: "https://github.com/google-gemini/gemini-cli/pull/4375",
+      },
+
+      {
         repo: "All PRs Open and Merged Here",
         title: "Click on the link to see all my PRs",
         description: "Click on the link to see all my PRs",
