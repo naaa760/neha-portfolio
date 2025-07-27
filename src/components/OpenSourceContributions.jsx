@@ -69,7 +69,17 @@ export default function OpenSourceContributions() {
       },
 
       {
-        repo: "LlamaIndexTS",
+        repo: "outline/outline",
+        title: "fix: extract domain from user email in Slack authentication ",
+        description:
+          "Issue: Slack authentication fails with 'Invalid authentication' error when both OIDC and Slack are enabled simultaneously.",
+        type: "Bug Fix",
+        date: "2025-07-27",
+        url: "https://github.com/outline/outline/pull/9742",
+      },
+
+      {
+        repo: "run-llama/LlamaIndexTS",
         title: "feat: multi-turn image generation support",
         description:
           "Added image_id parameter to image generation tools for multi-turn support",
