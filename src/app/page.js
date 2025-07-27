@@ -463,8 +463,8 @@ export default function Home() {
               </h4>
               <div className="experience-gap"></div>
               <p className="experience-description">
-                • As a Keploy API Fellow, I enhanced automated API testing
-                adding deterministic tests, CI/CD integration, improved
+                • As Intern, I enhanced automated API testing adding
+                deterministic tests, CI/CD integration, improved
                 mocking/coverage, fixed bugs, updated docs, and championed best
                 practices.
               </p>
