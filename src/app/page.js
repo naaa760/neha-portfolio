@@ -233,6 +233,9 @@ export default function Home() {
             <Link href="#videos" className="nav-link">
               Videos
             </Link>
+            <Link href="#open-source" className="nav-link">
+              Open Source
+            </Link>
           </nav>
         </header>
 

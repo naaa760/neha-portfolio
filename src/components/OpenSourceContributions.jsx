@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 export default function OpenSourceContributions() {
-  const [activeTab, setActiveTab] = useState("open");
+  const [activeTab, setActiveTab] = useState("merged"); // Changed from "open" to "merged"
 
   const contributions = {
     merged: [
