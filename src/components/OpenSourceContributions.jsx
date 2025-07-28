@@ -165,15 +165,6 @@ export default function OpenSourceContributions() {
 
         <div className="contributions-tabs">
           <button
-            className={`tab-button ${activeTab === "open" ? "active" : ""}`}
-            onClick={() => setActiveTab("open")}
-          >
-            <svg className="tab-icon" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-            </svg>
-            Open Pull Requests
-          </button>
-          <button
             className={`tab-button ${activeTab === "merged" ? "active" : ""}`}
             onClick={() => setActiveTab("merged")}
           >
@@ -181,6 +172,15 @@ export default function OpenSourceContributions() {
               <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
             </svg>
             Merged Contributions
+          </button>
+          <button
+            className={`tab-button ${activeTab === "open" ? "active" : ""}`}
+            onClick={() => setActiveTab("open")}
+          >
+            <svg className="tab-icon" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+            </svg>
+            Open Pull Requests
           </button>
         </div>
 
