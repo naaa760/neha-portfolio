@@ -6,6 +6,67 @@ export default function OpenSourceContributions() {
   const [activeTab, setActiveTab] = useState("open");
 
   const contributions = {
+    merged: [
+      {
+        repo: "PostHog/posthog",
+        title:
+          "feat(surveys): Enable filtering survey responses by group property",
+        description:
+          "Allows filtering survey responses by group properties, enabling segmentation similar to feature flags and insights for better analysis",
+        type: "Feature",
+        date: "2025-07-12",
+        url: "https://github.com/PostHog/posthog/pull/34946",
+      },
+
+      {
+        repo: "google-gemini/gemini-cli",
+        title: "fix: Clear previous thoughts when starting new prompts",
+        description:
+          "Fixed bug where previous thoughts persisted when entering new prompts. Added setThought(null) in three places: new prompt start, user cancellation, and error handling.",
+        type: "Bug Fix",
+        date: "2025-07-27",
+        url: "https://github.com/google-gemini/gemini-cli/pull/4966",
+      },
+
+      {
+        repo: "outline/outline",
+        title: "fix: extract domain from user email in Slack authentication ",
+        description:
+          "Issue: Slack authentication fails with 'Invalid authentication' error when both OIDC and Slack are enabled simultaneously.",
+        type: "Bug Fix",
+        date: "2025-07-27",
+        url: "https://github.com/outline/outline/pull/9742",
+      },
+
+      {
+        repo: "run-llama/LlamaIndexTS",
+        title: "feat: multi-turn image generation support",
+        description:
+          "Added image_id parameter to image generation tools for multi-turn support",
+        type: "Feature",
+        date: "2025-07-15",
+        url: "https://github.com/run-llama/LlamaIndexTS/pull/2106",
+      },
+
+      {
+        repo: "go-gitea/gitea",
+        title:
+          "fix: improve english grammar and readability in locale_en-US.ini",
+        description:
+          "Improved English grammar and readability in locale_en-US.ini",
+        type: "Bug Fix",
+        date: "2025-07-06",
+        url: "https://github.com/go-gitea/gitea/pull/35017",
+      },
+      {
+        repo: "All PRs Open and Merged Here",
+        title: "Click on the link to see all my PRs",
+        description: "Click on the link to see all my PRs",
+        type: "All PRs",
+
+        url: "https://github.com/naaa760/naaa760/blob/main/contributions.md",
+      },
+    ],
     open: [
       {
         repo: "calcom/cal.com",
@@ -65,49 +126,6 @@ export default function OpenSourceContributions() {
         type: "All PRs",
 
         url: "https://github.com/naaa760/naaa760/blob/main/contributions.md",
-      },
-    ],
-    merged: [
-      {
-        repo: "PostHog/posthog",
-        title:
-          "feat(surveys): Enable filtering survey responses by group property",
-        description:
-          "Allows filtering survey responses by group properties, enabling segmentation similar to feature flags and insights for better analysis",
-        type: "Feature",
-        date: "2025-07-12",
-        url: "https://github.com/PostHog/posthog/pull/34946",
-      },
-
-      {
-        repo: "outline/outline",
-        title: "fix: extract domain from user email in Slack authentication ",
-        description:
-          "Issue: Slack authentication fails with 'Invalid authentication' error when both OIDC and Slack are enabled simultaneously.",
-        type: "Bug Fix",
-        date: "2025-07-27",
-        url: "https://github.com/outline/outline/pull/9742",
-      },
-
-      {
-        repo: "run-llama/LlamaIndexTS",
-        title: "feat: multi-turn image generation support",
-        description:
-          "Added image_id parameter to image generation tools for multi-turn support",
-        type: "Feature",
-        date: "2025-07-15",
-        url: "https://github.com/run-llama/LlamaIndexTS/pull/2106",
-      },
-
-      {
-        repo: "go-gitea/gitea",
-        title:
-          "fix: improve english grammar and readability in locale_en-US.ini",
-        description:
-          "Improved English grammar and readability in locale_en-US.ini",
-        type: "Bug Fix",
-        date: "2025-07-06",
-        url: "https://github.com/go-gitea/gitea/pull/35017",
       },
     ],
   };
