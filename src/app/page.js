@@ -151,16 +151,6 @@ export default function Home() {
     },
 
     {
-      title: "SparkMint (Crypto Token Creator)",
-      description:
-        "Solana token‑creation dashboard in React & Web3, letting users deploy custom tokens in one click.",
-      image: "/crypt.png",
-      liveLink: "https://sparkmint-qj65.vercel.app/",
-      repoLink: "https://github.com/naaa760/sparkmint",
-      techStack: ["React", "Next.js", "Solana", "Web3.js", "tailwindcss"],
-    },
-
-    {
       title: "Jirnov(Project Management + Collaboration)",
       description:
         "AI‑powered content platform built with Next.js & Tailwind for interactive note‑taking and tutorials.",
@@ -227,14 +217,14 @@ export default function Home() {
             <Link href="#projects" className="nav-link">
               Projects
             </Link>
+            <Link href="#open-source" className="nav-link">
+              Open Source
+            </Link>
             <Link href="#experience" className="nav-link">
               Experience
             </Link>
             <Link href="#videos" className="nav-link">
               Videos
-            </Link>
-            <Link href="#open-source" className="nav-link">
-              Open Source
             </Link>
           </nav>
         </header>
@@ -440,7 +430,11 @@ export default function Home() {
         </section>
 
         <ProjectsSection projects={projects} />
-        <OpenSourceContributions />
+
+        <section className="open-source-section" id="open-source">
+          <h2 className="section-title">OPEN SOURCE CONTRIBUTIONS</h2>
+          <OpenSourceContributions />
+        </section>
 
         <section className="experience-section" id="experience">
           <h2 className="section-title">EXPERIENCE</h2>
@@ -503,64 +497,6 @@ export default function Home() {
                 NLU, and smart AI recommendations.
               </p>
               <div className="experience-timeline">Feb/2025 - May/2025</div>
-            </div>
-
-            <div className="experience-item">
-              <h3 className="experience-title-styled">Hackathon Contributor</h3>
-              <h4 className="experience-company-container">
-                <a
-                  href="https://lablab.ai/u/@nehhaa6"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="experience-company-link"
-                >
-                  Lablab.ai
-                </a>
-                <Image
-                  src="/lg2.png"
-                  alt="Lablab.ai logo"
-                  width={20}
-                  height={20}
-                  className="company-logo"
-                />
-              </h4>
-              <div className="experience-gap"></div>
-              <p className="experience-description">
-                • Built AI-driven solutions with advanced models, APIs, and
-                automation leading full-stack development in hackathons to
-                deliver impactful projects like MindsDB and HealthPulse focused
-                on prompt optimization and scalability.
-              </p>
-              <div className="experience-timeline">Sept/2024 - May/2025</div>
-            </div>
-
-            <div className="experience-item">
-              <h3 className="experience-title-styled">SWE</h3>
-              <h4 className="experience-company-container">
-                <a
-                  href="https://www.linkedin.com/company/headstarterai/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="experience-company-link"
-                >
-                  HeadStarter
-                </a>
-                <Image
-                  src="/lg4.png"
-                  alt="HeadStarter logo"
-                  width={20}
-                  height={20}
-                  className="company-logo"
-                />
-              </h4>
-              <div className="experience-gap"></div>
-              <p className="experience-description">
-                • Architected and deployed 5 AI-driven apps with React, Next.js,
-                Firebase, Clerk, and Vercel setting up CI/CD for fast, reliable
-                releases. Led a team to launch a flashcard SaaS with OpenAI and
-                built a RAG-based Q&A system using Pinecone.
-              </p>
-              <div className="experience-timeline">June/2024 - Sept/2024</div>
             </div>
           </div>
         </section>
