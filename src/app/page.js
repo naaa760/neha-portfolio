@@ -460,10 +460,11 @@ export default function Home() {
               </h4>
               <div className="experience-gap"></div>
               <p className="experience-description">
-                • As Intern, I enhanced automated API testing adding
-                deterministic tests, CI/CD integration, improved
-                mocking/coverage, fixed bugs, updated docs, and championed best
-                practices.
+                • Enhanced open-source automated test generation by improving
+                test-case generation, mocking capabilities, and CI/CD
+                integration
+                <br />• Drove community engagement through bug fixes,
+                documentation, developer meetups, and ongoing support.
               </p>
               <div className="experience-timeline">May/2025 - July/2025</div>
             </div>

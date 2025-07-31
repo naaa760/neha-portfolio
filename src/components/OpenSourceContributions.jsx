@@ -63,7 +63,7 @@ export default function OpenSourceContributions() {
         title: "Docs: Clarify AUTH_TYPE Config and Auth Methods",
         description:
           "Expands and clarifies the documentation for configuring AUTH_TYPE and available authentication methods in DocsGPT.",
-        type: "Documentation",
+        type: "Docs",
         date: "2025-07-23",
         url: "https://github.com/arc53/DocsGPT/pull/1900",
       },
@@ -87,14 +87,14 @@ export default function OpenSourceContributions() {
         url: "https://github.com/calcom/cal.com/pull/22457",
       },
       {
-        repo: "PostHog/posthog",
+        repo: "elastic/kibana",
         title:
-          "feat(surveys): Enable filtering survey responses by group property",
+          "fix: Show visual cue for cases with existing alert attachments in modal",
         description:
-          "Allows filtering survey responses by group properties, enabling segmentation similar to feature flags and insights for better analysis",
-        type: "Feature",
-        date: "2025-07-12",
-        url: "https://github.com/PostHog/posthog/pull/34955",
+          "Add to case modal now shows Already added for cases with the alert to avoid confusion.",
+        type: "Bug Fix",
+        date: "2025-07-29",
+        url: "https://github.com/elastic/kibana/pull/229991",
       },
 
       {
