@@ -332,7 +332,7 @@ export default function Home() {
           <div className="about-content">
             <div className="about-education">
               B.Sc in Computer Science | University of the people, California -
-              Distance(online) 2021-2025(April)
+              Distance(online) 2021-2025(June)
             </div>
             <div className="about-summary">
               I&apos;m passionate about deep‑tech and entrepreneurship building
