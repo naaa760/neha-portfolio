@@ -59,9 +59,9 @@ export default function Home() {
         "Next.js",
         "TailwindCSS",
         "MongoDB",
-        "Inngest",
+
         "Node.js",
-        "EchoAPI",
+
         "Sentry",
       ],
     },
@@ -79,7 +79,7 @@ export default function Home() {
         "TailwindCSS",
         "Python",
         "Pytorch",
-        "Modal",
+        "Shadcn UI",
       ],
     },
 
@@ -261,7 +261,7 @@ export default function Home() {
                 Twitter
               </a>
               <a
-                href="https://drive.google.com/file/d/1iV7w83Dok5tAAEqG5pQmcuFTpoiKLgCh/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1imyiM_9vgg_hC9TNYg2NA0YQkUqLdo1Z/view?usp=drivesdk"
                 className="social-link"
               >
                 <svg
@@ -386,7 +386,7 @@ export default function Home() {
               <h3 className="category-title">Comfortable (6 – 18 Months)</h3>
               <div className="tech-items">
                 <div className="tech-item">
-                  <span>FastAPI</span>
+                  <span>☁️ AWS</span>
                 </div>
                 <div className="tech-item">
                   <span>Shadcn UI</span>
@@ -394,9 +394,7 @@ export default function Home() {
                 <div className="tech-item">
                   <span>LLM</span>
                 </div>
-                <div className="tech-item">
-                  <span>☁️ AWS</span>
-                </div>
+
                 <div className="tech-item">
                   <span>Firebase</span>
                 </div>
@@ -411,6 +409,9 @@ export default function Home() {
               <div className="tech-items">
                 <div className="tech-item">
                   <span>🐳 Docker</span>
+                </div>
+                <div className="tech-item">
+                  <span>FastAPI</span>
                 </div>
                 <div className="tech-item">
                   <span>PyTorch</span>
