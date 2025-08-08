@@ -88,6 +88,16 @@ export default function OpenSourceContributions() {
     ],
     open: [
       {
+        repo: "Mintplex-Labs/anything-llm",
+        title: "[FEAT]: Add Exa as a Search Provider",
+        description:
+          "Added Exa as a new search provider option for AnythingLLM agents.",
+        type: "Feature",
+        date: "2025-08-07",
+        url: "https://github.com/Mintplex-Labs/anything-llm/issues/4255",
+      },
+
+      {
         repo: "calcom/cal.com",
         title: "feat: disable recording emails for guests",
         description:
