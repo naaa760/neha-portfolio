@@ -29,6 +29,16 @@ export default function OpenSourceContributions() {
       },
 
       {
+        repo: "frappe/frappe",
+        title: "feat: auto-expand sidebar on hover ",
+        description:
+          "Implemented auto-expand on hover functionality similar to frappe.io and cloud.io. When the sidebar is collapsed,",
+        type: "Feature",
+        date: "2025-08-01",
+        url: "https://github.com/frappe/frappe/pull/33512",
+      },
+
+      {
         repo: "Mintplex-Labs/anything-llm",
         title: "fix: API export-chats endpoint function import error",
         description:
