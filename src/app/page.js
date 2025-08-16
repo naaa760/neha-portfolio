@@ -389,6 +389,9 @@ export default function Home() {
                   <span>☁️ AWS</span>
                 </div>
                 <div className="tech-item">
+                  <span>Restful APIs</span>
+                </div>
+                <div className="tech-item">
                   <span>Shadcn UI</span>
                 </div>
                 <div className="tech-item">
@@ -418,9 +421,6 @@ export default function Home() {
                 </div>
                 <div className="tech-item">
                   <span>Cypress</span>
-                </div>
-                <div className="tech-item">
-                  <span>Restful APIs</span>
                 </div>
               </div>
             </div>
