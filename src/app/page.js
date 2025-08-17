@@ -389,6 +389,9 @@ export default function Home() {
                   <span>☁️ AWS</span>
                 </div>
                 <div className="tech-item">
+                  <span>MicroServices</span>
+                </div>
+                <div className="tech-item">
                   <span>Restful APIs</span>
                 </div>
                 <div className="tech-item">
