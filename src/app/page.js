@@ -261,7 +261,7 @@ export default function Home() {
                 Twitter
               </a>
               <a
-                href="https://drive.google.com/file/d/1m3Kdcjq13_lCd0yZYdKbwoaU95UIdGd4/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1ntcnNc155z9HpAALTZL0o6P9zscRrm3K/view?usp=drivesdk"
                 className="social-link"
               >
                 <svg
@@ -375,6 +375,9 @@ export default function Home() {
                 </div>
                 <div className="tech-item">
                   <span>Python</span>
+                </div>
+                <div className="tech-item">
+                  <span>Zustand</span>
                 </div>
                 <div className="tech-item">
                   <span>System Design</span>
