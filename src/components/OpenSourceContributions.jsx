@@ -35,7 +35,7 @@ export default function OpenSourceContributions() {
           "Added Exa as a new search provider option for AnythingLLM agents.",
         type: "Feature",
         date: "2025-08-04",
-        url: "https://github.com/Mintplex-Labs/anything-llm/pull/4258",
+        url: "https://github.com/Mintplex-Labs/anything-llm/issues/4255",
       },
 
       {
@@ -97,15 +97,17 @@ export default function OpenSourceContributions() {
         url: "https://github.com/naaa760/naaa760/blob/main/contributions.md",
       },
     ],
+
     open: [
       {
-        repo: "Mintplex-Labs/anything-llm",
-        title: "[FEAT]: Add Exa as a Search Provider",
+        repo: "PostHog/posthog",
+        title:
+          "fix: toolbar heatmap scrolling by using real-time scroll listeners instead of timer",
         description:
-          "Added Exa as a new search provider option for AnythingLLM agents.",
-        type: "Feature",
-        date: "2025-08-07",
-        url: "https://github.com/Mintplex-Labs/anything-llm/issues/4255",
+          "Heatmap overlay doesn't move with scrolling elements - only updates every 100ms via timer, causing lag and misalignment.",
+        type: "Bug Fix",
+        date: "2025-08-15",
+        url: "https://github.com/PostHog/posthog/pull/37048",
       },
 
       {
