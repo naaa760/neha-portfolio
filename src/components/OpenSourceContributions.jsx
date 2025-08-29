@@ -29,6 +29,26 @@ export default function OpenSourceContributions() {
       },
 
       {
+        repo: "Mintplex-Labs/anything-llm",
+        title: "feat: Add Exa as a Search Provider",
+        description:
+          "Added Exa as a new search provider option for AnythingLLM agents.",
+        type: "Feature",
+        date: "2025-08-04",
+        url: "https://github.com/Mintplex-Labs/anything-llm/pull/4258",
+      },
+
+      {
+        repo: "google-gemini/gemini-cli",
+        title: "fix: adjust slash command menu column width & spacing issues",
+        description:
+          "Adjusted slash command menu column width and spacing issues.",
+        type: "Bug Fix",
+        date: "2025-07-29",
+        url: "https://github.com/google-gemini/gemini-cli/pull/5797",
+      },
+
+      {
         repo: "frappe/frappe",
         title: "feat: auto-expand sidebar on hover ",
         description:
@@ -68,15 +88,6 @@ export default function OpenSourceContributions() {
         url: "https://github.com/run-llama/LlamaIndexTS/pull/2106",
       },
 
-      {
-        repo: "arc53/DocsGPT",
-        title: "Docs: Clarify AUTH_TYPE Config and Auth Methods",
-        description:
-          "Expands and clarifies the documentation for configuring AUTH_TYPE and available authentication methods in DocsGPT.",
-        type: "Docs",
-        date: "2025-07-23",
-        url: "https://github.com/arc53/DocsGPT/pull/1900",
-      },
       {
         repo: "All PRs Open and Merged Here",
         title: "Click on the link to see all my PRs",
