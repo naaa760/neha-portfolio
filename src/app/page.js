@@ -349,7 +349,7 @@ export default function Home() {
 
           <div className="tech-categories">
             <div className="tech-category">
-              <h3 className="category-title">Expert (2 + Years)</h3>
+              <h3 className="category-title">Expert (3 + Years)</h3>
               <div className="tech-items">
                 <div className="tech-item">
                   <span>React</span>
@@ -388,7 +388,7 @@ export default function Home() {
             </div>
 
             <div className="tech-category">
-              <h3 className="category-title">Comfortable (6 – 18 Months)</h3>
+              <h3 className="category-title">Comfortable (1 + Years)</h3>
               <div className="tech-items">
                 <div className="tech-item">
                   <span>☁️ AWS</span>
