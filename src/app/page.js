@@ -475,6 +475,42 @@ export default function Home() {
 
             <div className="experience-item">
               <h3 className="experience-title-styled">
+                Freelance & Contract Developer
+              </h3>
+              <h4 className="experience-company-container">
+                <a
+                  href="https://www.upwork.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="experience-company-link"
+                >
+                  Upwork & Independent Clients
+                </a>
+                <Image
+                  src="/upwork-logo.png"
+                  alt="Upwork logo"
+                  width={20}
+                  height={20}
+                  className="company-logo"
+                />
+              </h4>
+              <div className="experience-gap"></div>
+              <p className="experience-description">
+                • Delivered 5+ projects for clients in e-commerce, SaaS, and AI
+                domains on Upwork and via direct contracts
+                <br />• Built responsive web applications with React, Next.js,
+                Tailwind CSS, and Node.js, integrating features such as
+                payments, dashboards, and APIs
+                <br />• Improved client workflows by up to 70% through custom
+                dashboards and automation solutions
+                <br />• Earned 5-star reviews and repeat contracts by delivering
+                projects on time and exceeding client expectations
+              </p>
+              <div className="experience-timeline">2023 – 2025</div>
+            </div>
+
+            <div className="experience-item">
+              <h3 className="experience-title-styled">
                 Full Stack Developer Intern
               </h3>
               <h4 className="experience-company-container">
@@ -494,6 +530,7 @@ export default function Home() {
                   className="company-logo"
                 />
               </h4>
+
               <div className="experience-gap"></div>
               <p className="experience-description">
                 • Built a voice-powered travel booking platform at Travana AI
