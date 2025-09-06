@@ -243,8 +243,10 @@ export default function Home() {
             <StatusIndicator />
             <br />
             <p className="hero-subtitle text-sm md:text-base">
-              I build scalable <strong>Full Stack Apps</strong> that solve user
-              pain points and drive measurable growth.
+              Built 5 full-stack apps, integrated LLM features, 20+ OSS PRs
+              Merged
+              <br />
+              Quick learner & hands-on.
             </p>
 
             <div className="social-links">
