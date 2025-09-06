@@ -455,7 +455,7 @@ export default function Home() {
                   Keploy
                 </a>
                 <Image
-                  src="/wo.png"
+                  src="/lg1.png"
                   alt="Keploy logo"
                   width={20}
                   height={20}
@@ -487,7 +487,7 @@ export default function Home() {
                   Upwork & Independent Clients
                 </a>
                 <Image
-                  src="/upwork-logo.png"
+                  src="/wo.png"
                   alt="Upwork logo"
                   width={20}
                   height={20}
