@@ -455,7 +455,7 @@ export default function Home() {
                   Keploy
                 </a>
                 <Image
-                  src="/lg1.png"
+                  src="/wo.png"
                   alt="Keploy logo"
                   width={20}
                   height={20}
